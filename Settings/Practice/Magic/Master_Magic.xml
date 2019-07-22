@@ -1,0 +1,146 @@
+<Magics><List>
+
+	<Magic Name="Master_Magic_AbsorbLing_Aoe">
+		<DisplayName>灵息之术</DisplayName>
+		<Desc>前往指定地点吸收环境中的灵气</Desc>
+		<Icon>res\Sprs\ui\icon_lingxi01</Icon>
+		<CostLing>0</CostLing>
+		<CostAge>0</CostAge>
+		<Param1>20</Param1><!--提高吸灵速度N倍-->
+		<CMD>AbsorbLing</CMD>
+		<SelectType>AbsorbLing</SelectType>
+	</Magic>
+
+	<Magic Name="Master_Magic_BuidPuppet">
+		<DisplayName>赋灵之术</DisplayName>
+		<Desc>对傀儡释放，赋予其灵性。赋灵的傀儡可以承担一些简单的苦力劳动，其素质与傀儡制作的品阶有关。\n[color=#D06508]每个修行者只可操纵一个傀儡[/color]</Desc>
+		<Icon>res\Sprs\ui\icon_kuilei01</Icon>
+		<Param1>10</Param1><!--所需时间-->
+		<CostLing>1000</CostLing>
+		<CMD>BuildPuppet</CMD>
+		<SelectType>BuildPuppet</SelectType>
+	</Magic>
+
+	<Magic Name="Master_Magic_Healing_Damage">
+		<DisplayName>化伤之术</DisplayName>
+		<Desc>运功替一个目标治疗其受到的内门伤害。疗效和施术者灵气多少有关。</Desc>
+		<Icon>res\Sprs\ui\icon_huashang01</Icon>
+		<Kind>Good</Kind>
+		<CostLing>1000</CostLing>
+		<Penalty>0</Penalty>
+		<CMD>Healing_Damage</CMD>
+		<CastFavour>ThankTreat</CastFavour>
+		<SelectType>NpcWithSelf</SelectType>
+	</Magic>
+	<Magic Name="Master_Magic_BuildBody">
+		<DisplayName>再造之术</DisplayName>
+		<Desc>对一个目标进行断肢再生,重铸他失去的所有部位。</Desc>
+		<Icon>res\Sprs\ui\icon_zaizao01</Icon>
+		<Kind>Good</Kind>
+		<TargetMood>BuildBody</TargetMood>
+		<CastFavour>ThankTreat</CastFavour>
+		<Param1>30</Param1><!--施法时间-->
+		<CostLing>20000</CostLing>
+		<Penalty>0</Penalty>
+		<CMD>BuildBody</CMD>
+		<SelectType>Npc</SelectType>
+	</Magic>
+
+
+	<Magic Name="Master_Magic_PrayForRain">
+		<DisplayName>求雨之术</DisplayName>
+		<Desc>利用神通求得一场雨，但是此举有干天数，会折损寿元。</Desc>
+		<Icon>res\Sprs\ui\icon_qiuyu01</Icon>
+		<Kind>Good</Kind>
+		<Ani>shentong1</Ani>
+		<Param1>5.334</Param1><!--施法时间-->
+		<sParam1>LightRain,HeavyRain</sParam1><!--天气名称，可以用逗号隔开-->
+		<CostLing>2000</CostLing>
+		<CostGong>0</CostGong>
+		<CostAge>1</CostAge>
+		<CMD>AbsorbGong_15</CMD>
+	</Magic>
+
+	<Magic Name="Master_Magic_PrayForSun">
+		<DisplayName>驱云之术</DisplayName>
+		<Desc>利用神通使天放晴，但是此举有干天数，会折损寿元。</Desc>
+		<Icon>res\Sprs\ui\icon_quyun01</Icon>
+		<Kind>Good</Kind>
+		<Ani>shentong1</Ani>
+		<Param1>5.334</Param1><!--施法时间-->
+		<sParam1>SunnyDay</sParam1><!--天气名称，可以用逗号隔开-->
+		<CostLing>2000</CostLing>
+		<CostGong>0</CostGong>
+		<CostAge>1</CostAge>
+		<CMD>AbsorbGong_15</CMD>
+	</Magic>
+
+	<Magic Name="Master_Magic_PrayForLightningStorm">
+		<DisplayName>雷暴之术</DisplayName>
+		<Desc>在夏季秋季，利用神通求得一场雷暴，但是此举有干天数，会折损寿元。</Desc>
+		<Icon>res\Sprs\ui\icon_zhaolei01</Icon>
+		<Kind>Good</Kind>
+		<Ani>shentong1</Ani>
+		<Param1>5.334</Param1><!--施法时间-->
+		<sParam1>LightningStormNoLong</sParam1><!--天气名称，可以用逗号隔开-->
+		<CostLing>20000</CostLing>
+		<CostGong>0</CostGong>
+		<CostAge>2</CostAge>
+		<CMD>AbsorbGong_15</CMD>
+	</Magic>
+
+	<Magic Name="Master_Magic_PrayForMiasma">
+		<DisplayName>毒瘴之术</DisplayName>
+		<Desc>在春季夏季，利用神通求得一片瘴气，但是此举有干天数，会折损寿元。</Desc>
+		<Icon>res\Sprs\ui\icon_qizhang01</Icon>
+		<Kind>Good</Kind>
+		<Ani>shentong1</Ani>
+		<Param1>5.334</Param1><!--施法时间-->
+		<sParam1>Miasma</sParam1><!--天气名称，可以用逗号隔开-->
+		<CostLing>20000</CostLing>
+		<CostGong>0</CostGong>
+		<CostAge>2</CostAge>
+		<CMD>AbsorbGong_15</CMD>
+	</Magic>
+
+	<Magic Name="Master_Magic_PrayForRainstorm">
+		<DisplayName>暴雨之术</DisplayName>
+		<Desc>在冬季夏季，利用神通求得一场暴雨，但是此举有干天数，会折损寿元。</Desc>
+		<Icon>res\Sprs\ui\icon_qiuyu01</Icon>
+		<Kind>Good</Kind>
+		<Ani>shentong1</Ani>
+		<Param1>5.334</Param1><!--施法时间-->
+		<sParam1>Rainstorm</sParam1><!--天气名称，可以用逗号隔开-->
+		<CostLing>20000</CostLing>
+		<CostGong>0</CostGong>
+		<CostAge>2</CostAge>
+		<CMD>AbsorbGong_15</CMD>
+	</Magic>
+	<Magic Name="Master_Magic_PrayForFohn">
+		<DisplayName>焚风之术</DisplayName>
+		<Desc>在夏季秋季，利用神通召唤焚风降临，但是此举有干天数，会折损寿元。</Desc>
+		<Icon>res\Sprs\ui\icon_chifeng01</Icon>
+		<Kind>Good</Kind>
+		<Ani>shentong1</Ani>
+		<Param1>5.334</Param1><!--施法时间-->
+		<sParam1>Fohn</sParam1><!--天气名称，可以用逗号隔开-->
+		<CostLing>20000</CostLing>
+		<CostGong>0</CostGong>
+		<CostAge>2</CostAge>
+		<CMD>AbsorbGong_15</CMD>
+	</Magic>
+	<Magic Name="Master_Magic_PrayForDustStorm">
+		<DisplayName>尘暴之术</DisplayName>
+		<Desc>在冬季春季，利用神通求得一场沙暴，但是此举有干天数，会折损寿元。</Desc>
+		<Icon>res\Sprs\ui\icon_feisha01</Icon>
+		<Kind>Good</Kind>
+		<Ani>shentong1</Ani>
+		<Param1>5.334</Param1><!--施法时间-->
+		<sParam1>DustStorm</sParam1><!--天气名称，可以用逗号隔开-->
+		<CostLing>20000</CostLing>
+		<CostGong>0</CostGong>
+		<CostAge>2</CostAge>
+		<CMD>AbsorbGong_15</CMD>
+	</Magic>
+
+</List></Magics>

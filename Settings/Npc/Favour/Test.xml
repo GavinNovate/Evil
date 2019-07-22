@@ -1,0 +1,62 @@
+<FavourDefs><List>
+	<!-- 该文件不能无法加入MOD -->
+	<Favour Name="MasterBeauty1" Type="Normal">
+		<DisplayName>茉莉公主</DisplayName>
+		<Desc>[HENAME]是星神界的茉莉公主，外貌十三四岁的小萝莉，红发红眸，妖异之美、勾魂夺魄，令人心生喜爱。</Desc>
+		<HideInUI>0</HideInUI>
+		<Value>25</Value>
+		<MaxStack>1</MaxStack>
+		<Duration>0</Duration>
+		<Opinions>0</Opinions>
+	</Favour>
+
+	<Favour Name="MasterBeauty2" Type="Normal">
+		<DisplayName>彩脂公主</DisplayName>
+		<Desc>[HENAME]是星神界的彩脂公主，活泼可爱，令人心生喜爱。</Desc>
+		<HideInUI>0</HideInUI>
+		<Value>25</Value>
+		<MaxStack>1</MaxStack>
+		<Duration>0</Duration>
+		<Opinions>0</Opinions>
+	</Favour>
+
+	<Favour Name="MasterBeauty3" Type="Normal">
+		<DisplayName>雪児公主</DisplayName>
+		<Desc>[HENAME]是神凰国的雪児公主，外貌十五六岁的少女，心灵纯净如雪，拥有梦幻之美，令人心生喜爱。</Desc>
+		<HideInUI>0</HideInUI>
+		<Value>25</Value>
+		<MaxStack>1</MaxStack>
+		<Duration>0</Duration>
+		<Opinions>0</Opinions>
+	</Favour>
+
+	<Favour Name="MasterBeauty4" Type="Normal">
+		<DisplayName>媚音公主</DisplayName>
+		<Desc>[HENAME]是琉光界的媚音公主，黑发黑裙，如暗夜中走出的娇小精灵，释放着与年龄全然不符的魅惑，令人心生喜爱。</Desc>
+		<HideInUI>0</HideInUI>
+		<Value>25</Value>
+		<MaxStack>1</MaxStack>
+		<Duration>0</Duration>
+		<Opinions>0</Opinions>
+	</Favour>
+
+	<Favour Name="MasterBeauty5" Type="Normal">
+		<DisplayName>映月公主</DisplayName>
+		<Desc>[HENAME]是琉光界的映月公主，纯白无暇，令人心生喜爱。</Desc>
+		<HideInUI>0</HideInUI>
+		<Value>25</Value>
+		<MaxStack>1</MaxStack>
+		<Duration>0</Duration>
+		<Opinions>0</Opinions>
+	</Favour>
+
+	<Favour Name="MasterBeauty6" Type="Normal">
+		<DisplayName>冰云七仙</DisplayName>
+		<Desc>[HENAME]是冰云仙宫冰云七仙之一，一袭如雪白衣，缥缈似仙，曼妙如妖，令人心生喜爱。</Desc>
+		<HideInUI>0</HideInUI>
+		<Value>15</Value>
+		<MaxStack>1</MaxStack>
+		<Duration>0</Duration>
+		<Opinions>0</Opinions>
+	</Favour>
+</List></FavourDefs>

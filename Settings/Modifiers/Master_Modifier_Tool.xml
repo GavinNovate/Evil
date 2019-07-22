@@ -1,0 +1,200 @@
+<ModifierDefs><List>
+
+	<Modifier Name="Master_Modifier_Tool_00" Type="Normal">
+		<DisplayName>劫天诛魔剑</DisplayName>
+		<Desc>拥有如红水晶一般晶莹长发的绝美小萝莉，眸若朱丹，性格单纯活泼。可化身劫天诛魔剑，同时具备劫天魔神剑和诛魔剑的特质且更为强大。</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<GlobleModifiers>
+			<li>Master_Modifier_Tool_01</li>
+		</GlobleModifiers>
+	</Modifier>
+
+	<Modifier Name="Master_Modifier_Tool_01" Type="Normal">
+		<DisplayName>劫天诛魔剑</DisplayName>
+		<Desc>拥有如红水晶一般晶莹长发的绝美小萝莉，眸若朱丹，性格单纯活泼。可化身劫天诛魔剑，同时具备劫天魔神剑和诛魔剑的特质且更为强大。</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<!-- 战斗命中 -->
+			<li Name="NpcFight_BaseHitChance" AddV="0.5"/>
+			<!-- 战斗闪避 -->
+			<li Name="NpcFight_BaseDodgeChance" AddV="0.5"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Master_Modifier_Tool_10" Type="Normal">
+		<DisplayName>诛天始祖剑</DisplayName>
+		<Desc>由混沌世界至纯至圣之力所孕育的神剑，为混沌世界的第一把剑，世间万器之始祖，有着强大到忤逆秩序的力量。</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<GlobleModifiers>
+			<li>Master_Modifier_Tool_11</li>
+		</GlobleModifiers>
+	</Modifier>
+
+	<Modifier Name="Master_Modifier_Tool_11" Type="Normal">
+		<DisplayName>诛天始祖剑</DisplayName>
+		<Desc>由混沌世界至纯至圣之力所孕育的神剑，为混沌世界的第一把剑，世间万器之始祖，有着强大到忤逆秩序的力量。</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<!-- 法宝威力 -->
+			<li Name="NpcFight_FabaoPowerAddP" BAddP="1"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Master_Modifier_Tool_20" Type="Normal">
+		<DisplayName>邪婴万劫轮</DisplayName>
+		<Desc>由混沌空间至阴至恶之力所生，拥有世间最极致的毁灭之力，其毁灭之力释放之时，会伴随如婴儿啼哭般的声音。</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<GlobleModifiers>
+			<li>Master_Modifier_Tool_21</li>
+		</GlobleModifiers>
+	</Modifier>
+
+	<Modifier Name="Master_Modifier_Tool_21" Type="Normal">
+		<DisplayName>邪婴万劫轮</DisplayName>
+		<Desc>由混沌空间至阴至恶之力所生，拥有世间最极致的毁灭之力，其毁灭之力释放之时，会伴随如婴儿啼哭般的声音。</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<!-- 法术威力 -->
+			<li Name="NpcFight_SpellPowerAddP" BAddP="1"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Master_Modifier_Tool_30" Type="Normal">
+		<DisplayName>鸿蒙生死印</DisplayName>
+		<Desc>孕生于鸿蒙宇宙的中心，气机与鸿蒙宇宙相连，只要鸿蒙宇宙不死，它就永恒不灭，是整个鸿蒙空间中唯一的永生之器，为万灵所觊觎。</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<GlobleModifiers>
+			<li>Master_Modifier_Tool_31</li>
+		</GlobleModifiers>
+	</Modifier>
+
+	<Modifier Name="Master_Modifier_Tool_31" Type="Normal">
+		<DisplayName>鸿蒙生死印</DisplayName>
+		<Desc>孕生于鸿蒙宇宙的中心，气机与鸿蒙宇宙相连，只要鸿蒙宇宙不死，它就永恒不灭，是整个鸿蒙空间中唯一的永生之器，为万灵所觊觎。</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<!-- 寿元 -->
+			<li Name="MaxAge" AddV="9999"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Master_Modifier_Tool_40" Type="Normal">
+		<DisplayName>宙天珠</DisplayName>
+		<Desc>内蕴无尽空间，自成一世界，并拥有独立于混沌之外的时间法则。混沌一日。宙天百年，但凡人每千年之中最多只可进入十日。传闻其拥有可以扰乱时间法则的恐怖力量。</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<GlobleModifiers>
+			<li>Master_Modifier_Tool_41</li>
+		</GlobleModifiers>
+	</Modifier>
+
+	<Modifier Name="Master_Modifier_Tool_41" Type="Normal">
+		<DisplayName>宙天珠</DisplayName>
+		<Desc>内蕴无尽空间，自成一世界，并拥有独立于混沌之外的时间法则。混沌一日。宙天百年，但凡人每千年之中最多只可进入十日。传闻其拥有可以扰乱时间法则的恐怖力量。</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<!-- 筑基速度 -->
+			<li Name="BasepracticeSpeedCoefficient" AddP="1"/>
+			<!-- 领悟速度 -->
+			<li Name="InspirationCoefficient" AddP="1"/>
+			<!-- 修炼速度 -->
+			<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="1"/>
+			<!-- 参悟速度 -->
+			<li Name="IntelligenceSkillEXPConstant" AddP="1"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Master_Modifier_Tool_50" Type="Normal">
+		<DisplayName>天毒珠</DisplayName>
+		<Desc>内蕴无限空间，拥有至强的毒力与净化之力，可以净化之力淬炼万物，亦能对天地灵宝产生特殊的感应。</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<GlobleModifiers>
+			<li>Master_Modifier_Tool_51</li>
+		</GlobleModifiers>
+	</Modifier>
+
+	<Modifier Name="Master_Modifier_Tool_51" Type="Normal">
+		<DisplayName>天毒珠</DisplayName>
+		<Desc>内蕴无限空间，拥有至强的毒力与净化之力，可以净化之力淬炼万物，亦能对天地灵宝产生特殊的感应。\n\n\n[size=10][color=#D06508]五维[/color]提升。\n初始[color=#D06508]弟子栏位[/color]增加9！\n\n解锁功法：[color=#D06508]《玉清仙法》[/color]\n获得神兵：[color=#D06508]劫天诛魔剑[/color]\n[/size]</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<!-- 感应范围 -->
+			<li Name="VisionRadius" AddP="1"/>
+			<!-- 外伤恢复速度 -->
+			<li Name="RecoveryPower" AddP="1"/>
+			<!-- 内伤恢复速度 -->
+			<li Name="MagicDamageRecoveryPowerAddV" AddV="1"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Master_Modifier_Tool_60" Type="Normal">
+		<DisplayName>乾坤刺</DisplayName>
+		<Desc>可穿刺空间，瞬间到达混沌空间的任意角落，传闻亦可搅乱空间法则。</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<GlobleModifiers>
+			<li>Master_Modifier_Tool_61</li>
+		</GlobleModifiers>
+	</Modifier>
+
+	<Modifier Name="Master_Modifier_Tool_61" Type="Normal">
+		<DisplayName>乾坤刺</DisplayName>
+		<Desc>可穿刺空间，瞬间到达混沌空间的任意角落，传闻亦可搅乱空间法则。</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<!-- 移动速度 -->
+			<li Name="MoveSpeed" AddP="1"/>
+			<!-- 历练速度 -->
+			<li Name="WorldMapFlySpeedAddP" AddP="1"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Master_Modifier_Tool_70" Type="Normal">
+		<DisplayName>轮回镜</DisplayName>
+		<Desc>可穿越轮回，篡改因果，发动时机和条件不明，每触发一次，力量将完全沉寂二十年。</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<GlobleModifiers>
+			<li>Master_Modifier_Tool_71</li>
+		</GlobleModifiers>
+	</Modifier>
+
+	<Modifier Name="Master_Modifier_Tool_71" Type="Normal">
+		<DisplayName>轮回镜</DisplayName>
+		<Desc>可穿越轮回，篡改因果，发动时机和条件不明，每触发一次，力量将完全沉寂二十年。</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<!-- 机缘 -->
+		<BaseFive>0,0,0,0,3</BaseFive>
+		<Properties>
+		</Properties>
+	</Modifier>
+</List></ModifierDefs>

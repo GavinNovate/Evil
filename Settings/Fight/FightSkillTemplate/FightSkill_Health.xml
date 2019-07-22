@@ -1,0 +1,20 @@
+<FightSkills><List>
+	<!-- 恢复技能 -->
+	<Skill Name="Master_Skill_Xie_8">
+		<DisplayName>月挽星回</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Health</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>0.5</SingTime>
+		<CD>60</CD>
+		<LingCost>100</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng7</CastAni>
+		<Value>100</Value><!-- 回复灵气 -->
+		<TargetCamp>Friendly</TargetCamp>
+
+		<Shape>Single</Shape>
+		<SelectType>AllNpc</SelectType>
+		<HitEffect>48</HitEffect>
+	</Skill>
+</List></FightSkills>

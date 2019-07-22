@@ -1,4 +1,4 @@
-# `逆天邪神`模组说明
+# 逆天邪神模组说明
 
 ### 使用方法
 
@@ -8,12 +8,11 @@
 
 ```
 AmazingCultivationSimulator
-|-	Mods
-	|-	逆天邪神
-    	|-	Resources
-    	|-	Settings
-    	|-	Info.json
-    	|-	Readme.md
+|- Mods
+   |- Evil
+   |-	Settings
+   |-	Info.json
+   |- Readme.md
 ```
 
 ### 模组内容

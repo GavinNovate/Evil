@@ -1,0 +1,8 @@
+<MainList><List>
+	<Data Kind="Builds" Type="门派" Unlock="4"  CMDType="Build" Name="Master_Building_TreasureStore"/>              <!-- 灵宝阁 -->
+
+	<Data Kind="Builds" Type="区域" Unlock="3"  CMDType="Build" Name="FillLingSoil"/>                               <!-- 灵土改造 -->
+	<Data Kind="Builds" Type="区域" Unlock="3"  CMDType="Build" Name="FillMud"/>                                    <!-- 泥地改造 -->
+	<Data Kind="Builds" Type="区域" Unlock="3"  CMDType="Build" Name="FillWetLand"/>                                <!-- 湿地改造 -->
+	<Data Kind="Builds" Type="区域" Unlock="3"  CMDType="Build" Name="FillStoneLand"/>                              <!-- 岩地改造 -->
+</List></MainList>

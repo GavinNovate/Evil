@@ -1,0 +1,181 @@
+﻿<ThingDefs><List>
+	<!-- 乾坤五琼丹:五维 -->
+	<ThingDef Type="Item" Name="Master_Item_Dan_0" Parent="DanBase">
+		<ThingName>乾坤五琼丹</ThingName>
+		<TexPath>res\Sprs\object\object_DAdanyao04</TexPath>
+		<Desc>大幅提高弟子神识、根骨、魅力、悟性、机缘。</Desc>
+		<Rate>9</Rate>
+		<Beauty>10</Beauty>
+		<ElementKind>None</ElementKind>
+		<Item Lable="Dan">
+			<PhysicalLables>
+				<li>Smooth1</li>
+				<li>Hard1</li>
+				<li>Light1</li>
+			</PhysicalLables>
+			<Elixir>
+				<Modifier>Master_Modifier_Dan_FiveBase</Modifier>
+				<Fesistance>0.8</Fesistance>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>500</WorkToMake>
+				<CostItems>
+					<!-- <Item name = "Item_LingStone" count = "500"/> -->
+					<Item name = "Item_LingCrystal" count = "5"/>
+				</CostItems>
+			</BeMade>
+		</Item>
+		<Element>
+			<Kind>None</Kind>
+			<Value>10</Value>
+		</Element>
+	</ThingDef>
+	<!-- 夺天造化丹:灵气 -->
+	<ThingDef Type="Item" Name="Master_Item_Dan_BaseLing" Parent="DanBase">
+		<ThingName>夺天造化丹</ThingName>
+		<TexPath>res\Sprs\object\object_DAdanyao02</TexPath>
+		<Desc>传说中的丹药，传闻夺天老人偶得此丹，服用之后踏入神玄之境，后前往众神之界。 夺取天地之造化及于己身，大幅提高对天地灵气的契合度，大幅增加灵气最大值及灵气回复速度。</Desc>
+		<Rate>9</Rate>
+		<Beauty>10</Beauty>
+		<ElementKind>None</ElementKind>
+		<Item Lable="Dan">
+			<PhysicalLables>
+				<li>Smooth1</li>
+				<li>Hard1</li>
+				<li>Light1</li>
+			</PhysicalLables>
+			<Elixir>
+				<Modifier>Master_Modifier_Dan_BaseLing</Modifier>
+				<Fesistance>0.8</Fesistance>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>500</WorkToMake>
+				<CostItems>
+					<!-- <Item name = "Item_LingStone" count = "500"/> -->
+					<Item name = "Item_LingCrystal" count = "5"/>
+				</CostItems>
+			</BeMade>
+		</Item>
+		<Element>
+			<Kind>None</Kind>
+			<Value>10</Value>
+		</Element>
+	</ThingDef>
+	<!-- 炼体丹:粗工杂役 -->
+	<ThingDef Type="Item" Name="Master_Item_Dan_1" Parent="DanBase">
+		<ThingName>炼体丹</ThingName>
+		<TexPath>res\Sprs\object\object_XIAOdanyao04</TexPath>
+		<Desc>大幅提高弟子金石、农耕、版筑、巧匠能力。</Desc>
+		<Rate>9</Rate>
+		<Beauty>10</Beauty>
+		<ElementKind>None</ElementKind>
+		<Item Lable="Dan">
+			<PhysicalLables>
+				<li>Smooth1</li>
+				<li>Hard1</li>
+				<li>Light1</li>
+			</PhysicalLables>
+			<Elixir>
+				<Modifier>Master_Modifier_Dan_1</Modifier>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>100</WorkToMake>
+				<CostItems>
+					<Item name = "Item_LingCrystal" count = "1"/>
+				</CostItems>
+			</BeMade>
+		</Item>
+		<Element>
+			<Kind>None</Kind>
+			<Value>10</Value>
+		</Element>
+	</ThingDef>
+	<!-- 明神丹:妙术巧技 -->
+	<ThingDef Type="Item" Name="Master_Item_Dan_2" Parent="DanBase">
+		<ThingName>明神丹</ThingName>
+		<TexPath>res\Sprs\object\object_XIAOdanyao01</TexPath>
+		<Desc>大幅提高弟子处世、雅艺、烹饪、岐黄能力。</Desc>
+		<Rate>9</Rate>
+		<Beauty>10</Beauty>
+		<ElementKind>None</ElementKind>
+		<Item Lable="Dan">
+			<PhysicalLables>
+				<li>Smooth1</li>
+				<li>Hard1</li>
+				<li>Light1</li>
+			</PhysicalLables>
+			<Elixir>
+				<Modifier>Master_Modifier_Dan_2</Modifier>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>100</WorkToMake>
+				<CostItems>
+					<Item name = "Item_LingCrystal" count = "1"/>
+				</CostItems>
+			</BeMade>
+		</Item>
+		<Element>
+			<Kind>None</Kind>
+			<Value>10</Value>
+		</Element>
+	</ThingDef>
+	<!-- 通玄丹:修行资质 -->
+	<ThingDef Type="Item" Name="Master_Item_Dan_3" Parent="DanBase">
+		<ThingName>通玄丹</ThingName>
+		<TexPath>res\Sprs\object\object_XIAOdanyao02</TexPath>
+		<Desc>大幅提高弟子战斗、气感、斗法、丹器能力。</Desc>
+		<Rate>9</Rate>
+		<Beauty>10</Beauty>
+		<ElementKind>None</ElementKind>
+		<Item Lable="Dan">
+			<PhysicalLables>
+				<li>Smooth1</li>
+				<li>Hard1</li>
+				<li>Light1</li>
+			</PhysicalLables>
+			<Elixir>
+				<Modifier>Master_Modifier_Dan_3</Modifier>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>100</WorkToMake>
+				<CostItems>
+					<Item name = "Item_LingCrystal" count = "1"/>
+				</CostItems>
+			</BeMade>
+		</Item>
+		<Element>
+			<Kind>None</Kind>
+			<Value>10</Value>
+		</Element>
+	</ThingDef>
+
+	<!-- 测试丹:弥补BUFF -->
+	<ThingDef Type="Item" Name="Master_Item_Dan_Test" Parent="DanBase">
+		<ThingName>测试丹</ThingName>
+		<TexPath>res\Sprs\object\object_XIAOdanyao02</TexPath>
+		<Desc>测试丹:弥补BUFF</Desc>
+		<Rate>9</Rate>
+		<Beauty>10</Beauty>
+		<ElementKind>None</ElementKind>
+		<Item Lable="Dan">
+			<PhysicalLables>
+				<li>Smooth1</li>
+				<li>Hard1</li>
+				<li>Light1</li>
+			</PhysicalLables>
+			<Elixir>
+				<Modifier>Master_Modifier_Test</Modifier>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>100</WorkToMake>
+				<CostItems>
+					<Item name = "Item_LingStone" count = "1"/>
+				</CostItems>
+			</BeMade>
+		</Item>
+		<Element>
+			<Kind>None</Kind>
+			<Value>10</Value>
+		</Element>
+	</ThingDef>
+</List></ThingDefs>

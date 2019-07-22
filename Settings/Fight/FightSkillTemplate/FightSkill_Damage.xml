@@ -1,0 +1,280 @@
+<FightSkills><List>
+	<!-- 伤害技能 -->
+	<Skill Name="Master_Skill_Xie_7">
+		<DisplayName>滅天绝地</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Damage</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>1</SingTime>
+		<CD>10</CD>
+		<LingCost>100</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng4</CastAni>
+		<Value>100</Value><!-- 灵气伤害 -->
+		<TargetCamp>Enemy</TargetCamp>
+
+		<Shape>Missile</Shape>
+		<SelectType>Target</SelectType>
+		<MissileEffect>4</MissileEffect>
+		<HitEffect>36</HitEffect>
+		<Missile>	<!--弹道数据，贝塞尔曲线的四个参数-->
+			<p1>0</p1>
+			<p2>0</p2>
+			<p3>0</p3>
+			<p4>0</p4>
+		</Missile>
+	</Skill>
+
+	<!-- 冰凰封神典 -->
+	<Skill Name="Master_Skill_Shui_0">
+		<DisplayName>冰狱莲华</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Damage</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>1</SingTime>
+		<CD>10</CD>
+		<LingCost>100</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng4</CastAni>
+		<Value>100</Value><!-- 灵气伤害 -->
+		<TargetCamp>Enemy</TargetCamp>
+
+		<Shape>Missile</Shape>
+		<SelectType>Target</SelectType>
+		<MissileEffect>8</MissileEffect>
+		<HitEffect>62</HitEffect>
+		<Missile>	<!--弹道数据，贝塞尔曲线的四个参数-->
+			<p1>0</p1>
+			<p2>0</p2>
+			<p3>0</p3>
+			<p4>0</p4>
+		</Missile>
+	</Skill>
+
+	<Skill Name="Master_Skill_Shui_1">
+		<DisplayName>冰心残月</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Damage</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>2</SingTime>
+		<CD>20</CD>
+		<LingCost>200</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng4</CastAni>
+		<Value>200</Value><!-- 灵气伤害 -->
+		<TargetCamp>Enemy</TargetCamp>
+
+		<Shape>Missile</Shape>
+		<SelectType>Target</SelectType>
+		<MissileEffect>8</MissileEffect>
+		<HitEffect>62</HitEffect>
+		<Missile>	<!--弹道数据，贝塞尔曲线的四个参数-->
+			<p1>0</p1>
+			<p2>0</p2>
+			<p3>0</p3>
+			<p4>0</p4>
+		</Missile>
+	</Skill>
+
+	<Skill Name="Master_Skill_Shui_2">
+		<DisplayName>冰凰幻影</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Damage</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>3</SingTime>
+		<CD>30</CD>
+		<LingCost>300</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng4</CastAni>
+		<Value>300</Value><!-- 灵气伤害 -->
+		<TargetCamp>Enemy</TargetCamp>
+
+		<Shape>Missile</Shape>
+		<SelectType>Target</SelectType>
+		<MissileEffect>8</MissileEffect>
+		<HitEffect>63</HitEffect>
+		<Missile>	<!--弹道数据，贝塞尔曲线的四个参数-->
+			<p1>0</p1>
+			<p2>0</p2>
+			<p3>0</p3>
+			<p4>0</p4>
+		</Missile>
+	</Skill>
+
+	<Skill Name="Master_Skill_Shui_3">
+		<DisplayName>冰封千里</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Damage</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>4</SingTime>
+		<CD>40</CD>
+		<LingCost>400</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng4</CastAni>
+		<Value>400</Value><!-- 灵气伤害 -->
+		<TargetCamp>Enemy</TargetCamp>
+
+		<Shape>Missile</Shape>
+		<SelectType>Target</SelectType>
+		<MissileEffect>9</MissileEffect>
+		<HitEffect>63</HitEffect>
+		<Missile>	<!--弹道数据，贝塞尔曲线的四个参数-->
+			<p1>0</p1>
+			<p2>0</p2>
+			<p3>0</p3>
+			<p4>0</p4>
+		</Missile>
+	</Skill>
+
+	<Skill Name="Master_Skill_Shui_4">
+		<DisplayName>冰夷封天</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Damage</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>5</SingTime>
+		<CD>50</CD>
+		<LingCost>500</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng4</CastAni>
+		<Value>500</Value><!-- 灵气伤害 -->
+		<TargetCamp>Enemy</TargetCamp>
+
+		<Shape>Missile</Shape>
+		<SelectType>Target</SelectType>
+		<MissileEffect>9</MissileEffect>
+		<HitEffect>64</HitEffect>
+		<Missile>	<!--弹道数据，贝塞尔曲线的四个参数-->
+			<p1>0</p1>
+			<p2>0</p2>
+			<p3>0</p3>
+			<p4>0</p4>
+		</Missile>
+	</Skill>
+
+	<!-- 凤凰颂世典 -->
+	<Skill Name="Master_Skill_Huo_0">
+		<DisplayName>炙炎焚野</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Damage</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>1</SingTime>
+		<CD>10</CD>
+		<LingCost>100</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng4</CastAni>
+		<Value>100</Value><!-- 灵气伤害 -->
+		<TargetCamp>Enemy</TargetCamp>
+
+		<Shape>Missile</Shape>
+		<SelectType>Target</SelectType>
+		<MissileEffect>6</MissileEffect>
+		<HitEffect>37</HitEffect>
+		<Missile>	<!--弹道数据，贝塞尔曲线的四个参数-->
+			<p1>0</p1>
+			<p2>0</p2>
+			<p3>0</p3>
+			<p4>0</p4>
+		</Missile>
+	</Skill>
+
+	<Skill Name="Master_Skill_Huo_1">
+		<DisplayName>凤炎焚天</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Damage</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>2</SingTime>
+		<CD>20</CD>
+		<LingCost>200</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng4</CastAni>
+		<Value>200</Value><!-- 灵气伤害 -->
+		<TargetCamp>Enemy</TargetCamp>
+
+		<Shape>Missile</Shape>
+		<SelectType>Target</SelectType>
+		<MissileEffect>6</MissileEffect>
+		<HitEffect>37</HitEffect>
+		<Missile>	<!--弹道数据，贝塞尔曲线的四个参数-->
+			<p1>0</p1>
+			<p2>0</p2>
+			<p3>0</p3>
+			<p4>0</p4>
+		</Missile>
+	</Skill>
+
+	<Skill Name="Master_Skill_Huo_2">
+		<DisplayName>凤翼天穹</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Damage</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>3</SingTime>
+		<CD>30</CD>
+		<LingCost>300</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng4</CastAni>
+		<Value>300</Value><!-- 灵气伤害 -->
+		<TargetCamp>Enemy</TargetCamp>
+
+		<Shape>Missile</Shape>
+		<SelectType>Target</SelectType>
+		<MissileEffect>6</MissileEffect>
+		<HitEffect>38</HitEffect>
+		<Missile>	<!--弹道数据，贝塞尔曲线的四个参数-->
+			<p1>0</p1>
+			<p2>0</p2>
+			<p3>0</p3>
+			<p4>0</p4>
+		</Missile>
+	</Skill>
+
+	<Skill Name="Master_Skill_Huo_3">
+		<DisplayName>焚星妖莲</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Damage</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>4</SingTime>
+		<CD>40</CD>
+		<LingCost>400</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng4</CastAni>
+		<Value>400</Value><!-- 灵气伤害 -->
+		<TargetCamp>Enemy</TargetCamp>
+
+		<Shape>Missile</Shape>
+		<SelectType>Target</SelectType>
+		<MissileEffect>7</MissileEffect>
+		<HitEffect>38</HitEffect>
+		<Missile>	<!--弹道数据，贝塞尔曲线的四个参数-->
+			<p1>0</p1>
+			<p2>0</p2>
+			<p3>0</p3>
+			<p4>0</p4>
+		</Missile>
+	</Skill>
+
+	<Skill Name="Master_Skill_Huo_4">
+		<DisplayName>灿世红莲</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Damage</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>5</SingTime>
+		<CD>50</CD>
+		<LingCost>500</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng4</CastAni>
+		<Value>500</Value><!-- 灵气伤害 -->
+		<TargetCamp>Enemy</TargetCamp>
+
+		<Shape>Missile</Shape>
+		<SelectType>Target</SelectType>
+		<MissileEffect>7</MissileEffect>
+		<HitEffect>39</HitEffect>
+		<Missile>	<!--弹道数据，贝塞尔曲线的四个参数-->
+			<p1>0</p1>
+			<p2>0</p2>
+			<p3>0</p3>
+			<p4>0</p4>
+		</Missile>
+	</Skill>
+
+</List></FightSkills>

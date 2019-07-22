@@ -1,0 +1,145 @@
+﻿<Gongs><List>
+	<Gong Name="Master_Gong_1">
+		<DisplayName>天狼狱神典</DisplayName>
+		<Desc>传自上古真神天狼星神。世间最强的重剑剑诀，可以将重剑的优势与威力发挥到极致。</Desc>
+		<SelectDesc>《天狼狱神典》是世间最强的重剑剑诀，但对资质要求极高，是否选择？</SelectDesc>
+		<FiveBaseNeed>7,7,7,7,7</FiveBaseNeed>
+		<SkillSetName></SkillSetName>
+		<ElementKind>Jin</ElementKind>
+		<Hide>1</Hide>
+		<Stages>
+			<Stage Name="Stage1" Level="1">
+				<DisplayName>初玄境</DisplayName>
+				<Desc></Desc>
+				<Value>100</Value>
+				<Necks>
+					<Neck Location="1" Kind="Chance">
+						<DisplayName>初玄</DisplayName>
+						<Desc>[color=#D06508]\n此瓶颈需反复尝试，方能逐步突破。[/color]</Desc>
+						<CostTime>100</CostTime>
+						<SuccessChange>0.45</SuccessChange>
+						<FailedChangeAdd>0.05</FailedChangeAdd>
+						<AddModifier>Master_Modifier_Gong_1</AddModifier>
+					</Neck>
+				</Necks>
+			</Stage>
+			<Stage Name="Stage2" Level="2">
+				<DisplayName>入玄境</DisplayName>
+				<Desc></Desc>
+				<Value>400</Value>
+				<Necks>
+
+					<Neck Location="1" Kind="Chance">
+						<DisplayName>入玄</DisplayName>
+						<Desc>[color=#D06508]\n此瓶颈需反复尝试，方能逐步突破。[/color]</Desc>
+						<CostTime>200</CostTime>
+						<SuccessChange>0.4</SuccessChange>
+						<FailedChangeAdd>0.05</FailedChangeAdd>
+						<AddModifier>Master_Modifier_Gong_2</AddModifier>
+					</Neck>
+				</Necks>
+			</Stage>
+			<Stage Name="Stage3" Level="3">
+				<DisplayName>真玄境</DisplayName>
+				<Desc></Desc>
+				<Value>1600</Value>
+				<Necks>
+					<Neck Location="1" Kind="Chance">
+						<DisplayName>真玄</DisplayName>
+						<Desc>[color=#D06508]\n此瓶颈需反复尝试，方能逐步突破。[/color]</Desc>
+						<CostTime>300</CostTime>
+						<SuccessChange>0.35</SuccessChange>
+						<FailedChangeAdd>0.05</FailedChangeAdd>
+						<AddModifier>Master_Modifier_Gong_3</AddModifier>
+					</Neck>
+				</Necks>
+			</Stage>
+			<Stage Name="Stage4" Level="4">
+				<DisplayName>灵玄境</DisplayName>
+				<Desc></Desc>
+				<Value>6400</Value>
+				<Necks>
+					<Neck Location="1" Kind="Chance">
+						<DisplayName>灵玄</DisplayName>
+						<Desc>[color=#D06508]\n此瓶颈需反复尝试，方能逐步突破。[/color]</Desc>
+						<CostTime>400</CostTime>
+						<SuccessChange>0.3</SuccessChange>
+						<FailedChangeAdd>0.05</FailedChangeAdd>
+						<AddModifier>Master_Modifier_Gong_4</AddModifier>
+					</Neck>
+				</Necks>
+			</Stage>
+			<Stage Name="Stage5" Level="5">
+				<DisplayName>地玄境</DisplayName>
+				<Desc></Desc>
+				<Value>25600</Value>
+				<Necks>
+					<Neck Location="1" Kind="Chance">
+						<DisplayName>地玄</DisplayName>
+						<Desc>[color=#D06508]\n此瓶颈需反复尝试，方能逐步突破。[/color]</Desc>
+						<CostTime>500</CostTime>
+						<SuccessChange>0.25</SuccessChange>
+						<FailedChangeAdd>0.05</FailedChangeAdd>
+						<AddModifier>Master_Modifier_Gong_5</AddModifier>
+					</Neck>
+				</Necks>
+			</Stage>
+			<Stage Name="Stage6" Level="6">
+				<DisplayName>天玄境</DisplayName>
+				<Desc></Desc>
+				<Value>102400</Value>
+				<Necks>
+					<Neck Location="1" Kind="Gold">
+						<DisplayName>天玄</DisplayName>
+						<Desc></Desc>
+						<AddModifier>Master_Modifier_Gong_5</AddModifier>
+					</Neck>
+				</Necks>
+			</Stage>
+			<Stage Name="Stage7" Level="7">
+				<DisplayName>王玄境</DisplayName>
+				<Desc></Desc>
+				<Value>409600</Value>
+				<Necks>
+					<Neck Location="1" Kind="Chance">
+						<DisplayName>王玄</DisplayName>
+						<Desc>[color=#D06508]\n此瓶颈需反复尝试，方能逐步突破。[/color]</Desc>
+						<CostTime>700</CostTime>
+						<SuccessChange>0.15</SuccessChange>
+						<FailedChangeAdd>0.05</FailedChangeAdd>
+						<AddModifier>Master_Modifier_Gong_7</AddModifier>
+					</Neck>
+				</Necks>
+			</Stage>
+			<Stage Name="Stage8" Level="8">
+				<DisplayName>君玄境</DisplayName>
+				<Desc></Desc>
+				<Value>1638400</Value>
+				<Necks>
+					<Neck Location="1" Kind="Chance">
+						<DisplayName>君玄</DisplayName>
+						<Desc>[color=#D06508]\n此瓶颈需反复尝试，方能逐步突破。[/color]</Desc>
+						<CostTime>800</CostTime>
+						<SuccessChange>0.1</SuccessChange>
+						<FailedChangeAdd>0.05</FailedChangeAdd>
+						<AddModifier>Master_Modifier_Gong_8</AddModifier>
+					</Neck>
+				</Necks>
+			</Stage>
+			<Stage Name="Stage9" Level="12">
+				<DisplayName>神玄境</DisplayName>
+				<Desc></Desc>
+				<Value>6553600</Value>
+				<Necks>
+					<Neck Location="1" Kind="God">
+						<DisplayName>神玄</DisplayName>
+						<Desc></Desc>
+						<ThunderValue>9999</ThunderValue>
+						<NeckCountdown>5400</NeckCountdown>
+						<AddModifier>Master_Modifier_Gong_9</AddModifier>
+					</Neck>
+				</Necks>
+			</Stage>
+		</Stages>
+	</Gong>
+</List></Gongs>

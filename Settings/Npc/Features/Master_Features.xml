@@ -1,0 +1,290 @@
+﻿<FeatureDefs><List>
+
+	<Feature Name="MasterFeatureXie" Type="Backstory">
+		<DisplayName>邪神玄脉</DisplayName>
+		<Desc>完美驾驭元素之力，并可极大程度引发玄力的暴走。</Desc>
+		<ModifierDef>
+			<BaseFive>0,0,0,1,1</BaseFive>
+			<Skills>
+				<li Name="Fight" Level="1"/>
+			</Skills>
+		</ModifierDef>
+	</Feature>
+
+	<Feature Name="MasterFeatureHuang" Type="Backstory">
+		<DisplayName>荒神之躯</DisplayName>
+		<Desc>强横躯体的力量和体质，自发吸收天地灵气来恢复自身元气与玄气，并提升玄道修为。</Desc>
+		<ModifierDef>
+			<BaseFive>0,0,1,0,0</BaseFive>
+			<Skills>
+				<li Name="Qi" Level="1"/>
+			</Skills>
+		</ModifierDef>
+	</Feature>
+
+	<!-- 废弃 -->
+	<Feature Name="MasterFeatureLong1" Type="Backstory">
+		<DisplayName>龙神血脉</DisplayName>
+		<Desc>龙神为龙族之首，万兽之尊，在远古时代，为仅次于创世神层面的神灵。</Desc>
+		<ModifierDef>
+			<Properties>
+				<li Name="NpcFight_BaseHitChance" AddV="0.5"/>
+				<li Name="NpcFight_BaseDodgeChance" AddV="0.5"/>
+			</Properties>
+		</ModifierDef>
+	</Feature>
+
+	<Feature Name="MasterFeatureLong2" Type="Backstory">
+		<DisplayName>龙神之髓</DisplayName>
+		<Desc>体若精钢</Desc>
+		<ModifierDef>
+			<BaseFive>0,1,0,0,0</BaseFive>
+			<Skills>
+				<li Name="DouFa" Level="1"/>
+			</Skills>
+		</ModifierDef>
+	</Feature>
+
+	<Feature Name="MasterFeatureLong3" Type="Backstory">
+		<DisplayName>龙神之魂</DisplayName>
+		<Desc>魂若金汤</Desc>
+		<ModifierDef>
+			<BaseFive>1,0,0,0,0</BaseFive>
+			<Skills>
+				<li Name="DanQi" Level="1"/>
+			</Skills>
+		</ModifierDef>
+	</Feature>
+
+	<Feature Name="MasterFeatureHuo" Type="Backstory">
+		<DisplayName>凤凰血脉</DisplayName>
+		<Desc>凤凰炎为远古三神炎之一，有着强大的焚灭和净化之力。</Desc>
+		<ModifierDef>
+			<BaseFive>1,1,1,1,1</BaseFive>
+			<Skills>
+				<li Name="Qi" Level="1"/>
+				<li Name="DouFa" Level="1"/>
+			</Skills>
+		</ModifierDef>
+	</Feature>
+
+	<Feature Name="MasterFeatureShui" Type="Backstory">
+		<DisplayName>冰凰血脉</DisplayName>
+		<Desc>冰凰为远古三大水系至尊之一，并有着最强的冥寒之力，万物皆可永恒封结。</Desc>
+		<ModifierDef>
+			<BaseFive>1,1,1,1,1</BaseFive>
+			<Skills>
+				<li Name="Qi" Level="1"/>
+				<li Name="DouFa" Level="1"/>
+			</Skills>
+		</ModifierDef>
+	</Feature>
+
+	<Feature Name="MasterFeatureSha" Type="Backstory">
+		<DisplayName>天杀星神</DisplayName>
+		<Desc>身法极端的迅捷鬼魅，本命武器为诛神刃，逃逸、遁影、暗杀能力十二星神之首。</Desc>
+		<ModifierDef>
+			<BaseFive>1,1,1,1,1</BaseFive>
+			<Skills>
+				<li Name="Fight" Level="1"/>
+				<li Name="Qi" Level="1"/>
+			</Skills>
+		</ModifierDef>
+	</Feature>
+
+	<Feature Name="MasterFeatureLang" Type="Backstory">
+		<DisplayName>天狼星神</DisplayName>
+		<Desc>玄力极端的刚猛霸道，本命武器为天狼圣剑，正面交战能力为十二星神之首。</Desc>
+		<ModifierDef>
+			<BaseFive>1,1,1,1,1</BaseFive>
+			<Skills>
+				<li Name="Fight" Level="1"/>
+				<li Name="Qi" Level="1"/>
+			</Skills>
+		</ModifierDef>
+	</Feature>
+
+	<Feature Name="MasterFeatureBody1" Type="Backstory">
+		<DisplayName>冰雪琉璃</DisplayName>
+		<Desc>性情至纯至净，悟性和记忆力极高，随着能力提升，可以感知善恶、危机，窥破诸多玄机，甚至窥视万灵内心。</Desc>
+		<ModifierDef>
+			<BaseFive>1,1,1,0,0</BaseFive>
+			<Skills>
+				<li Name="Fight" Level="1"/>
+				<li Name="Qi" Level="1"/>
+			</Skills>
+		</ModifierDef>
+	</Feature>
+
+	<Feature Name="MasterFeatureBody2" Type="Backstory">
+		<DisplayName>九玄玲珑</DisplayName>
+		<Desc>丹田存在玲珑世界，可以储纳肉身无法承受的力量，修炼玄功不受玄力等级和身体承受能力的限制。</Desc>
+		<ModifierDef>
+			<BaseFive>0,0,1,1,1</BaseFive>
+			<Skills>
+				<li Name="DouFa" Level="1"/>
+				<li Name="DanQi" Level="1"/>
+			</Skills>
+		</ModifierDef>
+	</Feature>
+
+	<Feature Name="MasterFeatureBody3" Type="Backstory">
+		<DisplayName>无垢神魂</DisplayName>
+		<Desc>因沾染原始鸿蒙之力所生，混沌之中最纯净最纯净的灵魂，会被所有非邪恶的灵魂所亲和。</Desc>
+		<ModifierDef>
+			<BaseFive>1,1,1,1,1</BaseFive>
+			<Skills>
+				<li Name="Qi" Level="1"/>
+				<li Name="DouFa" Level="1"/>
+			</Skills>
+		</ModifierDef>
+	</Feature>
+
+	<Feature Name="MasterFeatureBody4" Type="Backstory">
+		<DisplayName>无垢神体</DisplayName>
+		<Desc>因沾染原始鸿蒙之力所生，混沌之中最纯净最纯净的灵魂，会被所有非邪恶的灵魂所亲和。</Desc>
+		<ModifierDef>
+			<BaseFive>1,1,1,1,1</BaseFive>
+			<Skills>
+				<li Name="Fight" Level="1"/>
+				<li Name="Qi" Level="1"/>
+			</Skills>
+		</ModifierDef>
+	</Feature>
+
+	<Feature Name="MasterFeatureBody5" Type="Backstory">
+		<DisplayName>冰肌玉骨</DisplayName>
+		<Desc>不染凡尘，由冰雪孕育的精灵。</Desc>
+		<ModifierDef>
+			<BaseFive>0,0,1,0,0</BaseFive>
+			<Skills>
+				<li Name="Fight" Level="1"/>
+				<li Name="Qi" Level="1"/>
+				<li Name="DouFa" Level="1"/>
+				<li Name="DanQi" Level="1"/>
+			</Skills>
+		</ModifierDef>
+	</Feature>
+
+	<Feature Name="MasterFeatureBeauty1" Type="Normal">
+		<DisplayName>茉莉公主</DisplayName>
+		<Desc>外貌十三四岁的小萝莉，红发红眸，妖异之美、勾魂夺魄。</Desc>
+		<Mutex>
+			<li>UglyFace1</li>
+			<li>UglyFace2</li>
+		</Mutex>
+		<Close>
+			<li>UglyFace1</li>
+			<li>UglyFace2</li>
+			<li>BeautifulFace1</li>
+		</Close>
+		<ModifierDef>
+			<BaseFive>0,0,2,0,0</BaseFive>
+			<GiveFavours>
+				<li>BeautifulFace</li>
+				<!-- 目前不能自定义 Favour -->
+				<!-- <li>MasterBeauty1</li> -->
+			</GiveFavours>
+		</ModifierDef>
+	</Feature>
+
+	<Feature Name="MasterFeatureBeauty2" Type="Normal">
+		<DisplayName>彩脂公主</DisplayName>
+		<Desc>活泼可爱。</Desc>
+		<Mutex>
+			<li>UglyFace1</li>
+			<li>UglyFace2</li>
+		</Mutex>
+		<Close>
+			<li>UglyFace1</li>
+			<li>UglyFace2</li>
+			<li>BeautifulFace1</li>
+		</Close>
+		<ModifierDef>
+			<BaseFive>0,0,2,0,0</BaseFive>
+			<GiveFavours>
+				<li>BeautifulFace</li>
+			</GiveFavours>
+		</ModifierDef>
+	</Feature>
+
+	<Feature Name="MasterFeatureBeauty3" Type="Normal">
+		<DisplayName>雪児公主</DisplayName>
+		<Desc>外貌十五六岁的少女，心灵纯净如雪，拥有梦幻之美。</Desc>
+		<Mutex>
+			<li>UglyFace1</li>
+			<li>UglyFace2</li>
+		</Mutex>
+		<Close>
+			<li>UglyFace1</li>
+			<li>UglyFace2</li>
+			<li>BeautifulFace1</li>
+		</Close>
+		<ModifierDef>
+			<BaseFive>0,0,2,0,0</BaseFive>
+			<GiveFavours>
+				<li>BeautifulFace</li>
+			</GiveFavours>
+		</ModifierDef>
+	</Feature>
+
+	<Feature Name="MasterFeatureBeauty4" Type="Normal">
+		<DisplayName>媚音公主</DisplayName>
+		<Desc>黑发黑裙，如暗夜中走出的娇小精灵，释放着与年龄全然不符的魅惑。</Desc>
+		<Mutex>
+			<li>UglyFace1</li>
+			<li>UglyFace2</li>
+		</Mutex>
+		<Close>
+			<li>UglyFace1</li>
+			<li>UglyFace2</li>
+			<li>BeautifulFace1</li>
+		</Close>
+		<ModifierDef>
+			<BaseFive>0,0,2,0,0</BaseFive>
+			<GiveFavours>
+				<li>BeautifulFace</li>
+			</GiveFavours>
+		</ModifierDef>
+	</Feature>
+
+	<Feature Name="MasterFeatureBeauty5" Type="Normal">
+		<DisplayName>映月公主</DisplayName>
+		<Desc>纯白无暇。</Desc>
+		<Mutex>
+			<li>UglyFace1</li>
+			<li>UglyFace2</li>
+		</Mutex>
+		<Close>
+			<li>UglyFace1</li>
+			<li>UglyFace2</li>
+			<li>BeautifulFace1</li>
+		</Close>
+		<ModifierDef>
+			<BaseFive>0,0,2,0,0</BaseFive>
+			<GiveFavours>
+				<li>BeautifulFace</li>
+			</GiveFavours>
+		</ModifierDef>
+	</Feature>
+
+	<Feature Name="MasterFeatureBeauty6" Type="Normal">
+		<DisplayName>冰云七仙</DisplayName>
+		<Desc>一袭如雪白衣，缥缈似仙，曼妙如妖。</Desc>
+		<Mutex>
+			<li>UglyFace1</li>
+			<li>UglyFace2</li>
+		</Mutex>
+		<Close>
+			<li>UglyFace1</li>
+			<li>UglyFace2</li>
+			<li>BeautifulFace1</li>
+		</Close>
+		<ModifierDef>
+			<BaseFive>0,0,2,0,0</BaseFive>
+			<GiveFavours>
+				<li>BeautifulFace</li>
+			</GiveFavours>
+		</ModifierDef>
+	</Feature>
+</List></FeatureDefs>

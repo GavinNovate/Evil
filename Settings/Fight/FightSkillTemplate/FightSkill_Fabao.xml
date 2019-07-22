@@ -1,0 +1,118 @@
+<FightSkills><List>
+	<!-- 法宝增强 -->
+	<Skill Name="Master_Skill_Xie_5">
+		<DisplayName>陨月沉星</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Fabao</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>0.5</SingTime><!-- 吟唱时间 -->
+		<CD>60</CD><!-- 施法间隔 -->
+		<LingCost>100</LingCost><!-- 灵气消耗 -->
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng8</CastAni>
+		<Value>1</Value><!-- 法宝威力 -->
+		<Value2>60</Value2><!-- 持续时间 -->
+		<TargetCamp>Friendly</TargetCamp><!-- 目标阵营 -->
+
+		<Shape>Single</Shape><!-- 特效类型 -->
+		<SelectType>Self</SelectType><!-- 目标类型 -->
+		<HitEffect>33</HitEffect><!-- 击中特效 -->
+	</Skill>
+
+
+	<!-- 法宝增强 -->
+	<Skill Name="Master_Skill_Jin_0">
+		<DisplayName>天狼斩</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Fabao</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>0.5</SingTime>
+		<CD>60</CD>
+		<LingCost>100</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng8</CastAni>
+		<Value>1</Value><!-- 法宝威力 -->
+		<Value2>60</Value2><!-- 持续时间 -->
+		<TargetCamp>Friendly</TargetCamp>
+
+		<Shape>Single</Shape>
+		<SelectType>Self</SelectType>
+		<HitEffect>31</HitEffect>
+	</Skill>
+
+	<Skill Name="Master_Skill_Jin_1">
+		<DisplayName>蛮荒牙</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Fabao</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>0.5</SingTime>
+		<CD>120</CD>
+		<LingCost>400</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng8</CastAni>
+		<Value>2</Value><!-- 法宝威力 -->
+		<Value2>120</Value2><!-- 持续时间 -->
+		<TargetCamp>Friendly</TargetCamp>
+
+		<Shape>Single</Shape>
+		<SelectType>Self</SelectType>
+		<HitEffect>31</HitEffect>
+	</Skill>
+
+	<Skill Name="Master_Skill_Jin_2">
+		<DisplayName>天星恸</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Fabao</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>0.5</SingTime>
+		<CD>180</CD>
+		<LingCost>900</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng8</CastAni>
+		<Value>3</Value><!-- 法宝威力 -->
+		<Value2>180</Value2><!-- 持续时间 -->
+		<TargetCamp>Friendly</TargetCamp>
+
+		<Shape>Single</Shape>
+		<SelectType>Self</SelectType>
+		<HitEffect>32</HitEffect>
+	</Skill>
+
+	<Skill Name="Master_Skill_Jin_3">
+		<DisplayName>神狱劫</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Fabao</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>0.5</SingTime>
+		<CD>240</CD>
+		<LingCost>1600</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng8</CastAni>
+		<Value>4</Value><!-- 法宝威力 -->
+		<Value2>240</Value2><!-- 持续时间 -->
+		<TargetCamp>Friendly</TargetCamp>
+
+		<Shape>Single</Shape>
+		<SelectType>Self</SelectType>
+		<HitEffect>32</HitEffect>
+	</Skill>
+
+	<Skill Name="Master_Skill_Jin_4">
+		<DisplayName>天地诛</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Fabao</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>0.5</SingTime>
+		<CD>300</CD>
+		<LingCost>2500</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng8</CastAni>
+		<Value>5</Value><!-- 法宝威力 -->
+		<Value2>300</Value2><!-- 持续时间 -->
+		<TargetCamp>Friendly</TargetCamp>
+
+		<Shape>Single</Shape>
+		<SelectType>Self</SelectType>
+		<HitEffect>33</HitEffect>
+	</Skill>
+</List></FightSkills>

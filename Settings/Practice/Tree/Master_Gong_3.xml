@@ -1,0 +1,763 @@
+﻿<SkillTree><List>
+	<!-- 杂学一 -->
+	<Node Name="Master_Gong_3_a0" Gong="Master_Gong_3">
+		<Esoterica>Master_Esoterica_Magic_AbsorbLing_Aoe</Esoterica>
+		<DisplayName>灵息之术</DisplayName>
+		<Level>Qi</Level>
+		<Index>0</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<PreUnit>
+		<!--	<li></li>-->
+		</PreUnit>
+		<MutexUnit>
+		<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--<li Name="" Level="1"/>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+
+	<Node Name="Master_Gong_3_b0" Gong="Master_Gong_3">
+		<Esoterica>Master_Esoterica_Magic_BuidPuppet</Esoterica>
+		<DisplayName>赋灵之术</DisplayName>
+		<Level>Dan1</Level>
+		<Index>0</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<PreUnit>
+		<!--	<li></li>-->
+		</PreUnit>
+		<MutexUnit>
+		<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--<li Name="" Level="1"/>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+
+	<Node Name="Master_Gong_3_c0" Gong="Master_Gong_3">
+		<Esoterica>Master_Esoterica_Magic_Healing_Damage</Esoterica>
+		<DisplayName>化伤之术</DisplayName>
+		<Level>Dan2</Level>
+		<Index>0</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<PreUnit>
+		<!--	<li></li>-->
+		</PreUnit>
+		<MutexUnit>
+		<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--<li Name="" Level="1"/>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+
+	<Node Name="Master_Gong_3_d0" Gong="Master_Gong_3">
+		<Esoterica>Master_Esoterica_Magic_BuildBody</Esoterica>
+		<DisplayName>再造之术</DisplayName>
+		<Level>God</Level>
+		<Index>0</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<PreUnit>
+		<!--	<li></li>-->
+		</PreUnit>
+		<MutexUnit>
+		<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--<li Name="" Level="1"/>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+
+	<Node Name="Master_Gong_3_e0" Gong="Master_Gong_3">
+		<Esoterica>Master_Esoterica_Magic_PrayForWeather</Esoterica>
+		<DisplayName>祈天秘术</DisplayName>
+		<Level>God2</Level>
+		<Index>0</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<PreUnit>
+		<!--	<li></li>-->
+		</PreUnit>
+		<MutexUnit>
+		<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--<li Name="" Level="1"/>-->
+		</Skills>
+		<!-- 灵气要求 -->
+		<LingMax>0</LingMax>
+		<!-- 金丹等级要求 -->
+		<GoldLevel>0</GoldLevel>
+		<!-- 渡劫次数要求 -->
+		<GodCount>0</GodCount>
+	</Node>
+
+	<!-- 杂学二 -->
+	<Node Name="Master_Gong_3_a1" Gong="Master_Gong_3">
+		<Esoterica>Master_Esoterica_Magic_LingStoneMake</Esoterica>
+		<DisplayName>灵石炼制</DisplayName>
+		<Level>Qi</Level>
+		<Index>1</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<PreUnit>
+		<!--	<li></li>-->
+		</PreUnit>
+		<MutexUnit>
+		<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--<li Name="" Level="1"/>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+
+	<Node Name="Master_Gong_3_b1" Gong="Master_Gong_3">
+		<Esoterica>Master_Esoterica_Magic_LingCrystalMake</Esoterica>
+		<DisplayName>灵晶炼制</DisplayName>
+		<Level>Dan1</Level>
+		<Index>1</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<PreUnit>
+		<!--	<li></li>-->
+		</PreUnit>
+		<MutexUnit>
+		<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--<li Name="" Level="1"/>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+
+	<Node Name="Master_Gong_3_c1" Gong="Master_Gong_3">
+		<Esoterica>Master_Esoterica_Magic_SoulCrystalYouPowerUp</Esoterica>
+		<DisplayName>幽淬之法</DisplayName>
+		<Level>Dan2</Level>
+		<Index>1</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<PreUnit>
+		<!--	<li></li>-->
+		</PreUnit>
+		<MutexUnit>
+		<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--<li Name="" Level="1"/>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+
+	<Node Name="Master_Gong_3_d1" Gong="Master_Gong_3">
+		<Esoterica>Master_Esoterica_Magic_SoulCrystalLingPowerUp</Esoterica>
+		<DisplayName>灵淬之法</DisplayName>
+		<Level>God</Level>
+		<Index>1</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<PreUnit>
+		<!--	<li></li>-->
+		</PreUnit>
+		<MutexUnit>
+		<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--<li Name="" Level="1"/>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+
+	<Node Name="Master_Gong_3_e1" Gong="Master_Gong_3">
+		<Esoterica>Master_Esoterica_Magic_Prophesy</Esoterica>
+		<DisplayName>窥天秘法</DisplayName>
+		<Level>God2</Level>
+		<Index>1</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<PreUnit>
+		<!--	<li></li>-->
+		</PreUnit>
+		<MutexUnit>
+		<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--<li Name="" Level="1"/>-->
+		</Skills>
+		<!-- 灵气要求 -->
+		<LingMax>0</LingMax>
+		<!-- 金丹等级要求 -->
+		<GoldLevel>0</GoldLevel>
+		<!-- 渡劫次数要求 -->
+		<GodCount>0</GodCount>
+	</Node>
+
+	<!-- 丹 -->
+	<Node Name="Master_Gong_3_a2" Gong="Master_Gong_3">
+		<Esoterica>Master_Esoterica_Dan_0</Esoterica>
+		<DisplayName>开炉九诀</DisplayName>
+		<Level>Qi</Level>
+		<Index>3</Index>
+		<Line>0,0,0,0,1,0,2,0</Line>
+		<PreUnit>
+		<!--	<li></li>-->
+		</PreUnit>
+		<MutexUnit>
+		<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--<li Name="" Level="1"/>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+
+	<Node Name="Master_Gong_3_b2" Gong="Master_Gong_3">
+		<Esoterica>Master_Esoterica_Dan_1</Esoterica>
+		<DisplayName>百草药典</DisplayName>
+		<Level>Dan1</Level>
+		<Index>3</Index>
+		<Line>0,0,0,0,1,0,2,0</Line>
+		<PreUnit>
+			<li>Master_Gong_3_a2</li>
+		</PreUnit>
+		<MutexUnit>
+		<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--<li Name="" Level="1"/>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+
+	<Node Name="Master_Gong_3_c2" Gong="Master_Gong_3">
+		<Esoterica>Master_Esoterica_Dan_2</Esoterica>
+		<DisplayName>真丹要略</DisplayName>
+		<Level>Dan2</Level>
+		<Index>3</Index>
+		<Line>0,0,0,0,1,0,2,0</Line>
+		<PreUnit>
+			<li>Master_Gong_3_b2</li>
+		</PreUnit>
+		<MutexUnit>
+		<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--<li Name="" Level="1"/>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+
+	<Node Name="Master_Gong_3_d2" Gong="Master_Gong_3">
+		<Esoterica>Master_Esoterica_Dan_3</Esoterica>
+		<DisplayName>太上丹经</DisplayName>
+		<Level>God</Level>
+		<Index>3</Index>
+		<Line>0,0,0,0,1,0,2,0</Line>
+		<PreUnit>
+			<li>Master_Gong_3_c2</li>
+		</PreUnit>
+		<MutexUnit>
+		<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--<li Name="" Level="1"/>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+
+	<Node Name="Master_Gong_3_e2" Gong="Master_Gong_3">
+		<Esoterica>Master_Esoterica_Dan_4</Esoterica>
+		<DisplayName>天道神丹</DisplayName>
+		<Level>God2</Level>
+		<Index>3</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<PreUnit>
+			<li>Master_Gong_3_d2</li>
+		</PreUnit>
+		<MutexUnit>
+		<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--<li Name="" Level="1"/>-->
+		</Skills>
+		<!-- 灵气要求 -->
+		<LingMax>0</LingMax>
+		<!-- 金丹等级要求 -->
+		<GoldLevel>0</GoldLevel>
+		<!-- 渡劫次数要求 -->
+		<GodCount>0</GodCount>
+	</Node>
+
+	<!-- 器 -->
+	<Node Name="Master_Gong_3_a3" Gong="Master_Gong_3">
+		<Esoterica>Master_Esoterica_Spell_0</Esoterica>
+		<DisplayName>炼器十要</DisplayName>
+		<Level>Qi</Level>
+		<Index>4</Index>
+		<Line>0,0,0,0,1,0,2,0</Line>
+		<PreUnit>
+		<!--	<li></li>-->
+		</PreUnit>
+		<MutexUnit>
+		<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--<li Name="" Level="1"/>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+
+	<Node Name="Master_Gong_3_b3" Gong="Master_Gong_3">
+		<Esoterica>Master_Esoterica_Spell_1</Esoterica>
+		<DisplayName>三洞琼纲</DisplayName>
+		<Level>Dan1</Level>
+		<Index>4</Index>
+		<Line>0,0,0,0,1,0,2,0</Line>
+		<PreUnit>
+			<li>Master_Gong_3_a3</li>
+		</PreUnit>
+		<MutexUnit>
+		<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--<li Name="" Level="1"/>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+
+	<Node Name="Master_Gong_3_c3" Gong="Master_Gong_3">
+		<Esoterica>Master_Esoterica_Spell_2</Esoterica>
+		<DisplayName>造化真解</DisplayName>
+		<Level>Dan2</Level>
+		<Index>4</Index>
+		<Line>0,0,0,0,1,0,2,0</Line>
+		<PreUnit>
+			<li>Master_Gong_3_b3</li>
+		</PreUnit>
+		<MutexUnit>
+		<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--<li Name="" Level="1"/>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+
+	<Node Name="Master_Gong_3_d3" Gong="Master_Gong_3">
+		<Esoterica>Master_Esoterica_Spell_3</Esoterica>
+		<DisplayName>琢玉秘册</DisplayName>
+		<Level>God</Level>
+		<Index>4</Index>
+		<Line>0,0,0,0,1,0,2,0</Line>
+		<PreUnit>
+			<li>Master_Gong_3_c3</li>
+		</PreUnit>
+		<MutexUnit>
+		<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--<li Name="" Level="1"/>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+
+	<Node Name="Master_Gong_3_e3" Gong="Master_Gong_3">
+		<Esoterica>Master_Esoterica_Spell_4</Esoterica>
+		<DisplayName>天道神器</DisplayName>
+		<Level>God2</Level>
+		<Index>4</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<PreUnit>
+			<li>Master_Gong_3_d3</li>
+		</PreUnit>
+		<MutexUnit>
+		<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--<li Name="" Level="1"/>-->
+		</Skills>
+		<!-- 灵气要求 -->
+		<LingMax>0</LingMax>
+		<!-- 金丹等级要求 -->
+		<GoldLevel>0</GoldLevel>
+		<!-- 渡劫次数要求 -->
+		<GodCount>0</GodCount>
+	</Node>
+
+	<!-- 邪神诀 -->
+	<Node Name="Master_Gong_3_a6" Gong="Master_Gong_3">
+		<Esoterica>Master_Esoterica_Gong_Xie_0</Esoterica>
+		<DisplayName>邪魄</DisplayName>
+		<Level>Qi</Level>
+		<Index>6</Index>
+		<Line>0,0,0,0,1,1,2,0</Line>
+		<PreUnit>
+		<!--	<li></li>-->
+		</PreUnit>
+		<MutexUnit>
+		<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--<li Name="" Level="1"/>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+
+	<Node Name="Master_Gong_3_b6" Gong="Master_Gong_3">
+		<Esoterica>Master_Esoterica_Gong_Xie_1</Esoterica>
+		<DisplayName>焚心</DisplayName>
+		<Level>Dan1</Level>
+		<Index>6</Index>
+		<Line>0,0,0,0,1,1,2,0</Line>
+		<PreUnit>
+			<li>Master_Gong_3_a6</li>
+		</PreUnit>
+		<MutexUnit>
+		<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--<li Name="" Level="1"/>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+
+	<Node Name="Master_Gong_3_c6" Gong="Master_Gong_3">
+		<Esoterica>Master_Esoterica_Gong_Xie_2</Esoterica>
+		<DisplayName>炼狱</DisplayName>
+		<Level>Dan2</Level>
+		<Index>6</Index>
+		<Line>0,0,0,0,1,1,2,0</Line>
+		<PreUnit>
+			<li>Master_Gong_3_b6</li>
+		</PreUnit>
+		<MutexUnit>
+		<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--<li Name="" Level="1"/>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+
+	<Node Name="Master_Gong_3_d6" Gong="Master_Gong_3">
+		<Esoterica>Master_Esoterica_Gong_Xie_3</Esoterica>
+		<DisplayName>轰天</DisplayName>
+		<Level>God</Level>
+		<Index>6</Index>
+		<Line>0,0,0,0,1,1,2,0</Line>
+		<PreUnit>
+			<li>Master_Gong_3_c6</li>
+		</PreUnit>
+		<MutexUnit>
+		<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--<li Name="" Level="1"/>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+
+	<Node Name="Master_Gong_3_e6" Gong="Master_Gong_3">
+		<Esoterica>Master_Esoterica_Gong_Xie_4</Esoterica>
+		<DisplayName>阎皇</DisplayName>
+		<Level>God2</Level>
+		<Index>6</Index>
+		<Line>0,0,0,0,1,1,0,0</Line>
+		<PreUnit>
+			<li>Master_Gong_3_d6</li>
+		</PreUnit>
+		<MutexUnit>
+		<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--<li Name="" Level="1"/>-->
+		</Skills>
+		<!-- 灵气要求 -->
+		<LingMax>0</LingMax>
+		<!-- 金丹等级要求 -->
+		<GoldLevel>0</GoldLevel>
+		<!-- 渡劫次数要求 -->
+		<GodCount>0</GodCount>
+	</Node>
+
+	<Node Name="Master_Gong_3_a7" Gong="Master_Gong_3">
+		<Esoterica>Master_Esoterica_Gong_Xie_5</Esoterica>
+		<DisplayName>陨月沉星</DisplayName>
+		<Level>Qi</Level>
+		<Index>7</Index>
+		<Line>0,0,0,0,2,0,0,1</Line>
+		<PreUnit>
+			<li>Master_Gong_3_a6</li>
+		</PreUnit>
+		<MutexUnit>
+		<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--<li Name="" Level="1"/>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+
+	<Node Name="Master_Gong_3_b7" Gong="Master_Gong_3">
+		<Esoterica>Master_Esoterica_Gong_Xie_6</Esoterica>
+		<DisplayName>封云锁日</DisplayName>
+		<Level>Dan1</Level>
+		<Index>7</Index>
+		<Line>0,0,0,0,2,0,0,1</Line>
+		<PreUnit>
+			<li>Master_Gong_3_b6</li>
+		</PreUnit>
+		<MutexUnit>
+		<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--<li Name="" Level="1"/>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+
+	<Node Name="Master_Gong_3_c7" Gong="Master_Gong_3">
+		<Esoterica>Master_Esoterica_Gong_Xie_7</Esoterica>
+		<DisplayName>滅天绝地</DisplayName>
+		<Level>Dan2</Level>
+		<Index>7</Index>
+		<Line>0,0,0,0,2,0,0,1</Line>
+		<PreUnit>
+			<li>Master_Gong_3_c6</li>
+		</PreUnit>
+		<MutexUnit>
+		<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--<li Name="" Level="1"/>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+
+	<Node Name="Master_Gong_3_d7" Gong="Master_Gong_3">
+		<Esoterica>Master_Esoterica_Gong_Xie_8</Esoterica>
+		<DisplayName>月挽星回</DisplayName>
+		<Level>God</Level>
+		<Index>7</Index>
+		<Line>0,0,0,0,2,0,0,1</Line>
+		<PreUnit>
+			<li>Master_Gong_3_d6</li>
+		</PreUnit>
+		<MutexUnit>
+		<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--<li Name="" Level="1"/>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+
+	<Node Name="Master_Gong_3_e7" Gong="Master_Gong_3">
+		<Esoterica>Master_Esoterica_Gong_Xie_9</Esoterica>
+		<DisplayName>彼岸修罗</DisplayName>
+		<Level>God2</Level>
+		<Index>7</Index>
+		<Line>0,0,0,0,2,0,0,1</Line>
+		<PreUnit>
+			<li>Master_Gong_3_e6</li>
+		</PreUnit>
+		<MutexUnit>
+		<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--<li Name="" Level="1"/>-->
+		</Skills>
+		<!-- 灵气要求 -->
+		<LingMax>0</LingMax>
+		<!-- 金丹等级要求 -->
+		<GoldLevel>0</GoldLevel>
+		<!-- 渡劫次数要求 -->
+		<GodCount>0</GodCount>
+	</Node>
+
+	<!-- 凤凰颂世典 -->
+	<Node Name="Master_Gong_3_a11" Gong="Master_Gong_3">
+		<Esoterica>Master_Esoterica_Gong_Huo_0</Esoterica>
+		<DisplayName>炙炎焚野</DisplayName>
+		<Level>Qi</Level>
+		<Index>11</Index>
+		<Line>0,0,0,0,1,0,2,0</Line>
+		<PreUnit>
+		<!--	<li></li>-->
+		</PreUnit>
+		<MutexUnit>
+		<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--<li Name="" Level="1"/>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+
+	<Node Name="Master_Gong_3_b11" Gong="Master_Gong_3">
+		<Esoterica>Master_Esoterica_Gong_Huo_1</Esoterica>
+		<DisplayName>凤炎焚天</DisplayName>
+		<Level>Dan1</Level>
+		<Index>11</Index>
+		<Line>0,0,0,0,1,0,2,0</Line>
+		<PreUnit>
+			<li>Master_Gong_3_a11</li>
+		</PreUnit>
+		<MutexUnit>
+		<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--<li Name="" Level="1"/>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+
+	<Node Name="Master_Gong_3_c11" Gong="Master_Gong_3">
+		<Esoterica>Master_Esoterica_Gong_Huo_2</Esoterica>
+		<DisplayName>凤翼天穹</DisplayName>
+		<Level>Dan2</Level>
+		<Index>11</Index>
+		<Line>0,0,0,0,1,0,2,0</Line>
+		<PreUnit>
+			<li>Master_Gong_3_b11</li>
+		</PreUnit>
+		<MutexUnit>
+		<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--<li Name="" Level="1"/>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+
+	<Node Name="Master_Gong_3_d11" Gong="Master_Gong_3">
+		<Esoterica>Master_Esoterica_Gong_Huo_3</Esoterica>
+		<DisplayName>焚星妖莲</DisplayName>
+		<Level>God</Level>
+		<Index>11</Index>
+		<Line>0,0,0,0,1,0,2,0</Line>
+		<PreUnit>
+			<li>Master_Gong_3_c11</li>
+		</PreUnit>
+		<MutexUnit>
+		<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--<li Name="" Level="1"/>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+
+	<Node Name="Master_Gong_3_e11" Gong="Master_Gong_3">
+		<Esoterica>Master_Esoterica_Gong_Huo_4</Esoterica>
+		<DisplayName>灿世红莲</DisplayName>
+		<Level>God2</Level>
+		<Index>11</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<PreUnit>
+			<li>Master_Gong_3_d11</li>
+		</PreUnit>
+		<MutexUnit>
+		<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--<li Name="" Level="1"/>-->
+		</Skills>
+		<!-- 灵气要求 -->
+		<LingMax>0</LingMax>
+		<!-- 金丹等级要求 -->
+		<GoldLevel>0</GoldLevel>
+		<!-- 渡劫次数要求 -->
+		<GodCount>0</GodCount>
+	</Node>
+</List></SkillTree>

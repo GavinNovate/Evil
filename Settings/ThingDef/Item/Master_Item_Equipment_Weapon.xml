@@ -1,0 +1,45 @@
+<ThingDefs><List>
+	<ThingDef Type="Item"  Name="Master_Sword" Parent="WeaponBase">
+	<ThingName>劫天诛魔剑</ThingName>
+	<TexPath>res\Sprs\object\object_weaponjian01</TexPath>
+	<MaxStack>1</MaxStack>
+	<Desc>拥有如红水晶一般晶莹长发的绝美小萝莉，眸若朱丹，性格单纯活泼。可化身朱红重剑：劫天诛魔剑，同时具备劫天魔神剑和诛魔剑的特质且更为强大。\n\n[size=10]大幅提升[color=#D06508]战斗命中[/color]！\n大幅提升[color=#D06508]战斗闪避[/color]！[/size]</Desc>
+	<Rate>12</Rate>
+	<Beauty>12</Beauty>
+	<Item Lable="Weapon">
+		<FabaoSuffix></FabaoSuffix>
+		<PhysicalLables>
+			<li>Sharp</li>
+		</PhysicalLables>
+
+		<NotRandom>1</NotRandom>
+		<BeMade>
+			<WorkToMake>600</WorkToMake>
+			<Quality>100</Quality>
+			<CostItems>
+				<Item name = "Master_Item_LingCrystal_Jin" count = "5"/>
+			</CostItems>
+		</BeMade>
+		<Equip>
+			<ToolModifier>Master_Modifier_Tool_00</ToolModifier>
+			<Damage>15</Damage>
+			<AttackSpeed>2.0</AttackSpeed>
+			<AttackRange>2.0</AttackRange>
+			<AtkDamage>
+				<li PartKind="Flesh" Name="Cut1" Rate="0.5"/>
+				<li PartKind="Flesh" Name="Cut2" Rate="0.5"/>
+				<li PartKind="Organ" Name="VisceralCut" Rate="0.5"/>
+			</AtkDamage>
+			<AtkAnis>
+				<li Name="LJpugong1" HitPoint="20"/>
+				<li Name="LJpugong2" HitPoint="18"/>
+				<li Name="LJpugong3" HitPoint="25"/>
+				<li Name="LJpugong4" HitPoint="18"/>
+			</AtkAnis>
+			<WeaponKind>Sword</WeaponKind>
+			<ModPath>Mod/Prop/Weapon/weapon_jian10</ModPath>
+		</Equip>
+	</Item>
+	</ThingDef>
+
+</List></ThingDefs>

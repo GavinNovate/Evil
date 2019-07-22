@@ -1,0 +1,21 @@
+<FightSkills><List>
+	<!-- 护体增强 -->
+	<Skill Name="Master_Skill_Xie_6">
+		<DisplayName>封云锁日</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Sheild</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>0.5</SingTime>
+		<CD>60</CD>
+		<LingCost>100</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng10</CastAni>
+		<Value>1</Value><!-- 护体增强 -->
+		<Value2>60</Value2><!-- 持续时间 -->
+		<TargetCamp>Friendly</TargetCamp>
+
+		<Shape>Single</Shape>
+		<SelectType>AllNpc</SelectType>
+		<HitEffect>52</HitEffect>
+	</Skill>
+</List></FightSkills>

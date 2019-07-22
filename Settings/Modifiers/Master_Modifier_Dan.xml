@@ -1,0 +1,75 @@
+<ModifierDefs><List>
+	<Modifier Name="Master_Modifier_Dan_FiveBase" Type="Normal">
+		<DisplayName>乾坤五琼丹</DisplayName>
+		<Desc></Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>1,1,1,1,1</BaseFive>
+	</Modifier>
+	<Modifier Name="Master_Modifier_Dan_BaseLing" Type="Normal">
+		<DisplayName>夺天造化丹</DisplayName>
+		<Desc>传说中的丹药，传闻夺天老人偶得此丹，服用之后踏入神玄之境，后前往众神之界。 夺取天地之造化及于己身，大幅提高对天地灵气的契合度，大幅增加灵气最大值及灵气回复速度。</Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<!-- 灵气根本值 -->
+			<li Name="NpcLingMaxValue" BAddP="1"/>
+			<!-- 灵气恢复速度 -->
+			<li Name="LingAbsorbSpeed" AddP="2"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="Master_Modifier_Dan_1" Type="Normal">
+		<DisplayName>炼体丹</DisplayName>
+		<Desc></Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Skills>
+			<li Name="Mining" Level="1"/>
+			<li Name="Farming" Level="1"/>
+			<li Name="Building" Level="1"/>
+			<li Name="Manual" Level="1"/>
+		</Skills>
+	</Modifier>
+	<Modifier Name="Master_Modifier_Dan_2" Type="Normal">
+		<DisplayName>明神丹</DisplayName>
+		<Desc></Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Skills>
+			<li Name="SocialContact" Level="1"/>
+			<li Name="Art" Level="1"/>
+			<li Name="Cooking" Level="1"/>
+			<li Name="Medicine" Level="1"/>
+		</Skills>
+	</Modifier>
+	<Modifier Name="Master_Modifier_Dan_3" Type="Normal">
+		<DisplayName>通玄丹</DisplayName>
+		<Desc></Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Skills>
+			<li Name="Fight" Level="1"/>
+			<li Name="Qi" Level="1"/>
+			<li Name="DouFa" Level="1"/>
+			<li Name="DanQi" Level="1"/>
+		</Skills>
+	</Modifier>
+
+	<!-- 测试用 -->
+	<Modifier Name="Master_Modifier_Test" Type="Normal">
+		<DisplayName>修复丹</DisplayName>
+		<Desc>弥补测试期间发现的未生效的BUFF</Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<!-- 历练速度加成 -->
+			<li Name="WorldMapFlySpeedAddP" AddV="3"/>
+		</Properties>
+	</Modifier>
+</List></ModifierDefs>

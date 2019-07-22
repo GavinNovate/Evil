@@ -1,0 +1,532 @@
+﻿<Esotericas><List>
+	<!-- 丹 -->
+	<Esoterica Name="Master_Esoterica_Dan_0">
+		<DisplayName>开炉九诀</DisplayName>
+		<StarLevel>0</StarLevel>
+		<Difficulty>1</Difficulty>
+		<GLevel>Qi</GLevel>
+		<Desc>开炉九诀</Desc>
+		<Element>Huo</Element>
+		<Type>Dan</Type>
+		<EffectDesc>[size=10][color=#D06508]\n提高丹药炼制速度\n提高丹药炼制产量\n提高丹药炼制成功率[/color][/size]</EffectDesc>
+		<Dans>
+			<!-- <li></li> -->
+		</Dans>
+		<Modifier>Master_Modifier_Esoterica_Dan_0</Modifier>
+	</Esoterica>
+
+	<Esoterica Name="Master_Esoterica_Dan_1">
+		<DisplayName>百草药典</DisplayName>
+		<StarLevel>0</StarLevel>
+		<Difficulty>2</Difficulty>
+		<GLevel>Dan1</GLevel>
+		<Desc>百草药典</Desc>
+		<Element>Huo</Element>
+		<Type>Dan</Type>
+		<EffectDesc>[size=10][color=#D06508]\n提高丹药炼制速度\n提高丹药炼制产量\n提高丹药炼制成功率[/color][/size]</EffectDesc>
+		<Dans>
+			<!-- <li></li> -->
+		</Dans>
+		<Modifier>Master_Modifier_Esoterica_Dan_1</Modifier>
+	</Esoterica>
+
+	<Esoterica Name="Master_Esoterica_Dan_2">
+		<DisplayName>真丹要略</DisplayName>
+		<StarLevel>1</StarLevel>
+		<Difficulty>3</Difficulty>
+		<GLevel>Dan2</GLevel>
+		<Desc>真丹要略</Desc>
+		<Element>Huo</Element>
+		<Type>Dan</Type>
+		<EffectDesc>[size=10][color=#D06508]\n提高丹药炼制速度\n提高丹药炼制产量\n提高丹药炼制成功率[/color][/size]</EffectDesc>
+		<Dans>
+			<!-- <li></li> -->
+		</Dans>
+		<Modifier>Master_Modifier_Esoterica_Dan_2</Modifier>
+	</Esoterica>
+
+	<Esoterica Name="Master_Esoterica_Dan_3">
+		<DisplayName>太上丹经</DisplayName>
+		<StarLevel>1</StarLevel>
+		<Difficulty>4</Difficulty>
+		<GLevel>God</GLevel>
+		<Desc>太上丹经</Desc>
+		<Element>Huo</Element>
+		<Type>Dan</Type>
+		<EffectDesc>[size=10][color=#D06508]\n提高丹药炼制速度\n提高丹药炼制产量\n提高丹药炼制成功率[/color][/size]</EffectDesc>
+		<Dans>
+			<!-- <li></li> -->
+		</Dans>
+		<Modifier>Master_Modifier_Esoterica_Dan_3</Modifier>
+	</Esoterica>
+
+	<Esoterica Name="Master_Esoterica_Dan_4">
+		<DisplayName>天道神丹</DisplayName>
+		<StarLevel>2</StarLevel>
+		<Difficulty>5</Difficulty>
+		<GLevel>God2</GLevel>
+		<Desc>既度天劫，洞彻天道。如炼丹造诣登峰造极，即可领悟窃天道炼制神丹之术。</Desc>
+		<Element>Huo</Element>
+		<Type>Dan</Type>
+		<EffectDesc>[size=10][color=#D06508]\n\n提高丹药炼制速度\n提高丹药炼制产量\n提高丹药炼制成功率\n\n习得丹方：天道神丹[/color][/size]</EffectDesc>
+		<Dans>
+			<li>Dan_TreeEXP</li>
+		</Dans>
+		<Modifier>Master_Modifier_Esoterica_Dan_4</Modifier>
+	</Esoterica>
+
+	<!-- 器 -->
+	<Esoterica Name="Master_Esoterica_Spell_0">
+		<DisplayName>炼器十要</DisplayName>
+		<Icon>res/Sprs/ui/icon_lianqi</Icon>
+		<StarLevel>0</StarLevel>
+		<Difficulty>1</Difficulty>
+		<Desc>炼器十要</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>Mu</Element>
+		<Type>Refining</Type>
+		<EffectDesc>[size=10][color=#D06508]\n提高法宝炼制速度\n提高法宝炼制品阶\n提高法宝炼制质量\n提高法宝炼制成功率\n提高神器炼制成功率[/color][/size]</EffectDesc>
+		<Modifier>Master_Modifier_Esoterica_Spell_0</Modifier>
+	</Esoterica>
+
+	<Esoterica Name="Master_Esoterica_Spell_1">
+		<DisplayName>三洞琼纲</DisplayName>
+		<Icon>res/Sprs/ui/icon_lianqi</Icon>
+		<StarLevel>0</StarLevel>
+		<Difficulty>2</Difficulty>
+		<Desc>三洞琼纲</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>Mu</Element>
+		<Type>Refining</Type>
+		<EffectDesc>[size=10][color=#D06508]\n提高法宝炼制速度\n提高法宝炼制品阶\n提高法宝炼制质量\n提高法宝炼制成功率\n提高神器炼制成功率[/color][/size]</EffectDesc>
+		<Modifier>Master_Modifier_Esoterica_Spell_1</Modifier>
+	</Esoterica>
+
+	<Esoterica Name="Master_Esoterica_Spell_2">
+		<DisplayName>造化真解</DisplayName>
+		<Icon>res/Sprs/ui/icon_lianqi</Icon>
+		<StarLevel>1</StarLevel>
+		<Difficulty>3</Difficulty>
+		<Desc>造化真解</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>Mu</Element>
+		<Type>Refining</Type>
+		<EffectDesc>[size=10][color=#D06508]\n提高法宝炼制速度\n提高法宝炼制品阶\n提高法宝炼制质量\n提高法宝炼制成功率\n提高神器炼制成功率[/color][/size]</EffectDesc>
+		<Modifier>Master_Modifier_Esoterica_Spell_2</Modifier>
+	</Esoterica>
+
+	<Esoterica Name="Master_Esoterica_Spell_3">
+		<DisplayName>琢玉秘册</DisplayName>
+		<Icon>res/Sprs/ui/icon_lianqi</Icon>
+		<StarLevel>1</StarLevel>
+		<Difficulty>4</Difficulty>
+		<Desc>琢玉秘册</Desc>
+		<GLevel>God</GLevel>
+		<Element>Mu</Element>
+		<Type>Refining</Type>
+		<EffectDesc>[size=10][color=#D06508]\n提高法宝炼制速度\n提高法宝炼制品阶\n提高法宝炼制质量\n提高法宝炼制成功率\n提高神器炼制成功率[/color][/size]</EffectDesc>
+		<Modifier>Master_Modifier_Esoterica_Spell_3</Modifier>
+	</Esoterica>
+
+	<Esoterica Name="Master_Esoterica_Spell_4">
+		<DisplayName>天道神器</DisplayName>
+		<Icon>res/Sprs/ui/icon_lianqi</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>5</Difficulty>
+		<Desc>天道神器</Desc>
+		<GLevel>God2</GLevel>
+		<Element>Mu</Element>
+		<Type>Refining</Type>
+		<EffectDesc>[size=10][color=#D06508]\n提高法宝炼制速度\n提高法宝炼制品阶\n提高法宝炼制质量\n提高法宝炼制成功率\n提高神器炼制成功率[/color][/size]</EffectDesc>
+		<Modifier>Master_Modifier_Esoterica_Spell_4</Modifier>
+	</Esoterica>
+
+	<!-- 邪神诀 -->
+	<Esoterica Name="Master_Esoterica_Gong_Xie_0">
+		<DisplayName>邪魄</DisplayName>
+		<Icon>res/Sprs/ui/icon_jichu</Icon>
+		<StarLevel>0</StarLevel>
+		<Difficulty>1</Difficulty>
+		<Desc>邪神境关第一境：邪魄，引发玄力狂暴，从根本上提高灵气最大值。</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>None</Element>
+		<Type>Skill</Type>
+		<EffectDesc>[size=10][color=#D06508]\n提高灵气根本值[/color][/size]</EffectDesc>
+		<Modifier>Master_Modifier_Esoterica_Xie_0</Modifier>
+	</Esoterica>
+
+	<Esoterica Name="Master_Esoterica_Gong_Xie_1">
+		<DisplayName>焚心</DisplayName>
+		<Icon>res/Sprs/ui/icon_jichu</Icon>
+		<StarLevel>0</StarLevel>
+		<Difficulty>2</Difficulty>
+		<Desc>邪神境关第二境：焚心，引发玄力狂暴，从根本上提高灵气最大值。</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>None</Element>
+		<Type>Skill</Type>
+		<EffectDesc>[size=10][color=#D06508]\n提高灵气根本值[/color][/size]</EffectDesc>
+		<Modifier>Master_Modifier_Esoterica_Xie_1</Modifier>
+	</Esoterica>
+
+	<Esoterica Name="Master_Esoterica_Gong_Xie_2">
+		<DisplayName>炼狱</DisplayName>
+		<Icon>res/Sprs/ui/icon_jichu</Icon>
+		<StarLevel>1</StarLevel>
+		<Difficulty>3</Difficulty>
+		<Desc>邪神境关第三境：炼狱，引发玄力狂暴，从根本上提高灵气最大值。</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>None</Element>
+		<Type>Skill</Type>
+		<EffectDesc>[size=10][color=#D06508]\n提高灵气根本值[/color][/size]</EffectDesc>
+		<Modifier>Master_Modifier_Esoterica_Xie_2</Modifier>
+	</Esoterica>
+
+	<Esoterica Name="Master_Esoterica_Gong_Xie_3">
+		<DisplayName>轰天</DisplayName>
+		<Icon>res/Sprs/ui/icon_jichu</Icon>
+		<StarLevel>1</StarLevel>
+		<Difficulty>4</Difficulty>
+		<Desc>邪神境关第四境：轰天，引发玄力狂暴，从根本上提高灵气最大值。</Desc>
+		<GLevel>God</GLevel>
+		<Element>None</Element>
+		<Type>Skill</Type>
+		<EffectDesc>[size=10][color=#D06508]\n提高灵气根本值[/color][/size]</EffectDesc>
+		<Modifier>Master_Modifier_Esoterica_Xie_3</Modifier>
+	</Esoterica>
+
+	<Esoterica Name="Master_Esoterica_Gong_Xie_4">
+		<DisplayName>阎皇</DisplayName>
+		<Icon>res/Sprs/ui/icon_jichu</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>5</Difficulty>
+		<Desc>邪神境关第五境：阎皇，引发玄力狂暴，从根本上提高灵气最大值。</Desc>
+		<GLevel>God2</GLevel>
+		<Element>None</Element>
+		<Type>Skill</Type>
+		<EffectDesc>[size=10][color=#D06508]\n提高灵气根本值[/color][/size]</EffectDesc>
+		<Modifier>Master_Modifier_Esoterica_Xie_4</Modifier>
+	</Esoterica>
+
+	<Esoterica Name="Master_Esoterica_Gong_Xie_5">
+		<DisplayName>陨月沉星</DisplayName>
+		<Icon>res/Sprs/ui/icon_zhandoufashu</Icon>
+		<StarLevel>0</StarLevel>
+		<Difficulty>1</Difficulty>
+		<Desc>邪神玄技第一技：陨月沉星，极大提高法宝威力。</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>None</Element>
+		<Type>Skill</Type>
+		<EffectDesc>[size=10][color=#D06508]\n提高法宝威力\n\n习得法术：陨月沉星[/color][/size]</EffectDesc>
+		<Modifier>Master_Modifier_Esoterica_Xie_5</Modifier>
+		<Skills>
+			<li>Master_Skill_Xie_5</li>
+		</Skills>
+	</Esoterica>
+
+	<Esoterica Name="Master_Esoterica_Gong_Xie_6">
+		<DisplayName>封云锁日</DisplayName>
+		<Icon>res/Sprs/ui/icon_zhandoufashu</Icon>
+		<StarLevel>0</StarLevel>
+		<Difficulty>2</Difficulty>
+		<Desc>邪神玄技第二技：封云锁日，极大提高灵气护盾效果。</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>None</Element>
+		<Type>Skill</Type>
+		<EffectDesc>[size=10][color=#D06508]\n提高灵气护盾效果\n\n习得法术：封云锁日[/color][/size]</EffectDesc>
+		<Modifier>Master_Modifier_Esoterica_Xie_6</Modifier>
+		<Skills>
+			<li>Master_Skill_Xie_6</li>
+		</Skills>
+	</Esoterica>
+
+	<Esoterica Name="Master_Esoterica_Gong_Xie_7">
+		<DisplayName>滅天绝地</DisplayName>
+		<Icon>res/Sprs/ui/icon_zhandoufashu</Icon>
+		<StarLevel>1</StarLevel>
+		<Difficulty>3</Difficulty>
+		<Desc>邪神玄技第三技：滅天绝地，极大提高灵气最大值。</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>None</Element>
+		<Type>Skill</Type>
+		<EffectDesc>[size=10][color=#D06508]\n提高灵气最大值 \n\n习得法术：滅天绝地[/color][/size]</EffectDesc>
+		<Modifier>Master_Modifier_Esoterica_Xie_7</Modifier>
+		<Skills>
+			<li>Master_Skill_Xie_7</li>
+		</Skills>
+	</Esoterica>
+
+	<Esoterica Name="Master_Esoterica_Gong_Xie_8">
+		<DisplayName>月挽星回</DisplayName>
+		<Icon>res/Sprs/ui/icon_zhandoufashu</Icon>
+		<StarLevel>1</StarLevel>
+		<Difficulty>4</Difficulty>
+		<Desc>邪神玄技第四技：月挽星回，极大提高灵气恢复速度。</Desc>
+		<GLevel>God</GLevel>
+		<Element>None</Element>
+		<Type>Skill</Type>
+		<EffectDesc>[size=10][color=#D06508]\n提高灵气恢复速度 \n\n习得法术：月挽星回[/color][/size]</EffectDesc>
+		<Modifier>Master_Modifier_Esoterica_Xie_8</Modifier>
+		<Skills>
+			<li>Master_Skill_Xie_8</li>
+		</Skills>
+	</Esoterica>
+
+	<Esoterica Name="Master_Esoterica_Gong_Xie_9">
+		<DisplayName>彼岸修罗</DisplayName>
+		<Icon>res/Sprs/ui/icon_zhandoufashu</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>5</Difficulty>
+		<Desc>邪神玄技第五技：彼岸修罗，极大提高法术威力。</Desc>
+		<GLevel>God2</GLevel>
+		<Element>None</Element>
+		<Type>Skill</Type>
+		<EffectDesc>[size=10][color=#D06508]\n提高法术威力 \n\n习得法术：彼岸修罗[/color][/size]</EffectDesc>
+		<Modifier>Master_Modifier_Esoterica_Xie_9</Modifier>
+		<Skills>
+			<li>Master_Skill_Xie_9</li>
+		</Skills>
+	</Esoterica>
+
+	<!-- 天狼狱神典 -->
+	<Esoterica Name="Master_Esoterica_Gong_Jin_0">
+		<DisplayName>天狼斩</DisplayName>
+		<Icon>res/Sprs/ui/icon_yujian</Icon>
+		<StarLevel>0</StarLevel>
+		<Difficulty>1</Difficulty>
+		<Desc>天狼剑诀第一剑：天狼斩，全方面提升重剑威力。</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>Jin</Element>
+		<Type>Fabao</Type>
+		<EffectDesc>[size=10][color=#D06508]\n提高法宝威力\n提高法宝攻击速度\n\n习得法术：天狼斩[/color][/size]</EffectDesc>
+		<Modifier>Master_Modifier_Esoterica_Jin_0</Modifier>
+		<Skills>
+			<li>Master_Skill_Jin_0</li>
+		</Skills>
+	</Esoterica>
+
+	<Esoterica Name="Master_Esoterica_Gong_Jin_1">
+		<DisplayName>蛮荒牙</DisplayName>
+		<Icon>res/Sprs/ui/icon_yujian</Icon>
+		<StarLevel>0</StarLevel>
+		<Difficulty>2</Difficulty>
+		<Desc>天狼剑诀第二剑：蛮荒牙，全方面提升重剑威力。</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>Jin</Element>
+		<Type>Fabao</Type>
+		<EffectDesc>[size=10][color=#D06508]\n提高法宝威力\n提高法宝攻击速度\n提高法宝灵气最大值\n提高法宝灵气恢复速度\n\n习得法术：蛮荒牙[/color][/size]</EffectDesc>
+		<Modifier>Master_Modifier_Esoterica_Jin_1</Modifier>
+		<Skills>
+			<li>Master_Skill_Jin_1</li>
+		</Skills>
+	</Esoterica>
+
+	<Esoterica Name="Master_Esoterica_Gong_Jin_2">
+		<DisplayName>天星恸</DisplayName>
+		<Icon>res/Sprs/ui/icon_yujian</Icon>
+		<StarLevel>1</StarLevel>
+		<Difficulty>3</Difficulty>
+		<Desc>天狼剑诀第三剑：天星恸，全方面提升重剑威力。</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>Jin</Element>
+		<Type>Fabao</Type>
+		<EffectDesc>[size=10][color=#D06508]\n提高法宝威力\n提高法宝攻击速度\n提高法宝灵气最大值\n提高法宝灵气恢复速度\n提高法宝飞行速度\n提高法宝转向速度\n\n习得法术：天星恸[/color][/size]</EffectDesc>
+		<Modifier>Master_Modifier_Esoterica_Jin_2</Modifier>
+		<Skills>
+			<li>Master_Skill_Jin_2</li>
+		</Skills>
+	</Esoterica>
+
+	<Esoterica Name="Master_Esoterica_Gong_Jin_3">
+		<DisplayName>神狱劫</DisplayName>
+		<Icon>res/Sprs/ui/icon_yujian</Icon>
+		<StarLevel>1</StarLevel>
+		<Difficulty>4</Difficulty>
+		<Desc>天狼剑诀第四剑：神狱劫，全方面提升重剑威力。</Desc>
+		<GLevel>God</GLevel>
+		<Element>Jin</Element>
+		<Type>Fabao</Type>
+		<EffectDesc>[size=10][color=#D06508]\n提高法宝威力\n提高法宝攻击速度\n提高法宝灵气最大值\n提高法宝灵气恢复速度\n提高法宝飞行速度\n提高法宝转向速度\n提高法宝击退距离\n提高法宝击退距离抗性\n\n习得法术：神狱劫[/color][/size]</EffectDesc>
+		<Modifier>Master_Modifier_Esoterica_Jin_3</Modifier>
+		<Skills>
+			<li>Master_Skill_Jin_3</li>
+		</Skills>
+	</Esoterica>
+
+	<Esoterica Name="Master_Esoterica_Gong_Jin_4">
+		<DisplayName>天地诛</DisplayName>
+		<Icon>res/Sprs/ui/icon_yujian</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>5</Difficulty>
+		<Desc>天狼剑诀第五剑：天地诛，全方面提升重剑威力。</Desc>
+		<GLevel>God2</GLevel>
+		<Element>Jin</Element>
+		<Type>Fabao</Type>
+		<EffectDesc>[size=10][color=#D06508]\n提高法宝威力\n提高法宝攻击速度\n提高法宝灵气最大值\n提高法宝灵气恢复速度\n提高法宝飞行速度\n提高法宝转向速度\n提高法宝击退距离\n提高法宝击退距离抗性\n提高法宝拖尾长度\n\n习得法术：天地诛[/color][/size]</EffectDesc>
+		<Modifier>Master_Modifier_Esoterica_Jin_4</Modifier>
+		<Skills>
+			<li>Master_Skill_Jin_4</li>
+		</Skills>
+	</Esoterica>
+
+	<!-- 冰凰封神典 -->
+	<Esoterica Name="Master_Esoterica_Gong_Shui_0">
+		<DisplayName>冰狱莲华</DisplayName>
+		<Icon>res/Sprs/ui/icon_shufa</Icon>
+		<StarLevel>0</StarLevel>
+		<Difficulty>1</Difficulty>
+		<Desc>冰凰玄技第一境：冰狱莲华</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>Shui</Element>
+		<Type>Skill</Type>
+		<EffectDesc>[size=10][color=#D06508]\n提高法术威力\n提高法术灵气消耗\n提高法术吟唱速度\n提高法术冷却速度\n\n习得法术：冰狱莲华[/color][/size]</EffectDesc>
+		<Modifier>Master_Modifier_Esoterica_Shui_0</Modifier>
+		<Skills>
+			<li>Master_Skill_Shui_0</li>
+		</Skills>
+	</Esoterica>
+
+	<Esoterica Name="Master_Esoterica_Gong_Shui_1">
+		<DisplayName>冰心残月</DisplayName>
+		<Icon>res/Sprs/ui/icon_shufa</Icon>
+		<StarLevel>0</StarLevel>
+		<Difficulty>2</Difficulty>
+		<Desc>冰凰玄技第二境：冰心残月</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>Shui</Element>
+		<Type>Skill</Type>
+		<EffectDesc>[size=10][color=#D06508]\n提高法术威力\n提高法术灵气消耗\n提高法术吟唱速度\n提高法术冷却速度\n\n习得法术：冰心残月[/color][/size]</EffectDesc>
+		<Modifier>Master_Modifier_Esoterica_Shui_1</Modifier>
+		<Skills>
+			<li>Master_Skill_Shui_1</li>
+		</Skills>
+	</Esoterica>
+
+	<Esoterica Name="Master_Esoterica_Gong_Shui_2">
+		<DisplayName>冰凰幻影</DisplayName>
+		<Icon>res/Sprs/ui/icon_shufa</Icon>
+		<StarLevel>1</StarLevel>
+		<Difficulty>3</Difficulty>
+		<Desc>冰凰玄技第三境：冰凰幻影</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>Shui</Element>
+		<Type>Skill</Type>
+		<EffectDesc>[size=10][color=#D06508]\n提高法术威力\n提高法术灵气消耗\n提高法术吟唱速度\n提高法术冷却速度\n\n习得法术：冰凰幻影[/color][/size]</EffectDesc>
+		<Modifier>Master_Modifier_Esoterica_Shui_2</Modifier>
+		<Skills>
+			<li>Master_Skill_Shui_2</li>
+		</Skills>
+	</Esoterica>
+
+	<Esoterica Name="Master_Esoterica_Gong_Shui_3">
+		<DisplayName>冰封千里</DisplayName>
+		<Icon>res/Sprs/ui/icon_shufa</Icon>
+		<StarLevel>1</StarLevel>
+		<Difficulty>4</Difficulty>
+		<Desc>冰凰玄技第四境：冰封千里</Desc>
+		<GLevel>God</GLevel>
+		<Element>Shui</Element>
+		<Type>Skill</Type>
+		<EffectDesc>[size=10][color=#D06508]\n提高法术威力\n提高法术灵气消耗\n提高法术吟唱速度\n提高法术冷却速度\n\n习得法术：冰封千里[/color][/size]</EffectDesc>
+		<Modifier>Master_Modifier_Esoterica_Shui_3</Modifier>
+		<Skills>
+			<li>Master_Skill_Shui_3</li>
+		</Skills>
+	</Esoterica>
+
+	<Esoterica Name="Master_Esoterica_Gong_Shui_4">
+		<DisplayName>冰夷封天</DisplayName>
+		<Icon>res/Sprs/ui/icon_shufa</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>5</Difficulty>
+		<Desc>冰凰玄技第五境：冰夷封天</Desc>
+		<GLevel>God2</GLevel>
+		<Element>Shui</Element>
+		<Type>Skill</Type>
+		<EffectDesc>[size=10][color=#D06508]\n提高法术威力\n提高法术灵气消耗\n提高法术吟唱速度\n提高法术冷却速度\n\n习得法术：冰夷封天[/color][/size]</EffectDesc>
+		<Modifier>Master_Modifier_Esoterica_Shui_4</Modifier>
+		<Skills>
+			<li>Master_Skill_Shui_4</li>
+		</Skills>
+	</Esoterica>
+
+	<!-- 凤凰颂世典 -->
+	<Esoterica Name="Master_Esoterica_Gong_Huo_0">
+		<DisplayName>炙炎焚野</DisplayName>
+		<Icon>res/Sprs/ui/icon_shufa</Icon>
+		<StarLevel>0</StarLevel>
+		<Difficulty>1</Difficulty>
+		<Desc>凤凰炎技第一境：炙炎焚野</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>Huo</Element>
+		<Type>Skill</Type>
+		<EffectDesc>[size=10][color=#D06508]\n提高法术威力\n提高法术灵气消耗\n提高法术吟唱速度\n提高法术冷却速度\n\n习得法术：炙炎焚野[/color][/size]</EffectDesc>
+		<Modifier>Master_Modifier_Esoterica_Huo_0</Modifier>
+		<Skills>
+			<li>Master_Skill_Huo_0</li>
+		</Skills>
+	</Esoterica>
+
+	<Esoterica Name="Master_Esoterica_Gong_Huo_1">
+		<DisplayName>凤炎焚天</DisplayName>
+		<Icon>res/Sprs/ui/icon_shufa</Icon>
+		<StarLevel>0</StarLevel>
+		<Difficulty>2</Difficulty>
+		<Desc>凤凰炎技第二境：凤炎焚天</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>Huo</Element>
+		<Type>Skill</Type>
+		<EffectDesc>[size=10][color=#D06508]\n提高法术威力\n提高法术灵气消耗\n提高法术吟唱速度\n提高法术冷却速度\n\n习得法术：凤炎焚天[/color][/size]</EffectDesc>
+		<Modifier>Master_Modifier_Esoterica_Huo_1</Modifier>
+		<Skills>
+			<li>Master_Skill_Huo_1</li>
+		</Skills>
+	</Esoterica>
+
+	<Esoterica Name="Master_Esoterica_Gong_Huo_2">
+		<DisplayName>凤翼天穹</DisplayName>
+		<Icon>res/Sprs/ui/icon_shufa</Icon>
+		<StarLevel>1</StarLevel>
+		<Difficulty>3</Difficulty>
+		<Desc>凤凰炎技第三境：凤翼天穹</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>Huo</Element>
+		<Type>Skill</Type>
+		<EffectDesc>[size=10][color=#D06508]\n提高法术威力\n提高法术灵气消耗\n提高法术吟唱速度\n提高法术冷却速度\n\n习得法术：凤翼天穹[/color][/size]</EffectDesc>
+		<Modifier>Master_Modifier_Esoterica_Huo_2</Modifier>
+		<Skills>
+			<li>Master_Skill_Huo_2</li>
+		</Skills>
+	</Esoterica>
+
+	<Esoterica Name="Master_Esoterica_Gong_Huo_3">
+		<DisplayName>焚星妖莲</DisplayName>
+		<Icon>res/Sprs/ui/icon_shufa</Icon>
+		<StarLevel>1</StarLevel>
+		<Difficulty>4</Difficulty>
+		<Desc>凤凰炎技第四境：焚星妖莲</Desc>
+		<GLevel>God</GLevel>
+		<Element>Huo</Element>
+		<Type>Skill</Type>
+		<EffectDesc>[size=10][color=#D06508]\n提高法术威力\n提高法术灵气消耗\n提高法术吟唱速度\n提高法术冷却速度\n\n习得法术：焚星妖莲[/color][/size]</EffectDesc>
+		<Modifier>Master_Modifier_Esoterica_Huo_3</Modifier>
+		<Skills>
+			<li>Master_Skill_Huo_3</li>
+		</Skills>
+	</Esoterica>
+
+	<Esoterica Name="Master_Esoterica_Gong_Huo_4">
+		<DisplayName>灿世红莲</DisplayName>
+		<Icon>res/Sprs/ui/icon_shufa</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>5</Difficulty>
+		<Desc>凤凰炎技第五境：灿世红莲</Desc>
+		<GLevel>God2</GLevel>
+		<Element>Huo</Element>
+		<Type>Skill</Type>
+		<EffectDesc>[size=10][color=#D06508]\n提高法术威力\n提高法术灵气消耗\n提高法术吟唱速度\n提高法术冷却速度\n\n习得法术：灿世红莲[/color][/size]</EffectDesc>
+		<Modifier>Master_Modifier_Esoterica_Huo_4</Modifier>
+		<Skills>
+			<li>Master_Skill_Huo_4</li>
+		</Skills>
+	</Esoterica>
+</List></Esotericas>
