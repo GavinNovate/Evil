@@ -34,7 +34,7 @@
 	<ThingDef Type="Item" Name="Master_Item_Dan_BaseLing" Parent="DanBase">
 		<ThingName>夺天造化丹</ThingName>
 		<TexPath>res\Sprs\object\object_DAdanyao02</TexPath>
-		<Desc>传说中的丹药，传闻夺天老人偶得此丹，服用之后踏入神玄之境，后前往众神之界。 夺取天地之造化及于己身，大幅提高对天地灵气的契合度，大幅增加灵气最大值及灵气回复速度。</Desc>
+		<Desc>传说中的丹药，传闻夺天老人偶得此丹，服用之后踏入神玄之境，后前往众神之界。 夺取天地之造化及于己身，大幅提高对天地灵气的契合度，增加灵气最大值及灵气回复速度。</Desc>
 		<Rate>9</Rate>
 		<Beauty>10</Beauty>
 		<ElementKind>None</ElementKind>

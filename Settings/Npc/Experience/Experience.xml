@@ -18,7 +18,6 @@
 		<Items>
 			<li Name= "Item_Dan_NoHunger" Count="100"/>
 			<li Name= "Item_Dan_NoHunger1" Count="100"/>
-			<li Name= "Item_LingCrystal" Count="200"/>
 		</Items>
 		<ModifierDef>
 			<BaseFive>1,1,1,1,1</BaseFive>

@@ -9,7 +9,7 @@
 	</Modifier>
 	<Modifier Name="Master_Modifier_Dan_BaseLing" Type="Normal">
 		<DisplayName>夺天造化丹</DisplayName>
-		<Desc>传说中的丹药，传闻夺天老人偶得此丹，服用之后踏入神玄之境，后前往众神之界。 夺取天地之造化及于己身，大幅提高对天地灵气的契合度，大幅增加灵气最大值及灵气回复速度。</Desc>
+		<Desc>传说中的丹药，传闻夺天老人偶得此丹，服用之后踏入神玄之境，后前往众神之界。 夺取天地之造化及于己身，大幅提高对天地灵气的契合度，增加灵气最大值及灵气回复速度。</Desc>
 		<MaxStack>0</MaxStack>
 		<Duration>-1</Duration>
 		<Display>0</Display>
