@@ -4,16 +4,24 @@
 
 解压后放置到`AmazingCultivationSimulator\Mods`文件夹下。
 
+1. 在`Mods`文件夹下新建文件夹`Evil`。
+2. 将下载的Zip文件解压，把解压后的`Settings`文件夹和`Info.json`文件放置到Evil文件下。
+
 目录结构如下：
 
 ```
 AmazingCultivationSimulator
 |- Mods
    |- Evil
-   |- Settings
-   |- Info.json
-   |- Readme.md
+      |- Settings
+      |- Info.json
+      |- README.md
 ```
+
+###### 百度网盘下载
+
+链接：https://pan.baidu.com/s/1vzsB8yraRf01ChDb24SlRQ 
+提取码：nic0
 
 ### 模组内容
 
