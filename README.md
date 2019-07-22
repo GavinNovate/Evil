@@ -10,8 +10,8 @@
 AmazingCultivationSimulator
 |- Mods
    |- Evil
-   |-	Settings
-   |-	Info.json
+   |- Settings
+   |- Info.json
    |- Readme.md
 ```
 
