@@ -1,4 +1,5 @@
 # 逆天邪神模组说明
+[![Download](https://img.shields.io/badge/QQ-283831361-blue.svg)](https://jq.qq.com/?_wv=1027&k=5p6CGHM)
 
 ### 使用方法
 
