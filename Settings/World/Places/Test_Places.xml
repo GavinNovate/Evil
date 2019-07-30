@@ -1,0 +1,36 @@
+<Places><List>
+
+	<Place Name="Place_Tianjian" Parent="Place_Level1Base">
+		<DisplayName>天剑山庄</DisplayName>
+		<Location X="1080" Y="200"/>
+		<Icon>res/Sprs/map/map_zhengpai01</Icon>
+		<Flipping>1</Flipping>
+		<Desc>天下名山，道门十大洞天之三，丹霞洞天山门所在。其山势雄浑庄正，奇伟壮丽，以日落时绝壁丹霞的奇景闻名天下。丹霞山盛产老参，传闻其山内有一妙处唤作五龙池，丹霞洞天的天地灵根五色金莲就种植于此。 </Desc>
+		<School>1</School>
+		<ExploreNum>15</ExploreNum>
+		<Children>
+			<li>Place_DanXia1</li>
+			<li>Place_DanXia2</li>
+			<li>Place_DanXia3</li>
+		</Children>
+		<Events>
+			<li Name="Visit" Rate="5"/>
+			<li Name="Story" Rate="0.5"/>
+			<li Name="Treasure" Rate="0.5"/>
+			<li Name="Find" Rate="2.5"/>
+			<li Name="Secret" Rate="1"/>
+		</Events>
+		<Produce>
+			<li>
+				<ThingDef>Item_Ginseng</ThingDef>
+				<Count>10</Count>
+				<Rate>0.5</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_RedGinseng</ThingDef>
+				<Count>5</Count>
+				<Rate>0.5</Rate>
+			</li>
+		</Produce>
+	</Place>
+</List></Places>

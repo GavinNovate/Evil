@@ -8,16 +8,30 @@
 			<li Name= "Master_Sword" Quality="1"/>
 			<li Name= "Master_Item_Treasure_5" Quality="1"/>
 			<li Name= "Master_Item_Treasure_7" Quality="1"/>
+			<li Name= "Master_Item_Treasure_4" Quality="1"/>
 		</Equips>
 		<Gongs>
 			<li>Master_Gong_0</li>
 			<li>Master_Gong_1</li>
 			<li>Master_Gong_2</li>
 			<li>Master_Gong_3</li>
+
+			<li>Gong_1_Shui</li>
+			<li>Gong_2_Mu</li>
+			<li>Gong_3_Jin</li>
+			<li>Gong_4_None</li>
+			<li>Gong_5_Tu</li>
+			<li>Gong_6_Huo</li>
+			<li>Gong_7_Huo</li>
+			<li>Gong_8_Jin</li>
+			<li>Gong_9_Mu</li>
+			<li>Gong_10_Huo</li>
+			<li>Gong_11_Tu</li>
 		</Gongs>
 		<Items>
-			<li Name= "Item_Dan_NoHunger" Count="100"/>
-			<li Name= "Item_Dan_NoHunger1" Count="100"/>
+			<li Name= "Item_Dan_NoHunger" Count="1000"/>
+			<li Name= "Item_Dan_NoHunger1" Count="1000"/>
+			<li Name= "Item_Dan_JingYuan3" Count="1000"/>
 		</Items>
 		<ModifierDef>
 			<BaseFive>1,1,1,1,1</BaseFive>
