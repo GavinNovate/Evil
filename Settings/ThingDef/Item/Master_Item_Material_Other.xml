@@ -5,6 +5,7 @@
 	<Desc>灵气高度凝聚而成的结晶体，可以服用恢复100000点灵气，并在一段时间大幅增强对灵气的亲和。</Desc>
 	<Rate>12</Rate>
 	<Beauty>12</Beauty>
+	<NoElementKind>0</NoElementKind>
 	<ElementKind>Jin</ElementKind>
 	<Item>
 		<NotRandom>1</NotRandom>
@@ -77,6 +78,7 @@
 	<Desc>灵气高度凝聚而成的结晶体，可以服用恢复100000点灵气，并在一段时间大幅增强对灵气的亲和。</Desc>
 	<Rate>12</Rate>
 	<Beauty>12</Beauty>
+	<NoElementKind>0</NoElementKind>
 	<ElementKind>Mu</ElementKind>
 	<Item>
 		<NotRandom>1</NotRandom>
@@ -149,6 +151,7 @@
 	<Desc>灵气高度凝聚而成的结晶体，可以服用恢复100000点灵气，并在一段时间大幅增强对灵气的亲和。</Desc>
 	<Rate>12</Rate>
 	<Beauty>12</Beauty>
+	<NoElementKind>0</NoElementKind>
 	<ElementKind>Shui</ElementKind>
 	<Item>
 		<NotRandom>1</NotRandom>
@@ -221,6 +224,7 @@
 	<Desc>灵气高度凝聚而成的结晶体，可以服用恢复100000点灵气，并在一段时间大幅增强对灵气的亲和。</Desc>
 	<Rate>12</Rate>
 	<Beauty>12</Beauty>
+	<NoElementKind>0</NoElementKind>
 	<ElementKind>Huo</ElementKind>
 	<Item>
 		<NotRandom>1</NotRandom>
@@ -293,6 +297,7 @@
 	<Desc>灵气高度凝聚而成的结晶体，可以服用恢复100000点灵气，并在一段时间大幅增强对灵气的亲和。</Desc>
 	<Rate>12</Rate>
 	<Beauty>12</Beauty>
+	<NoElementKind>0</NoElementKind>
 	<ElementKind>Tu</ElementKind>
 	<Item>
 		<NotRandom>1</NotRandom>
