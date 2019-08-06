@@ -1,0 +1,28 @@
+<Places><List>
+	<Place Name="Evil_Place_LiuYunCheng" Parent="Place_Level2Base">
+		<Location X="1545" Y="745"/>
+		<Icon>res/Sprs/map/map_cunluo01</Icon>
+		<DisplayName>流云城</DisplayName>
+		<Desc>苍风帝国最东方的小城，不仅面积最小，地理位置也最为偏远。</Desc>
+		<UnLocked>1</UnLocked>
+		<!--<Links>
+			<li>Place_BirthPlace14</li>
+			<li>Place_ShanCity</li>
+		</Links>-->
+		<!-- <Events>
+			<li Name="Find" Rate="1"/>
+		</Events> -->
+		<!-- <Produce>
+			<li>
+				<ThingDef>Item_BoarMeat</ThingDef>
+				<Count>20</Count>
+				<Rate>1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_Beef</ThingDef>
+				<Count>20</Count>
+				<Rate>1</Rate>
+			</li>
+		</Produce> -->
+	</Place>
+</List></Places>

@@ -8,9 +8,9 @@
 			<li Name= "Master_Sword" Quality="1"/>
 			<li Name= "Master_Item_Treasure_5" Quality="1"/>
 			<li Name= "Master_Item_Treasure_7" Quality="1"/>
-			<li Name= "Master_Item_Treasure_4" Quality="1"/>
 		</Equips>
 		<Gongs>
+			<li>Evil_Gong_1</li>
 			<li>Master_Gong_0</li>
 			<li>Master_Gong_1</li>
 			<li>Master_Gong_2</li>
@@ -29,14 +29,18 @@
 			<li>Gong_11_Tu</li>
 		</Gongs>
 		<Items>
-			<li Name= "Item_Dan_NoHunger" Count="1000"/>
-			<li Name= "Item_Dan_NoHunger1" Count="1000"/>
-			<li Name= "Item_Dan_JingYuan3" Count="1000"/>
+			<li Name= "Item_BasePracticeDrug" Count="100"/>
+			<li Name= "Item_Dan_NoHunger" Count="100"/>
+			<li Name= "Item_Dan_NoHunger1" Count="100"/>
+			<li Name= "Master_Item_Dan_Test" Count="100"/>
+			<li Name= "Item_LingMuXueJie" Count="500"/>
+
+
 		</Items>
 		<ModifierDef>
 			<BaseFive>1,1,1,1,1</BaseFive>
 		</ModifierDef>
-		<NpcSlot>6</NpcSlot>
+		<NpcSlot>0</NpcSlot>
 	</Experience>
 
 </List></Experiences>

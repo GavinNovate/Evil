@@ -1,0 +1,55 @@
+<ThingDefs><List>
+
+	<ThingDef Type="Item" Name="Evil_Item_Blood_XieShen" Parent="DrugBase">
+	<ThingName>邪神之血</ThingName>
+	<MaxStack>1</MaxStack>
+	<TexPath>res\Sprs\object\object_xiemaixuequan01</TexPath>
+	<Desc>邪神之血</Desc>
+	<MaxHitPoints>500</MaxHitPoints>
+	<Rate>8</Rate>
+	<Beauty>10</Beauty>
+	<ElementKind>None</ElementKind>
+	<Color>FD6A6AE6</Color>
+	<Item Lable="Drug">
+		<FabaoSuffix>液,水,雾,烟,霭</FabaoSuffix>
+		<PhysicalLables>
+			<li>GreatThing_Ling</li>
+			<li>Liquid</li>
+		</PhysicalLables>
+		<Elixir>
+			<Modifier>Modifier_Item_EarthEssence1</Modifier>
+			<Fesistance>0.9</Fesistance>
+		</Elixir>
+		<Food>
+			<EatDirectable>1</EatDirectable>
+			<Nutrition>0</Nutrition>
+			<Water>0</Water>
+			<PracticeNutrition>60</PracticeNutrition>
+		</Food>
+		<BeMaterial>
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>8</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>15</ElementPowerWhenBeMain>
+			<LingNumberRate>0.8</LingNumberRate>
+		</BeMaterial>
+	</Item>
+	<Ling>
+		<AddionLing>0</AddionLing>
+		<AddionRadius>1</AddionRadius>
+		<AddionFailing>0.9</AddionFailing>
+		<AddionFailRadius>1</AddionFailRadius>
+
+		<Attenuation>0.1</Attenuation>
+		<Absorption>0.8</Absorption>
+		<Accommodate>45</Accommodate>
+	</Ling>
+	<Element>
+		<Kind>None</Kind>
+		<Value>15</Value>
+		<Radius>3</Radius>
+		<Failing>0.9</Failing>
+		<FailRadius>1</FailRadius>
+	</Element>
+	</ThingDef>
+
+</List></ThingDefs>

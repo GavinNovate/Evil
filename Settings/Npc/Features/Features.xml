@@ -1,0 +1,11 @@
+﻿<FeatureDefs><List>
+
+	<Feature Name="EvilFeatureDestroyed" Type="Backstory">
+		<DisplayName>玄脉尽毁</DisplayName>
+		<Desc>[NAME]的母亲在怀有[NAME]的时候，被仇敌追杀，身中寒毒，为了不让剧毒伤到腹中孩子，她拼尽全力将寒毒聚入自己的五脏之中，日夜承受寒毒锥心之苦，但还有微弱的寒毒侵入到了[NAME]的体内，危及生命。无奈之下，[NAME]的父母只得用玄力，将那少许寒毒逼入了[NAME]幼小玄脉之中，然后以雷电玄力湮灭寒毒，却也……彻底毁掉了他的玄脉。</Desc>
+		<ModifierDef>
+			<BaseFive>-9,-9,-9,-9,-9</BaseFive>
+		</ModifierDef>
+	</Feature>
+
+</List></FeatureDefs>

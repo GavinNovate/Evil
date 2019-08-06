@@ -1,0 +1,49 @@
+﻿<Experiences><List>
+	<Experience Name="Evil_Experiences">
+		<DisplayName>逆天邪神</DisplayName>
+		<Desc>掌天毒之珠，承邪神之血，修逆天之力，一代邪神，君临天下！\n\n[size=10][color=#D06508]五维属性[/color]提升！\n[color=#D06508]弟子栏位[/color]增加！\n解锁功法：[color=#D06508]逆世天书[/color]\n解锁功法：[color=#D06508]天狼狱神典[/color]\n解锁功法：[color=#D06508]冰凰封神典[/color]\n解锁功法：[color=#D06508]凤凰颂世典[/color]\n获得神兵：[color=#D06508]劫天诛魔剑[/color]\n获得至宝：[color=#D06508]天毒珠[/color]\n获得至宝：[color=#D06508]轮回镜[/color]\n[/size]</Desc>
+		<Point>5</Point>
+		<Hide>1</Hide>
+		<Equips>
+			<li Name= "Master_Sword" Quality="1"/>
+			<li Name= "Master_Item_Treasure_5" Quality="1"/>
+			<li Name= "Master_Item_Treasure_7" Quality="1"/>
+		</Equips>
+		<Gongs>
+			<li>Evil_Gong_1</li>
+			<li>Master_Gong_0</li>
+			<li>Master_Gong_1</li>
+			<li>Master_Gong_2</li>
+			<li>Master_Gong_3</li>
+
+			<li>Gong_1_Shui</li>
+			<li>Gong_2_Mu</li>
+			<li>Gong_3_Jin</li>
+			<li>Gong_4_None</li>
+			<li>Gong_5_Tu</li>
+			<li>Gong_6_Huo</li>
+			<li>Gong_7_Huo</li>
+			<li>Gong_8_Jin</li>
+			<li>Gong_9_Mu</li>
+			<li>Gong_10_Huo</li>
+			<li>Gong_11_Tu</li>
+		</Gongs>
+		<Items>
+			<li Name= "Item_BasePracticeDrug" Count="100"/>
+			<li Name= "Item_Dan_NoHunger" Count="100"/>
+			<li Name= "Item_Dan_NoHunger1" Count="100"/>
+			<li Name= "Master_Item_Dan_Test" Count="100"/>
+			<li Name= "Item_LingMuXueJie" Count="500"/>
+
+			<li Name= "Evil_Item_Blood_XieShen" Count="5"/>
+
+
+
+		</Items>
+		<!-- <ModifierDef>
+			<BaseFive>1,1,1,1,1</BaseFive>
+		</ModifierDef> -->
+		<NpcSlot>0</NpcSlot>
+	</Experience>
+
+</List></Experiences>

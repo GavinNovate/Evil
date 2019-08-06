@@ -113,15 +113,13 @@
 		<Display>0</Display>
 		<Properties>
 			<!-- 筑基速度 -->
-			<li Name="BasepracticeSpeedCoefficient" AddP="1000"/>
+			<li Name="BasepracticeSpeedCoefficient" AddP="1"/>
 			<!-- 领悟速度 -->
-			<li Name="InspirationCoefficient" AddP="1000"/>
+			<li Name="InspirationCoefficient" AddP="1"/>
 			<!-- 修炼速度 -->
-			<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="1000"/>
+			<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="1"/>
 			<!-- 参悟速度 -->
-			<li Name="IntelligenceSkillEXPConstant" AddP="1000"/>
-
-			<li Name="LingAbsorbSpeed" AddP="10000"/>
+			<li Name="IntelligenceSkillEXPConstant" AddP="1"/>
 		</Properties>
 	</Modifier>
 
