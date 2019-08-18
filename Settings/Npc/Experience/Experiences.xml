@@ -1,0 +1,90 @@
+﻿<Experiences><List>
+	<Experience Name="Evil_Experiences">
+		<DisplayName>逆天邪神</DisplayName>
+		<Desc>掌天毒之珠，承邪神之血，修逆天之力，一代邪神，君临天下！\n\n[size=10][color=#D06508]五维属性[/color]提升！\n[color=#D06508]弟子栏位[/color]增加！\n解锁功法：[color=#D06508]逆世天书[/color]\n解锁功法：[color=#D06508]天狼狱神典[/color]\n解锁功法：[color=#D06508]冰凰封神典[/color]\n解锁功法：[color=#D06508]凤凰颂世典[/color]\n获得神兵：[color=#D06508]劫天诛魔剑[/color]\n获得至宝：[color=#D06508]天毒珠[/color]\n获得至宝：[color=#D06508]轮回镜[/color]\n[/size]</Desc>
+		<Point>5</Point>
+		<Hide>1</Hide>
+		<Equips>
+			<li Name= "Master_Sword" Quality="1"/>
+			<li Name= "Master_Item_Treasure_5" Quality="1"/>
+			<li Name= "Master_Item_Treasure_7" Quality="1"/>
+		</Equips>
+		<Gongs>
+			<li>Evil_Gong_1</li>
+			<li>Master_Gong_0</li>
+			<li>Master_Gong_1</li>
+			<li>Master_Gong_2</li>
+			<li>Master_Gong_3</li>
+
+			<li>Gong_1_Shui</li>
+			<li>Gong_2_Mu</li>
+			<li>Gong_3_Jin</li>
+			<li>Gong_4_None</li>
+			<li>Gong_5_Tu</li>
+			<li>Gong_6_Huo</li>
+			<li>Gong_7_Huo</li>
+			<li>Gong_8_Jin</li>
+			<li>Gong_9_Mu</li>
+			<li>Gong_10_Huo</li>
+			<li>Gong_11_Tu</li>
+		</Gongs>
+		<Items>
+			<li Name= "Item_BasePracticeDrug" Count="100"/>
+			<li Name= "Item_Dan_NoHunger" Count="100"/>
+			<li Name= "Item_Dan_NoHunger1" Count="100"/>
+			<li Name= "Master_Item_Dan_Test" Count="100"/>
+			<li Name= "Item_LingMuXueJie" Count="500"/>
+
+			<li Name= "Evil_Item_Blood_XieShen" Count="5"/>
+
+
+
+		</Items>
+		<!-- <ModifierDef>
+			<BaseFive>1,1,1,1,1</BaseFive>
+		</ModifierDef> -->
+		<NpcSlot>0</NpcSlot>
+	</Experience>
+
+	<Experience Name="Evil_Experience_01">
+		<DisplayName>轮回镜</DisplayName>
+		<Desc>玄天至宝轮回镜，在万年前因不明原因现于蓝极星，为妖皇一族所得，后落于云澈之身，在他身上莫名发动了两次轮回之力，目前处于沉寂之中。\n\n\n[size=10]获得玄天至宝：[color=#D06508]轮回镜[/color][/size]</Desc>
+		<Point>1</Point>
+		<Hide>1</Hide>
+		<Equips>
+			<li Name= "Master_Item_Treasure_7" Quality="1"/>
+		</Equips>
+		<NpcSlot>-1</NpcSlot>
+	</Experience>
+
+	<Experience Name="Evil_Experience_02">
+		<DisplayName>天毒珠</DisplayName>
+		<Desc>玄天至宝天毒珠，诸神时代之初为魔族劫天魔帝所得，后劫天魔帝为神族所灭，天毒珠为邪婴万劫轮所劫，释放出灭世之毒万劫无生毒杀万灵，后毒力耗尽，难以恢复，为邪神封印于沧云大陆。封印自解后为云谷所得，传予云澈。\n\n\n[size=10]获得玄天至宝：[color=#D06508]天毒珠[/color][/size]</Desc>
+		<Point>1</Point>
+		<Hide>1</Hide>
+		<Equips>
+			<li Name= "Evil_Item_Treasure_5" Quality="1"/>
+		</Equips>
+		<NpcSlot>-1</NpcSlot>
+	</Experience>
+
+	<Experience Name="Evil_Experience_03">
+		<DisplayName>邪神诀</DisplayName>
+		<Desc>邪神诀传自上古真神邪神，能让玄力违背常理地暴增，甚至逆乱法则。在轮回镜逆转轮回的干涉下，云澈竟提前领悟了此功法。\n\n\n[size=10]解锁功法：[color=#D06508]《邪神诀》[/color][/size]</Desc>
+		<Point>3</Point>
+		<Hide>1</Hide>
+		<Gongs>
+			<li>Evil_Gong_1</li>
+		</Gongs>
+		<!-- TODO Just For Test -->
+		<Items>
+			<li Name= "Evil_Item_Treasure_1" Count="1"/>
+			<li Name= "Evil_Item_Treasure_2" Count="1"/>
+			<li Name= "Evil_Item_Treasure_3" Count="1"/>
+			<li Name= "Evil_Item_Treasure_4" Count="1"/>
+			<li Name= "Evil_Item_Treasure_5" Count="1"/>
+			<li Name= "Evil_Item_Treasure_6" Count="1"/>
+			<li Name= "Evil_Item_Treasure_7" Count="1"/>
+		</Items>
+	</Experience>
+</List></Experiences>

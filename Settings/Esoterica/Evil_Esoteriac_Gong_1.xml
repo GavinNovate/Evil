@@ -1,0 +1,197 @@
+﻿<Esotericas><List>
+	<!-- 邪神诀 -->
+	<Esoterica Name="Evil_Esoterica_Gong_1_XuanGuan">
+		<DisplayName>玄关</DisplayName>
+		<Icon>res/Sprs/ui/icon_jichu</Icon>
+		<StarLevel>0</StarLevel>
+		<Difficulty>1</Difficulty>
+		<Desc>邪神境关第一境：邪魄，引发玄力狂暴，从根本上提高灵气最大值。</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>None</Element>
+		<Type>Skill</Type>
+		<EffectDesc>[size=10][color=#D06508]\n提高灵气根本值[/color][/size]</EffectDesc>
+		<Modifier>Master_Modifier_Esoterica_Xie_0</Modifier>
+	</Esoterica>
+	<Esoterica Name="Evil_Esoterica_Gong_1_JingGuan">
+		<DisplayName>境关</DisplayName>
+		<Icon>res/Sprs/ui/icon_jichu</Icon>
+		<StarLevel>0</StarLevel>
+		<Difficulty>1</Difficulty>
+		<Desc>邪神境关第一境：邪魄，引发玄力狂暴，从根本上提高灵气最大值。</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>None</Element>
+		<Type>Skill</Type>
+		<EffectDesc>[size=10][color=#D06508]\n提高灵气根本值[/color][/size]</EffectDesc>
+		<Modifier>Master_Modifier_Esoterica_Xie_0</Modifier>
+	</Esoterica>
+
+	<Esoterica Name="Evil_Esoterica_Gong_1_XiePo">
+		<DisplayName>邪魄</DisplayName>
+		<Icon>res/Sprs/ui/icon_jichu</Icon>
+		<StarLevel>1</StarLevel>
+		<Difficulty>1</Difficulty>
+		<Desc>邪神境关第一境：邪魄，引发玄力狂暴，从根本上提高灵气最大值。</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>None</Element>
+		<Type>Skill</Type>
+		<EffectDesc>[size=10][color=#D06508]\n提高灵气根本值[/color][/size]</EffectDesc>
+		<Modifier>Master_Modifier_Esoterica_Xie_0</Modifier>
+	</Esoterica>
+	<Esoterica Name="Evil_Esoterica_Gong_1_FenXin">
+		<DisplayName>焚心</DisplayName>
+		<Icon>res/Sprs/ui/icon_jichu</Icon>
+		<StarLevel>1</StarLevel>
+		<Difficulty>2</Difficulty>
+		<Desc>邪神境关第一境：邪魄，引发玄力狂暴，从根本上提高灵气最大值。</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>None</Element>
+		<Type>Skill</Type>
+		<EffectDesc>[size=10][color=#D06508]\n提高灵气根本值[/color][/size]</EffectDesc>
+		<Modifier>Master_Modifier_Esoterica_Xie_0</Modifier>
+	</Esoterica>
+	<Esoterica Name="Evil_Esoterica_Gong_1_LianYu">
+		<DisplayName>炼狱</DisplayName>
+		<Icon>res/Sprs/ui/icon_jichu</Icon>
+		<StarLevel>1</StarLevel>
+		<Difficulty>3</Difficulty>
+		<Desc>邪神境关第一境：邪魄，引发玄力狂暴，从根本上提高灵气最大值。</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>None</Element>
+		<Type>Skill</Type>
+		<EffectDesc>[size=10][color=#D06508]\n提高灵气根本值[/color][/size]</EffectDesc>
+		<Modifier>Master_Modifier_Esoterica_Xie_0</Modifier>
+	</Esoterica>
+	<Esoterica Name="Evil_Esoterica_Gong_1_HongTian">
+		<DisplayName>轰天</DisplayName>
+		<Icon>res/Sprs/ui/icon_jichu</Icon>
+		<StarLevel>1</StarLevel>
+		<Difficulty>4</Difficulty>
+		<Desc>邪神境关第一境：邪魄，引发玄力狂暴，从根本上提高灵气最大值。</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>None</Element>
+		<Type>Skill</Type>
+		<EffectDesc>[size=10][color=#D06508]\n提高灵气根本值[/color][/size]</EffectDesc>
+		<Modifier>Master_Modifier_Esoterica_Xie_0</Modifier>
+	</Esoterica>
+	<Esoterica Name="Evil_Esoterica_Gong_1_YanHuang">
+		<DisplayName>阎皇</DisplayName>
+		<Icon>res/Sprs/ui/icon_jichu</Icon>
+		<StarLevel>1</StarLevel>
+		<Difficulty>5</Difficulty>
+		<Desc>邪神境关第一境：邪魄，引发玄力狂暴，从根本上提高灵气最大值。</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>None</Element>
+		<Type>Skill</Type>
+		<EffectDesc>[size=10][color=#D06508]\n提高灵气根本值[/color][/size]</EffectDesc>
+		<Modifier>Master_Modifier_Esoterica_Xie_0</Modifier>
+	</Esoterica>
+	<Esoterica Name="Evil_Esoterica_Gong_1_JingGuan06">
+		<DisplayName>？？</DisplayName>
+		<Icon>res/Sprs/ui/icon_jichu</Icon>
+		<StarLevel>1</StarLevel>
+		<Difficulty>9999</Difficulty>
+		<Desc>邪神境关第一境：邪魄，引发玄力狂暴，从根本上提高灵气最大值。</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>None</Element>
+		<Type>Skill</Type>
+		<EffectDesc>[size=10][color=#D06508]\n提高灵气根本值[/color][/size]</EffectDesc>
+		<Modifier>Master_Modifier_Esoterica_Xie_0</Modifier>
+	</Esoterica>
+	<Esoterica Name="Evil_Esoterica_Gong_1_JingGuan07">
+		<DisplayName>？？</DisplayName>
+		<Icon>res/Sprs/ui/icon_jichu</Icon>
+		<StarLevel>1</StarLevel>
+		<Difficulty>9999</Difficulty>
+		<Desc>邪神境关第一境：邪魄，引发玄力狂暴，从根本上提高灵气最大值。</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>None</Element>
+		<Type>Skill</Type>
+		<EffectDesc>[size=10][color=#D06508]\n提高灵气根本值[/color][/size]</EffectDesc>
+		<Modifier>Master_Modifier_Esoterica_Xie_0</Modifier>
+	</Esoterica>
+
+	<Esoterica Name="Evil_Esoterica_Gong_1_YunYueChenXing">
+		<DisplayName>陨月沉星</DisplayName>
+		<Icon>res/Sprs/ui/icon_jichu</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>1</Difficulty>
+		<Desc>邪神境关第一境：邪魄，引发玄力狂暴，从根本上提高灵气最大值。</Desc>
+		<GLevel>God</GLevel>
+		<Element>None</Element>
+		<Type>Skill</Type>
+		<EffectDesc>[size=10][color=#D06508]\n提高灵气根本值[/color][/size]</EffectDesc>
+		<Modifier>Master_Modifier_Esoterica_Xie_0</Modifier>
+	</Esoterica>
+	<Esoterica Name="Evil_Esoterica_Gong_1_FengYunSuoRi">
+		<DisplayName>封云锁日</DisplayName>
+		<Icon>res/Sprs/ui/icon_huti</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>2</Difficulty>
+		<Desc>邪神境关第一境：邪魄，引发玄力狂暴，从根本上提高灵气最大值。</Desc>
+		<GLevel>God</GLevel>
+		<Element>None</Element>
+		<Type>Skill</Type>
+		<EffectDesc>[size=10][color=#D06508]\n提高灵气根本值[/color][/size]</EffectDesc>
+		<Modifier>Master_Modifier_Esoterica_Xie_0</Modifier>
+	</Esoterica>
+	<Esoterica Name="Evil_Esoterica_Gong_1_MieTianJueDi">
+		<DisplayName>滅天绝地</DisplayName>
+		<Icon>res/Sprs/ui/icon_jichu</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>4</Difficulty>
+		<Desc>邪神境关第一境：邪魄，引发玄力狂暴，从根本上提高灵气最大值。</Desc>
+		<GLevel>God</GLevel>
+		<Element>None</Element>
+		<Type>Skill</Type>
+		<EffectDesc>[size=10][color=#D06508]\n提高灵气根本值[/color][/size]</EffectDesc>
+		<Modifier>Master_Modifier_Esoterica_Xie_0</Modifier>
+	</Esoterica>
+	<Esoterica Name="Evil_Esoterica_Gong_1_YueWanXingHui">
+		<DisplayName>月挽星回</DisplayName>
+		<Icon>res/Sprs/ui/icon_huti</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>4</Difficulty>
+		<Desc>邪神境关第一境：邪魄，引发玄力狂暴，从根本上提高灵气最大值。</Desc>
+		<GLevel>God</GLevel>
+		<Element>None</Element>
+		<Type>Skill</Type>
+		<EffectDesc>[size=10][color=#D06508]\n提高灵气根本值[/color][/size]</EffectDesc>
+		<Modifier>Master_Modifier_Esoterica_Xie_0</Modifier>
+	</Esoterica>
+	<Esoterica Name="Evil_Esoterica_Gong_1_BiAnXiuLuo">
+		<DisplayName>彼岸修罗</DisplayName>
+		<Icon>res/Sprs/ui/icon_jichu</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>5</Difficulty>
+		<Desc>邪神境关第一境：邪魄，引发玄力狂暴，从根本上提高灵气最大值。</Desc>
+		<GLevel>God</GLevel>
+		<Element>None</Element>
+		<Type>Skill</Type>
+		<EffectDesc>[size=10][color=#D06508]\n提高灵气根本值[/color][/size]</EffectDesc>
+		<Modifier>Master_Modifier_Esoterica_Xie_0</Modifier>
+	</Esoterica>
+	<Esoterica Name="Evil_Esoterica_Gong_1_JingGuanJiNeng06">
+		<DisplayName>？？？？</DisplayName>
+		<Icon>res/Sprs/ui/icon_jichu</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>9999</Difficulty>
+		<Desc>邪神境关第一境：邪魄，引发玄力狂暴，从根本上提高灵气最大值。</Desc>
+		<GLevel>God</GLevel>
+		<Element>None</Element>
+		<Type>Skill</Type>
+		<EffectDesc>[size=10][color=#D06508]\n提高灵气根本值[/color][/size]</EffectDesc>
+		<Modifier>Master_Modifier_Esoterica_Xie_0</Modifier>
+	</Esoterica>
+	<Esoterica Name="Evil_Esoterica_Gong_1_JingGuanJiNeng07">
+		<DisplayName>？？？？</DisplayName>
+		<Icon>res/Sprs/ui/icon_jichu</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>9999</Difficulty>
+		<Desc>邪神境关第一境：邪魄，引发玄力狂暴，从根本上提高灵气最大值。</Desc>
+		<GLevel>God</GLevel>
+		<Element>None</Element>
+		<Type>Skill</Type>
+		<EffectDesc>[size=10][color=#D06508]\n提高灵气根本值[/color][/size]</EffectDesc>
+		<Modifier>Master_Modifier_Esoterica_Xie_0</Modifier>
+	</Esoterica>
+</List></Esotericas>

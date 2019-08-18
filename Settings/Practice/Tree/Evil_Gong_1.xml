@@ -1,0 +1,355 @@
+﻿<SkillTree><List>
+	<Node Name="Evil_Gong_1_XuanGuan" Gong="Evil_Gong_1">
+		<Esoterica>Evil_Esoterica_Gong_1_XuanGuan</Esoterica>
+		<DisplayName>玄关</DisplayName>
+		<Level>Qi</Level>
+		<Index>5</Index>
+		<Line>0,0,0,0,1,0,2,0</Line>
+		<PreUnit>
+		<!--	<li></li>-->
+		</PreUnit>
+		<MutexUnit>
+		<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--<li Name="" Level="1"/>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	<Node Name="Evil_Gong_1_JingGuan" Gong="Evil_Gong_1">
+		<Esoterica>Evil_Esoterica_Gong_1_JingGuan</Esoterica>
+		<DisplayName>境关</DisplayName>
+		<Level>Dan1</Level>
+		<Index>5</Index>
+		<Line>0,0,0,0,1,1,2,1</Line>
+		<PreUnit>
+			<li>Evil_Gong_1_XuanGuan</li>
+		</PreUnit>
+		<MutexUnit>
+		<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--<li Name="" Level="1"/>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+
+	<Node Name="Evil_Gong_1_Line_B02" Gong="Evil_Gong_1">
+		<Level>Dan1</Level>
+		<Index>2</Index>
+		<Line>0,0,0,0,0,1,2,0</Line>
+	</Node>
+	<Node Name="Evil_Gong_1_Line_B03" Gong="Evil_Gong_1">
+		<Level>Dan1</Level>
+		<Index>3</Index>
+		<Line>0,0,0,0,0,1,2,1</Line>
+	</Node>
+	<Node Name="Evil_Gong_1_Line_B04" Gong="Evil_Gong_1">
+		<Level>Dan1</Level>
+		<Index>4</Index>
+		<Line>0,0,0,0,0,1,2,1</Line>
+	</Node>
+	<Node Name="Evil_Gong_1_Line_B06" Gong="Evil_Gong_1">
+		<Level>Dan1</Level>
+		<Index>6</Index>
+		<Line>0,0,0,0,0,1,2,1</Line>
+	</Node>
+	<Node Name="Evil_Gong_1_Line_B07" Gong="Evil_Gong_1">
+		<Level>Dan1</Level>
+		<Index>7</Index>
+		<Line>0,0,0,0,0,1,2,1</Line>
+	</Node>
+	<Node Name="Evil_Gong_1_Line_B08" Gong="Evil_Gong_1">
+		<Level>Dan1</Level>
+		<Index>8</Index>
+		<Line>0,0,0,0,0,0,2,1</Line>
+	</Node>
+
+	<Node Name="Evil_Gong_1_XiePo" Gong="Evil_Gong_1">
+		<Esoterica>Evil_Esoterica_Gong_1_XiePo</Esoterica>
+		<DisplayName>邪魄</DisplayName>
+		<Level>Dan2</Level>
+		<Index>2</Index>
+		<Line>0,0,0,0,1,0,2,0</Line>
+		<PreUnit>
+			<li>Evil_Gong_1_JingGuan</li>
+		</PreUnit>
+		<MutexUnit>
+		<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--<li Name="" Level="1"/>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	<Node Name="Evil_Gong_1_FenXin" Gong="Evil_Gong_1">
+		<Esoterica>Evil_Esoterica_Gong_1_FenXin</Esoterica>
+		<DisplayName>焚心</DisplayName>
+		<Level>Dan2</Level>
+		<Index>3</Index>
+		<Line>0,0,0,0,1,0,2,0</Line>
+		<PreUnit>
+			<li>Evil_Gong_1_JingGuan</li>
+		</PreUnit>
+		<MutexUnit>
+		<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--<li Name="" Level="1"/>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	<Node Name="Evil_Gong_1_LianYu" Gong="Evil_Gong_1">
+		<Esoterica>Evil_Esoterica_Gong_1_LianYu</Esoterica>
+		<DisplayName>炼狱</DisplayName>
+		<Level>Dan2</Level>
+		<Index>4</Index>
+		<Line>0,0,0,0,1,0,2,0</Line>
+		<PreUnit>
+			<li>Evil_Gong_1_JingGuan</li>
+		</PreUnit>
+		<MutexUnit>
+		<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--<li Name="" Level="1"/>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	<Node Name="Evil_Gong_1_HongTian" Gong="Evil_Gong_1">
+		<Esoterica>Evil_Esoterica_Gong_1_HongTian</Esoterica>
+		<DisplayName>轰天</DisplayName>
+		<Level>Dan2</Level>
+		<Index>5</Index>
+		<Line>0,0,0,0,1,0,2,0</Line>
+		<PreUnit>
+			<li>Evil_Gong_1_JingGuan</li>
+		</PreUnit>
+		<MutexUnit>
+		<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--<li Name="" Level="1"/>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	<Node Name="Evil_Gong_1_YanHuang" Gong="Evil_Gong_1">
+		<Esoterica>Evil_Esoterica_Gong_1_YanHuang</Esoterica>
+		<DisplayName>阎皇</DisplayName>
+		<Level>Dan2</Level>
+		<Index>6</Index>
+		<Line>0,0,0,0,1,0,2,0</Line>
+		<PreUnit>
+			<li>Evil_Gong_1_JingGuan</li>
+		</PreUnit>
+		<MutexUnit>
+			<!-- <li></li> -->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--<li Name="" Level="1"/>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	<Node Name="Evil_Gong_1_JingGuan06" Gong="Evil_Gong_1">
+		<Esoterica>Evil_Esoterica_Gong_1_JingGuan06</Esoterica>
+		<DisplayName>？？</DisplayName>
+		<Level>Dan2</Level>
+		<Index>7</Index>
+		<Line>0,0,0,0,1,0,2,0</Line>
+		<PreUnit>
+			<li>Evil_Gong_1_JingGuan</li>
+		</PreUnit>
+		<MutexUnit>
+		<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--<li Name="" Level="1"/>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	<Node Name="Evil_Gong_1_JingGuan07" Gong="Evil_Gong_1">
+		<Esoterica>Evil_Esoterica_Gong_1_JingGuan07</Esoterica>
+		<DisplayName>？？</DisplayName>
+		<Level>Dan2</Level>
+		<Index>8</Index>
+		<Line>0,0,0,0,1,0,2,0</Line>
+		<PreUnit>
+			<li>Evil_Gong_1_JingGuan</li>
+		</PreUnit>
+		<MutexUnit>
+		<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--<li Name="" Level="1"/>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+
+	<Node Name="Evil_Gong_1_YunYueChenXing" Gong="Evil_Gong_1">
+		<Esoterica>Evil_Esoterica_Gong_1_YunYueChenXing</Esoterica>
+		<DisplayName>陨月沉星</DisplayName>
+		<Level>God</Level>
+		<Index>2</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<PreUnit>
+			<li>Evil_Gong_1_XiePo</li>
+		</PreUnit>
+		<MutexUnit>
+		<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--<li Name="" Level="1"/>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	<Node Name="Evil_Gong_1_FengYunSuoRi" Gong="Evil_Gong_1">
+		<Esoterica>Evil_Esoterica_Gong_1_FengYunSuoRi</Esoterica>
+		<DisplayName>封云锁日</DisplayName>
+		<Level>God</Level>
+		<Index>3</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<PreUnit>
+			<li>Evil_Gong_1_FenXin</li>
+		</PreUnit>
+		<MutexUnit>
+		<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--<li Name="" Level="1"/>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	<Node Name="Evil_Gong_1_MieTianJueDi" Gong="Evil_Gong_1">
+		<Esoterica>Evil_Esoterica_Gong_1_MieTianJueDi</Esoterica>
+		<DisplayName>滅天绝地</DisplayName>
+		<Level>God</Level>
+		<Index>4</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<PreUnit>
+			<li>Evil_Gong_1_LianYu</li>
+		</PreUnit>
+		<MutexUnit>
+		<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--<li Name="" Level="1"/>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	<Node Name="Evil_Gong_1_YueWanXingHui" Gong="Evil_Gong_1">
+		<Esoterica>Evil_Esoterica_Gong_1_YueWanXingHui</Esoterica>
+		<DisplayName>月挽星回</DisplayName>
+		<Level>God</Level>
+		<Index>5</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<PreUnit>
+			<li>Evil_Gong_1_HongTian</li>
+		</PreUnit>
+		<MutexUnit>
+		<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--<li Name="" Level="1"/>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	<Node Name="Evil_Gong_1_BiAnXiuLuo" Gong="Evil_Gong_1">
+		<Esoterica>Evil_Esoterica_Gong_1_BiAnXiuLuo</Esoterica>
+		<DisplayName>彼岸修罗</DisplayName>
+		<Level>God</Level>
+		<Index>6</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<PreUnit>
+			<li>Evil_Gong_1_YanHuang</li>
+		</PreUnit>
+		<MutexUnit>
+		<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--<li Name="" Level="1"/>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	<Node Name="Evil_Gong_1_JingGuanJiNeng06" Gong="Evil_Gong_1">
+		<Esoterica>Evil_Esoterica_Gong_1_JingGuanJiNeng06</Esoterica>
+		<DisplayName>？？？？</DisplayName>
+		<Level>God</Level>
+		<Index>7</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<PreUnit>
+			<li>Evil_Gong_1_JingGuan06</li>
+		</PreUnit>
+		<MutexUnit>
+		<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--<li Name="" Level="1"/>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	<Node Name="Evil_Gong_1_JingGuanJiNeng07" Gong="Evil_Gong_1">
+		<Esoterica>Evil_Esoterica_Gong_1_JingGuanJiNeng07</Esoterica>
+		<DisplayName>？？？？</DisplayName>
+		<Level>God</Level>
+		<Index>8</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<PreUnit>
+			<li>Evil_Gong_1_JingGuan07</li>
+		</PreUnit>
+		<MutexUnit>
+		<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--<li Name="" Level="1"/>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+</List></SkillTree>

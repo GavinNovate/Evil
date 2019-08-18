@@ -1,0 +1,54 @@
+<Stories><List>
+
+	<!-- 解锁功法 -->
+	<Story Name="Secrets_UnLockMasterGong"  Parent="BaseFillingStory">
+		<DisplayName>太一宝光</DisplayName>
+		<Desc>[NAME]循着宝光的方向看去，发现一个宝匣落在地上。</Desc>
+		<Selections>
+			<li>
+				<Display>入内寻宝</Display>
+				<OKResult><![CDATA[
+
+				me:AddMsg(XT("[NAME]激动的打开了宝匣。"));
+					me:UnLockGong("Master_Gong_0");
+					me:UnLockGong("Master_Gong_1");
+					me:UnLockGong("Master_Gong_2");
+					me:UnLockGong("Master_Gong_3");
+					me:DropRandomItem("Esoterica");
+					story:FinishSecret();
+
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+
+	<Story Name="Evil_Story_LiuYunCheng_001"  Parent="BaseFillingStory">
+	<DisplayName>流云城</DisplayName>
+	<Desc>苍风帝国最东方的小城，不仅面积最小，地理位置也最为偏远。</Desc>
+	<!-- <Kind>Evil_Story_LiuYunCheng_001</Kind> -->
+	<Selections>
+		<li>
+			<Display>萧门</Display>
+			<OKResult><![CDATA[
+				me:AddMsg(XT("[NAME]去萧门逛了逛。"));
+			]]>
+			</OKResult>
+		</li>
+		<li>
+			<Display>夏府</Display>
+			<OKResult><![CDATA[
+				me:AddMsg(XT("[NAME]去夏府逛了逛。"));
+			]]>
+			</OKResult>
+		</li>
+		<li>
+			<Display>后山</Display>
+			<OKResult><![CDATA[
+				me:AddMsg(XT("[NAME]去萧门后山逛了逛。"));
+			]]>
+			</OKResult>
+		</li>
+	</Selections>
+</Story>
+</List></Stories>

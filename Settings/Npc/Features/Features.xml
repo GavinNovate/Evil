@@ -1,0 +1,35 @@
+﻿<FeatureDefs><List>
+
+	<Feature Name="EvilFeatureDisabled" Type="Backstory">
+		<DisplayName>玄脉残废</DisplayName>
+		<Desc>幼年的经历让[NAME]的玄脉尽毁，这会让[IT]在修玄的道路上寸步难行。</Desc>
+		<ModifierDef>
+			<BaseFive>-9,-9,0,0,0</BaseFive>
+			<Properties>
+				<!-- 筑基速度 -->
+				<li Name="BasepracticeSpeedCoefficient" AddP="-0.99"/>
+				<!-- 修炼速度 -->
+				<li Name="IntelligenceSkillEXPConstant" AddP="-0.99"/>
+			</Properties>
+		</ModifierDef>
+	</Feature>
+
+	<Feature Name="EvilFeatureLuck" Type="Backstory">
+		<DisplayName>气运加身</DisplayName>
+		<Desc></Desc>
+		<HideInUI>1</HideInUI>
+		<ModifierDef>
+			<BaseFive>0,0,1,0,6</BaseFive>
+		</ModifierDef>
+	</Feature>
+
+	<Feature Name="EvilFeatureIntelligence" Type="Backstory">
+		<DisplayName>三世轮回</DisplayName>
+		<Desc></Desc>
+		<HideInUI>1</HideInUI>
+		<ModifierDef>
+			<BaseFive>0,0,1,6,0</BaseFive>
+		</ModifierDef>
+	</Feature>
+
+</List></FeatureDefs>

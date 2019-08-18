@@ -1,0 +1,254 @@
+<ThingDefs><List>
+	<ThingDef Type="Item" Name="Evil_Item_Treasure_1" Parent="ToolBase">
+	<Tags>
+	</Tags>
+	<ThingName>诛天始祖剑</ThingName>
+	<MaxStack>1</MaxStack>
+	<Rate>12</Rate>
+	<Beauty>12</Beauty>
+	<Quality>100</Quality>
+	<TexPath>Spr\Object\treasure01.png</TexPath>
+	<Desc>由混沌世界至纯至圣之力所孕育的神剑，为混沌世界的第一把剑，世间万器之始祖，有着强大到忤逆秩序的力量。\n\n[size=10]大幅提升[color=#D06508]法宝威力[/color]！[/size]</Desc>
+	<Flammability>
+		<Flammability>-1</Flammability>
+		<FlameSpawnThingDef></FlameSpawnThingDef>
+		<FlameSpawnChance>0</FlameSpawnChance>
+	</Flammability>
+	<Item Kind="Equipment">
+		<NotRandom>1</NotRandom>
+		<FabaoSuffix>剑</FabaoSuffix>
+		<PhysicalLables>
+			<li>SmallThing</li>
+		</PhysicalLables>
+		<BeMade>
+			<WorkToMake>100</WorkToMake>
+			<Quality>100</Quality>
+			<CostItems>
+				<Item name = "Master_Item_LingCrystal_Jin" count = "5"/>
+			</CostItems>
+		</BeMade>
+		<Equip>
+			<!-- 法宝威力 -->
+			<ToolModifier>Master_Modifier_Tool_10</ToolModifier>
+		</Equip>
+	</Item>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="Evil_Item_Treasure_2" Parent="ToolBase">
+	<Tags>
+	</Tags>
+	<ThingName>邪婴万劫轮</ThingName>
+	<MaxStack>1</MaxStack>
+	<Rate>12</Rate>
+	<Beauty>12</Beauty>
+	<Quality>100</Quality>
+	<TexPath>Spr\Object\treasure02.png</TexPath>
+	<Desc>由混沌空间至阴至恶之力所生，拥有世间最极致的毁灭之力，其毁灭之力释放之时，会伴随如婴儿啼哭般的声音。\n\n[size=10]大幅提升[color=#D06508]法术威力[/color]！[/size]</Desc>
+	<Flammability>
+		<Flammability>-1</Flammability>
+		<FlameSpawnThingDef></FlameSpawnThingDef>
+		<FlameSpawnChance>0</FlameSpawnChance>
+	</Flammability>
+	<Item Kind="Equipment">
+		<NotRandom>1</NotRandom>
+		<FabaoSuffix>轮</FabaoSuffix>
+		<PhysicalLables>
+			<li>SmallThing</li>
+		</PhysicalLables>
+		<BeMade>
+			<WorkToMake>100</WorkToMake>
+			<Quality>100</Quality>
+			<CostItems>
+				<Item name = "Master_Item_LingCrystal_Shui" count = "5"/>
+			</CostItems>
+		</BeMade>
+		<Equip>
+			<!-- 法术威力 -->
+			<ToolModifier>Master_Modifier_Tool_20</ToolModifier>
+		</Equip>
+	</Item>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="Evil_Item_Treasure_3" Parent="ToolBase">
+	<Tags>
+	</Tags>
+	<ThingName>鸿蒙生死印</ThingName>
+	<MaxStack>1</MaxStack>
+	<Rate>12</Rate>
+	<Beauty>12</Beauty>
+	<Quality>100</Quality>
+	<TexPath>Spr\Object\treasure03.png</TexPath>
+	<Desc>孕生于鸿蒙宇宙的中心，气机与鸿蒙宇宙相连，只要鸿蒙宇宙不死，它就永恒不灭，是整个鸿蒙空间中唯一的永生之器，为万灵所觊觎。\n\n[size=10]大幅提升[color=#D06508]寿元[/color]！[/size]</Desc>
+	<Flammability>
+		<Flammability>-1</Flammability>
+		<FlameSpawnThingDef></FlameSpawnThingDef>
+		<FlameSpawnChance>0</FlameSpawnChance>
+	</Flammability>
+	<Item Kind="Equipment">
+		<NotRandom>1</NotRandom>
+		<FabaoSuffix>印</FabaoSuffix>
+		<PhysicalLables>
+			<li>SmallThing</li>
+		</PhysicalLables>
+		<BeMade>
+			<WorkToMake>100</WorkToMake>
+			<Quality>100</Quality>
+			<CostItems>
+				<Item name = "Master_Item_LingCrystal_Huo" count = "5"/>
+			</CostItems>
+		</BeMade>
+		<Equip>
+			<!-- 寿元 -->
+			<ToolModifier>Master_Modifier_Tool_30</ToolModifier>
+		</Equip>
+	</Item>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="Evil_Item_Treasure_4" Parent="ToolBase">
+	<Tags>
+	</Tags>
+	<ThingName>宙天珠</ThingName>
+	<MaxStack>1</MaxStack>
+	<Rate>12</Rate>
+	<Beauty>12</Beauty>
+	<Quality>100</Quality>
+	<TexPath>Spr\Object\treasure04.png</TexPath>
+	<Desc>内蕴无尽空间，自成一世界，并拥有独立于混沌之外的时间法则。混沌一日。宙天百年，但凡人每千年之中最多只可进入十日。传闻其拥有可以扰乱时间法则的恐怖力量。\n\n[size=10]大幅提升[color=#D06508]筑基速度[/color]！\n大幅提升[color=#D06508]领悟速度[/color]！\n大幅提升[color=#D06508]修炼速度[/color]！\n大幅提升[color=#D06508]参悟速度[/color]！[/size]</Desc>
+	<Flammability>
+		<Flammability>-1</Flammability>
+		<FlameSpawnThingDef></FlameSpawnThingDef>
+		<FlameSpawnChance>0</FlameSpawnChance>
+	</Flammability>
+	<Item Kind="Equipment">
+		<NotRandom>1</NotRandom>
+		<FabaoSuffix>珠</FabaoSuffix>
+		<PhysicalLables>
+			<li>SmallThing</li>
+		</PhysicalLables>
+		<BeMade>
+			<WorkToMake>100</WorkToMake>
+			<Quality>100</Quality>
+			<CostItems>
+				<Item name = "Master_Item_LingCrystal_Tu" count = "5"/>
+			</CostItems>
+		</BeMade>
+		<Equip>
+			<!-- 筑基速度/领悟速度/修炼速度/参悟速度 -->
+			<ToolModifier>Master_Modifier_Tool_40</ToolModifier>
+		</Equip>
+	</Item>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="Evil_Item_Treasure_5" Parent="ToolBase">
+	<Tags>
+	</Tags>
+	<ThingName>天毒珠</ThingName>
+	<MaxStack>1</MaxStack>
+	<Rate>12</Rate>
+	<Beauty>12</Beauty>
+	<Quality>100</Quality>
+	<TexPath>Spr\Object\treasure05.png</TexPath>
+	<Desc>内蕴无限空间，拥有至强的毒力与净化之力，可以净化之力淬炼万物，亦能对天地灵宝产生特殊的感应。\n\n[size=10]大幅提升[color=#D06508]感应范围[/color]！\n大幅提升[color=#D06508]外伤恢复速度[/color]！\n大幅提升[color=#D06508]内伤恢复速度[/color]！[/size]</Desc>
+	<Flammability>
+		<Flammability>-1</Flammability>
+		<FlameSpawnThingDef></FlameSpawnThingDef>
+		<FlameSpawnChance>0</FlameSpawnChance>
+	</Flammability>
+	<Item Kind="Equipment">
+		<NotRandom>1</NotRandom>
+		<FabaoSuffix>珠</FabaoSuffix>
+		<PhysicalLables>
+			<li>SmallThing</li>
+		</PhysicalLables>
+		<BeMade>
+			<WorkToMake>100</WorkToMake>
+			<Quality>100</Quality>
+			<CostItems>
+				<Item name = "Master_Item_LingCrystal_Mu" count = "5"/>
+			</CostItems>
+		</BeMade>
+		<Equip>
+			<!-- 感应范围/外伤恢复速度/内伤恢复速度 -->
+			<ToolModifier>Master_Modifier_Tool_50</ToolModifier>
+		</Equip>
+	</Item>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="Evil_Item_Treasure_6" Parent="ToolBase">
+	<Tags>
+	</Tags>
+	<ThingName>乾坤刺</ThingName>
+	<MaxStack>1</MaxStack>
+	<Rate>12</Rate>
+	<Beauty>12</Beauty>
+	<Quality>100</Quality>
+	<TexPath>Spr\Object\treasure06.png</TexPath>
+	<Desc>可穿刺空间，瞬间到达混沌空间的任意角落，传闻亦可搅乱空间法则。\n\n[size=10]大幅提升[color=#D06508]移动速度[/color]！\n大幅提升[color=#D06508]历练速度[/color]！[/size]</Desc>
+	<Flammability>
+		<Flammability>-1</Flammability>
+		<FlameSpawnThingDef></FlameSpawnThingDef>
+		<FlameSpawnChance>0</FlameSpawnChance>
+	</Flammability>
+	<Item Kind="Equipment">
+		<NotRandom>1</NotRandom>
+		<FabaoSuffix>刺</FabaoSuffix>
+		<PhysicalLables>
+			<li>SmallThing</li>
+		</PhysicalLables>
+		<BeMade>
+			<WorkToMake>100</WorkToMake>
+			<Quality>100</Quality>
+			<CostItems>
+				<Item name = "Master_Item_LingCrystal_Jin" count = "1"/>
+				<Item name = "Master_Item_LingCrystal_Mu" count = "1"/>
+				<Item name = "Master_Item_LingCrystal_Shui" count = "1"/>
+				<Item name = "Master_Item_LingCrystal_Huo" count = "1"/>
+				<Item name = "Master_Item_LingCrystal_Tu" count = "1"/>
+			</CostItems>
+		</BeMade>
+		<Equip>
+			<!-- 移动速度/历练速度 -->
+			<ToolModifier>Master_Modifier_Tool_60</ToolModifier>
+		</Equip>
+	</Item>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="Evil_Item_Treasure_7" Parent="ToolBase">
+	<Tags>
+	</Tags>
+	<ThingName>轮回镜</ThingName>
+	<MaxStack>1</MaxStack>
+	<Rate>12</Rate>
+	<Beauty>12</Beauty>
+	<Quality>100</Quality>
+	<TexPath>Spr\Object\treasure07.png</TexPath>
+	<Desc>可穿越轮回，篡改因果，发动时机和条件不明，每触发一次，力量将完全沉寂二十年。\n\n[size=10]大幅提升[color=#D06508]机缘[/color]！[/size]</Desc>
+	<Flammability>
+		<Flammability>-1</Flammability>
+		<FlameSpawnThingDef></FlameSpawnThingDef>
+		<FlameSpawnChance>0</FlameSpawnChance>
+	</Flammability>
+	<Item Kind="Equipment">
+		<NotRandom>1</NotRandom>
+		<FabaoSuffix>镜</FabaoSuffix>
+		<PhysicalLables>
+			<li>SmallThing</li>
+		</PhysicalLables>
+		<BeMade>
+			<WorkToMake>100</WorkToMake>
+			<Quality>100</Quality>
+			<CostItems>
+				<Item name = "Master_Item_LingCrystal_Jin" count = "1"/>
+				<Item name = "Master_Item_LingCrystal_Mu" count = "1"/>
+				<Item name = "Master_Item_LingCrystal_Shui" count = "1"/>
+				<Item name = "Master_Item_LingCrystal_Huo" count = "1"/>
+				<Item name = "Master_Item_LingCrystal_Tu" count = "1"/>
+			</CostItems>
+		</BeMade>
+		<Equip>
+			<!-- 机缘 -->
+			<ToolModifier>Master_Modifier_Tool_70</ToolModifier>
+		</Equip>
+	</Item>
+	</ThingDef>
+</List></ThingDefs>

@@ -1,0 +1,120 @@
+<Places><List>
+	<Place Name="Evil_Place_LiuYunCheng" Parent="Place_Level2Base">
+		<Location X="1585" Y="765"/>
+		<Icon>res/Sprs/map/map_cunluo01</Icon>
+		<Scale>0.45</Scale>
+		<DisplayName>流云城</DisplayName>
+		<Desc>苍风帝国最东方的小城，不仅面积最小，地理位置也最为偏远。</Desc>
+		<UnLocked>0</UnLocked>
+	</Place>
+
+	<!-- 废弃 -->
+	<Place Name="Evil_Place_QingLinZhen" Parent="Place_Level2Base">
+		<Location X="1525" Y="725"/>
+		<Icon>res/Sprs/map/map_cunluo01</Icon>
+		<Scale>0.45</Scale>
+		<DisplayName>青林镇</DisplayName>
+		<Desc>苍风帝国最东方的小城，不仅面积最小，地理位置也最为偏远。</Desc>
+		<UnLocked>0</UnLocked>
+	</Place>
+
+	<Place Name="Evil_Place_ChiLongShanMai" Parent="Place_Level2Base">
+		<Location X="1465" Y="660"/>
+		<Icon>res/Sprs/map/map_shangu01</Icon>
+		<Scale>0.4</Scale>
+		<DisplayName>赤龙山脉</DisplayName>
+		<Desc>苍风帝国最东方的小城，不仅面积最小，地理位置也最为偏远。</Desc>
+		<UnLocked>0</UnLocked>
+	</Place>
+
+	<Place Name="Evil_Place_XinYueCheng" Parent="Place_Level2Base">
+		<Location X="1325" Y="580"/>
+		<Icon>res/Sprs/map/map_chengzhen01</Icon>
+		<DisplayName>新月城</DisplayName>
+		<Scale>0.4</Scale>
+		<Desc>苍风帝国最东方的小城，不仅面积最小，地理位置也最为偏远。</Desc>
+		<UnLocked>0</UnLocked>
+	</Place>
+
+	<Place Name="Evil_Place_WanShouShanMai" Parent="Place_Level2Base">
+		<Location X="1200" Y="400"/>
+		<Icon>res/Sprs/map/map_shangu01</Icon>
+		<DisplayName>万兽山脉</DisplayName>
+		<Desc>苍风帝国最东方的小城，不仅面积最小，地理位置也最为偏远。</Desc>
+		<UnLocked>0</UnLocked>
+	</Place>
+
+	<Place Name="Evil_Place_CangFengCheng" Parent="Place_Level2Base">
+		<Location X="1010" Y="370"/>
+		<Icon>res/Sprs/map/map_chengzhen01</Icon>
+		<DisplayName>苍风城</DisplayName>
+		<!-- <Level>1</Level> -->
+		<!-- <Scale>0.6</Scale> -->
+		<Desc>苍风帝国最东方的小城，不仅面积最小，地理位置也最为偏远。</Desc>
+		<UnLocked>0</UnLocked>
+	</Place>
+
+	<Place Name="Evil_Place_SiWangHuangYuan" Parent="Place_Level2Base">
+		<Location X="900" Y="500"/>
+		<Icon>res/Sprs/map/map_tanshui01</Icon>
+		<DisplayName>死亡荒原</DisplayName>
+		<!-- <Scale>0.8</Scale> -->
+		<Desc>苍风帝国最东方的小城，不仅面积最小，地理位置也最为偏远。</Desc>
+		<UnLocked>0</UnLocked>
+	</Place>
+
+	<Place Name="Evil_Place_TianJianShanMai" Parent="Place_Level2Base">
+		<Location X="1075" Y="190"/>
+		<Icon>res/Sprs/map/map_zhengpai01</Icon>
+		<DisplayName>天剑山庄</DisplayName>
+		<Scale>0.4</Scale>
+		<Desc>苍风帝国最东方的小城，不仅面积最小，地理位置也最为偏远。</Desc>
+		<UnLocked>0</UnLocked>
+	</Place>
+
+	<Place Name="Evil_Place_BingJiXueYu" Parent="Place_Level2Base">
+		<Location X="925" Y="35"/>
+		<Icon>res/Sprs/map/map_xuanwo01</Icon>
+		<DisplayName>冰云仙宫</DisplayName>
+		<Desc>苍风帝国最东方的小城，不仅面积最小，地理位置也最为偏远。</Desc>
+		<UnLocked>0</UnLocked>
+	</Place>
+
+	<Place Name="Evil_Place_ShengHuangCheng" Parent="Place_Level2Base">
+		<Location X="625" Y="200"/>
+		<Icon>res/Sprs/map/map_chengzhen01</Icon>
+		<DisplayName>神凰城</DisplayName>
+		<!-- <Level>1</Level> -->
+		<!-- <Scale>0.6</Scale> -->
+		<Desc>苍风帝国最东方的小城，不仅面积最小，地理位置也最为偏远。</Desc>
+		<UnLocked>0</UnLocked>
+	</Place>
+
+	<Place Name="Evil_Place_JueYunYa" Parent="Place_Level2Base">
+		<Location X="1545" Y="700"/>
+		<Icon>res/Sprs/map/map_xuanai03</Icon>
+		<DisplayName>绝云崖</DisplayName>
+		<Desc>琅缳山，绝云崖，沧云大陆四大极恶之地之首。绝云崖下被称作死神的墓地，无数年间，坠下绝云崖者不计其数，却从未有人得以生还。</Desc>
+		<UnLocked>0</UnLocked>
+		<!--<Links>
+			<li>Place_BirthPlace14</li>
+			<li>Place_ShanCity</li>
+		</Links>-->
+		<Events>
+			<li Name="BaoZang_QingLianShan" Rate="0.5"/>
+		</Events>
+		<!-- <Produce>
+			<li>
+				<ThingDef>Item_BoarMeat</ThingDef>
+				<Count>20</Count>
+				<Rate>1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_Beef</ThingDef>
+				<Count>20</Count>
+				<Rate>1</Rate>
+			</li>
+		</Produce> -->
+		<!-- res/Sprs/map/map_xuanai02 -->
+	</Place>
+</List></Places>

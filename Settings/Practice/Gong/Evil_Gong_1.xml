@@ -1,0 +1,202 @@
+﻿<Gongs><List>
+	<Gong Name="Evil_Gong_1">
+		<DisplayName>邪神诀</DisplayName>
+		<Desc>传自上古真神邪神。能让玄力违背常理地暴增，甚至逆乱法则。一共七重，每一重都对应一个邪神玄技，形成七个境关，可随心开启、关闭。每开启一境关，邪神诀提升一重。</Desc>
+		<SelectDesc>此功法传自上古真神邪神，能让玄力违背常理地暴增，甚至逆乱法则。但需邪神之血重铸玄脉才能修行，是否要选择修习此功法？</SelectDesc>
+		<FiveBaseNeed>0,0,1,9,9</FiveBaseNeed>
+		<SkillSetName></SkillSetName>
+		<ElementKind>None</ElementKind>
+		<Hide>2</Hide>
+		<Stages>
+			<Stage Name="Stage1" Level="1">
+				<DisplayName>初玄境</DisplayName>
+				<Desc></Desc>
+				<Value>10000</Value>
+				<Necks>
+					<Neck Location="0" Kind="Chance">
+						<DisplayName>筑玄</DisplayName>
+						<Desc>[color=#D06508]\n此瓶颈需反复尝试，方能逐步突破。[/color]</Desc>
+						<CostTime>1</CostTime>
+						<SuccessChange>1</SuccessChange>
+						<ItemCost>
+							<Item name="Evil_Item_Blood_XieShen"/>
+						</ItemCost>
+						<AddModifier>Evil_Modifier_Gong_1_1</AddModifier>
+					</Neck>
+					<Neck Location="1" Kind="Chance">
+						<DisplayName>初玄</DisplayName>
+						<Desc>[color=#D06508]\n此瓶颈需反复尝试，方能逐步突破。[/color]</Desc>
+						<CostTime>1</CostTime>
+						<SuccessChange>0.45</SuccessChange>
+						<FailedChangeAdd>0.05</FailedChangeAdd>
+						<AddModifier>Evil_Modifier_Gong_1_1</AddModifier>
+					</Neck>
+				</Necks>
+			</Stage>
+			<Stage Name="Stage2" Level="2">
+				<DisplayName>入玄境</DisplayName>
+				<Desc></Desc>
+				<Value>20000</Value>
+				<Necks>
+					<Neck Location="1" Kind="Chance">
+						<DisplayName>入玄</DisplayName>
+						<Desc>[color=#D06508]\n此瓶颈需反复尝试，方能逐步突破。[/color]</Desc>
+						<CostTime>2</CostTime>
+						<!-- <SuccessChange>0.4</SuccessChange> -->
+						<SuccessChange>1</SuccessChange>
+						<FailedChangeAdd>0.05</FailedChangeAdd>
+						<AddModifier>Evil_Modifier_Gong_1_1</AddModifier>
+					</Neck>
+				</Necks>
+			</Stage>
+			<Stage Name="Stage3" Level="3">
+				<DisplayName>真玄境</DisplayName>
+				<Desc></Desc>
+				<Value>40000</Value>
+				<Necks>
+					<Neck Location="1" Kind="Chance">
+						<DisplayName>真玄</DisplayName>
+						<Desc>[color=#D06508]\n此瓶颈需反复尝试，方能逐步突破。[/color]</Desc>
+						<CostTime>3</CostTime>
+						<!-- <SuccessChange>0.35</SuccessChange> -->
+						<SuccessChange>1</SuccessChange>
+						<FailedChangeAdd>0.05</FailedChangeAdd>
+						<AddModifier>Evil_Modifier_Gong_1_1</AddModifier>
+					</Neck>
+				</Necks>
+			</Stage>
+			<Stage Name="Stage4" Level="4">
+				<DisplayName>灵玄境</DisplayName>
+				<Desc></Desc>
+				<Value>80000</Value>
+				<Necks>
+					<Neck Location="1" Kind="Chance">
+						<DisplayName>灵玄</DisplayName>
+						<Desc>[color=#D06508]\n此瓶颈需反复尝试，方能逐步突破。[/color]</Desc>
+						<CostTime>4</CostTime>
+						<!-- <SuccessChange>0.3</SuccessChange> -->
+						<SuccessChange>1</SuccessChange>
+						<FailedChangeAdd>0.05</FailedChangeAdd>
+						<AddModifier>Evil_Modifier_Gong_1_1</AddModifier>
+					</Neck>
+				</Necks>
+			</Stage>
+			<Stage Name="Stage5" Level="5">
+				<DisplayName>地玄境</DisplayName>
+				<Desc></Desc>
+				<Value>160000</Value>
+				<Necks>
+					<Neck Location="1" Kind="Chance">
+						<DisplayName>地玄</DisplayName>
+						<Desc>[color=#D06508]\n此瓶颈需反复尝试，方能逐步突破。[/color]</Desc>
+						<CostTime>5</CostTime>
+						<!-- <SuccessChange>0.25</SuccessChange> -->
+						<SuccessChange>1</SuccessChange>
+						<FailedChangeAdd>0.05</FailedChangeAdd>
+						<AddModifier>Evil_Modifier_Gong_1_1</AddModifier>
+					</Neck>
+				</Necks>
+			</Stage>
+			<Stage Name="Stage6" Level="6">
+				<DisplayName>天玄境</DisplayName>
+				<Desc></Desc>
+				<Value>320000</Value>
+				<Necks>
+					<Neck Location="1" Kind="Gold">
+						<DisplayName>天玄</DisplayName>
+						<Desc></Desc>
+						<AddModifier>Evil_Modifier_Gong_1_1</AddModifier>
+					</Neck>
+				</Necks>
+			</Stage>
+			<Stage Name="Stage7" Level="7">
+				<DisplayName>王玄境</DisplayName>
+				<Desc></Desc>
+				<Value>640000</Value>
+				<Necks>
+					<Neck Location="1" Kind="Chance">
+						<DisplayName>王玄</DisplayName>
+						<Desc>[color=#D06508]\n此瓶颈需反复尝试，方能逐步突破。[/color]</Desc>
+						<CostTime>7</CostTime>
+						<!-- <SuccessChange>0.15</SuccessChange> -->
+						<SuccessChange>1</SuccessChange>
+						<FailedChangeAdd>0.05</FailedChangeAdd>
+						<AddModifier>Evil_Modifier_Gong_1_1</AddModifier>
+					</Neck>
+				</Necks>
+			</Stage>
+			<Stage Name="Stage8" Level="8">
+				<DisplayName>君玄境</DisplayName>
+				<Desc></Desc>
+				<Value>1280000</Value>
+				<Necks>
+					<Neck Location="1" Kind="Chance">
+						<DisplayName>君玄</DisplayName>
+						<Desc>[color=#D06508]\n此瓶颈需反复尝试，方能逐步突破。[/color]</Desc>
+						<CostTime>8</CostTime>
+						<!-- <SuccessChange>0.1</SuccessChange> -->
+						<SuccessChange>1</SuccessChange>
+						<FailedChangeAdd>0.05</FailedChangeAdd>
+						<AddModifier>Evil_Modifier_Gong_1_1</AddModifier>
+					</Neck>
+				</Necks>
+			</Stage>
+			<Stage Name="Stage9" Level="12">
+				<DisplayName>神玄境</DisplayName>
+				<Desc></Desc>
+				<Value>25600000</Value>
+				<Necks>
+					<Neck Location="0.1" Kind="God">
+						<DisplayName>神元</DisplayName>
+						<Desc></Desc>
+						<ThunderValue>9999</ThunderValue>
+						<NeckCountdown>5400</NeckCountdown>
+						<AddModifier>Evil_Modifier_Gong_1_1</AddModifier>
+					</Neck>
+					<Neck Location="0.25" Kind="God">
+						<DisplayName>神魂</DisplayName>
+						<Desc></Desc>
+						<ThunderValue>9999</ThunderValue>
+						<NeckCountdown>5400</NeckCountdown>
+						<AddModifier>Evil_Modifier_Gong_1_1</AddModifier>
+					</Neck>
+					<Neck Location="0.4" Kind="God">
+						<DisplayName>神劫</DisplayName>
+						<Desc></Desc>
+						<ThunderValue>9999</ThunderValue>
+						<NeckCountdown>5400</NeckCountdown>
+						<AddModifier>Evil_Modifier_Gong_1_1</AddModifier>
+					</Neck>
+					<Neck Location="0.55" Kind="God">
+						<DisplayName>神灵</DisplayName>
+						<Desc></Desc>
+						<ThunderValue>9999</ThunderValue>
+						<NeckCountdown>5400</NeckCountdown>
+						<AddModifier>Evil_Modifier_Gong_1_1</AddModifier>
+					</Neck>
+					<Neck Location="0.7" Kind="God">
+						<DisplayName>神王</DisplayName>
+						<Desc></Desc>
+						<ThunderValue>9999</ThunderValue>
+						<NeckCountdown>5400</NeckCountdown>
+						<AddModifier>Evil_Modifier_Gong_1_1</AddModifier>
+					</Neck>
+					<Neck Location="0.85" Kind="God">
+						<DisplayName>神君</DisplayName>
+						<Desc></Desc>
+						<ThunderValue>9999</ThunderValue>
+						<NeckCountdown>5400</NeckCountdown>
+						<AddModifier>Evil_Modifier_Gong_1_1</AddModifier>
+					</Neck>
+					<Neck Location="1" Kind="God">
+						<DisplayName>神主</DisplayName>
+						<Desc></Desc>
+						<ThunderValue>9999</ThunderValue>
+						<NeckCountdown>5400</NeckCountdown>
+						<AddModifier>Evil_Modifier_Gong_1_1</AddModifier>
+					</Neck>
+				</Necks>
+			</Stage>
+		</Stages>
+	</Gong>
+</List></Gongs>
