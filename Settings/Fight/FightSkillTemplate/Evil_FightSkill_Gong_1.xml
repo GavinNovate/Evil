@@ -1,0 +1,106 @@
+<FightSkills><List>
+	<!-- 伤害技能 -->
+	<Skill Name="Evil_Skill_Gong_1_YunYueChenXing">
+		<DisplayName>陨月沉星</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Damage</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>1.5</SingTime>
+		<CD>15</CD>
+		<LingCost>500</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng4</CastAni>
+		<Value>500</Value><!-- 灵气伤害 -->
+		<TargetCamp>Enemy</TargetCamp>
+
+		<Shape>Missile</Shape>
+		<SelectType>Target</SelectType>
+		<MissileEffect>4</MissileEffect>
+		<HitEffect>36</HitEffect>
+		<Missile>	<!--弹道数据，贝塞尔曲线的四个参数-->
+			<p1>0</p1>
+			<p2>0</p2>
+			<p3>0</p3>
+			<p4>0</p4>
+		</Missile>
+	</Skill>
+
+	<!-- 护体增强 -->
+	<Skill Name="Evil_Skill_Gong_1_FengYunSuoRi">
+		<DisplayName>封云锁日</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Sheild</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>3</SingTime>
+		<CD>120</CD>
+		<LingCost>500</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng10</CastAni>
+		<Value>5</Value><!-- 护体增强 -->
+		<Value2>60</Value2><!-- 持续时间 -->
+		<TargetCamp>Friendly</TargetCamp>
+
+		<Shape>Single</Shape>
+		<SelectType>AllNpc</SelectType>
+		<HitEffect>52</HitEffect>
+	</Skill>
+
+	<!-- 法宝增强 -->
+	<Skill Name="Evil_Skill_Gong_1_MieTianJueDi">
+		<DisplayName>滅天绝地</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Fabao</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>3</SingTime><!-- 吟唱时间 -->
+		<CD>120</CD><!-- 施法间隔 -->
+		<LingCost>500</LingCost><!-- 灵气消耗 -->
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng8</CastAni>
+		<Value>5</Value><!-- 法宝威力 -->
+		<Value2>60</Value2><!-- 持续时间 -->
+		<TargetCamp>Friendly</TargetCamp><!-- 目标阵营 -->
+
+		<Shape>Single</Shape><!-- 特效类型 -->
+		<SelectType>Self</SelectType><!-- 目标类型 -->
+		<HitEffect>33</HitEffect><!-- 击中特效 -->
+	</Skill>
+
+	<!-- 恢复技能 -->
+	<Skill Name="Evil_Skill_Gong_1_YueWanXingHui">
+		<DisplayName>月挽星回</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Health</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>1.5</SingTime>
+		<CD>30</CD>
+		<LingCost>500</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng7</CastAni>
+		<Value>1000</Value><!-- 回复灵气 -->
+		<TargetCamp>Friendly</TargetCamp>
+
+		<Shape>Single</Shape>
+		<SelectType>AllNpc</SelectType>
+		<HitEffect>48</HitEffect>
+	</Skill>
+
+	<!-- 法术增强 -->
+	<Skill Name="Evil_Skill_Gong_1_BiAnXiuLuo">
+		<DisplayName>彼岸修罗</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Skill</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>3</SingTime>
+		<CD>120</CD>
+		<LingCost>500</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng9</CastAni>
+		<Value>5</Value><!-- 法术增强 -->
+		<Value2>60</Value2><!-- 持续时间 -->
+		<TargetCamp>Friendly</TargetCamp>
+
+		<Shape>Single</Shape>
+		<SelectType>Self</SelectType>
+		<HitEffect>60</HitEffect>
+	</Skill>
+</List></FightSkills>

@@ -1,0 +1,241 @@
+<ModifierDefs><List>
+	<!-- 邪神玄脉 -->
+	<Modifier Name="Evil_Modifier_Esoterica_Gong_1_XieShenXuanMai" Type="Normal">
+		<DisplayName>邪神玄脉</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<!-- 法宝数量 -->
+			<li Name="NpcFight_FabaoNum" AddV="1"/>
+			<!-- 修炼速度 -->
+			<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="1"/>
+			<!-- 参悟速度 -->
+			<li Name="IntelligenceSkillEXPConstant" AddP="1"/>
+		</Properties>
+	</Modifier>
+
+	<!-- 邪神玄脉 -->
+	<Modifier Name="Evil_Moifier_Esoterica_Gong_1_XiePo" Type="Normal">
+		<DisplayName>邪魄</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<!-- 灵气根本值 -->
+			<li Name="NpcLingMaxValue" BAddP="1"/>
+			<!-- 灵气恢复速度 -->
+			<li Name="LingAbsorbSpeed" AddP="1"/>
+		</Properties>
+	</Modifier>
+
+	<!-- 陨月沉星 -->
+	<Modifier Name="Evil_Moifier_Esoterica_Gong_1_YunYueChenXing" Type="Normal">
+		<DisplayName>陨月沉星</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<!-- 术法伤害加成 -->
+			<li Name="NpcFight_SpellPowerAddP" AddP="5"/>
+			<!-- 术法冷却时间加成 -->
+			<li Name="NpcFight_SpellCoolDownAddP" AddP="-0.25"/>
+			<!-- 术法灵气消耗加成 -->
+			<li Name="NpcFight_SpellLingCostAddP" AddP="5"/>
+		</Properties>
+	</Modifier>
+
+	<!-- 焚心 -->
+	<Modifier Name="Evil_Moifier_Esoterica_Gong_1_FenXin" Type="Normal">
+		<DisplayName>焚心</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<!-- 灵气根本值 -->
+			<li Name="NpcLingMaxValue" BAddP="2"/>
+			<!-- 灵气恢复速度 -->
+			<li Name="LingAbsorbSpeed" AddP="2"/>
+		</Properties>
+	</Modifier>
+
+	<!-- 封云锁日 -->
+	<Modifier Name="Evil_Moifier_Esoterica_Gong_1_FengYunSuoRi" Type="Normal">
+		<DisplayName>封云锁日</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<!-- 护盾强度加值 -->
+			<li Name="NpcFight_ShieldConversionRate" AddV="1"/>
+			<!-- 护盾强度加成 -->
+			<li Name="NpcFight_ShieldConversionRateAddP" AddP="1"/>
+		</Properties>
+	</Modifier>
+
+	<!-- 雷灵邪体 -->
+	<Modifier Name="Evil_Moifier_Esoterica_Gong_1_LeiLingXieTi" Type="Normal">
+		<DisplayName>雷灵邪体</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<!-- 金属性伤害减免 -->
+			<li Name="NpcFight_ShieldResistanceToJin" AddV="0.75"/>
+		</Properties>
+	</Modifier>
+
+	<!-- 风灵邪体 -->
+	<Modifier Name="Evil_Moifier_Esoterica_Gong_1_FengLingXieTi" Type="Normal">
+		<DisplayName>风灵邪体</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<!-- 木属性伤害减免 -->
+			<li Name="NpcFight_ShieldResistanceToMu" AddV="0.75"/>
+		</Properties>
+	</Modifier>
+
+	<!-- 水灵邪体 -->
+	<Modifier Name="Evil_Moifier_Esoterica_Gong_1_ShuiLingXieTi" Type="Normal">
+		<DisplayName>水灵邪体</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<!-- 水属性伤害减免 -->
+			<li Name="NpcFight_ShieldResistanceToShui" AddV="0.75"/>
+		</Properties>
+	</Modifier>
+
+	<!-- 火灵邪体 -->
+	<Modifier Name="Evil_Moifier_Esoterica_Gong_1_HuoLingXieTi" Type="Normal">
+		<DisplayName>火灵邪体</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<!-- 火属性伤害减免 -->
+			<li Name="NpcFight_ShieldResistanceToHuo" AddV="0.75"/>
+		</Properties>
+	</Modifier>
+
+	<!-- 土灵邪体 -->
+	<Modifier Name="Evil_Moifier_Esoterica_Gong_1_TuLingXieTi" Type="Normal">
+		<DisplayName>土灵邪体</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<!-- 土属性伤害减免 -->
+			<li Name="NpcFight_ShieldResistanceToTu" AddV="0.75"/>
+		</Properties>
+	</Modifier>
+
+	<!-- 炼狱 -->
+	<Modifier Name="Evil_Moifier_Esoterica_Gong_1_LianYu" Type="Normal">
+		<DisplayName>炼狱</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<!-- 灵气根本值 -->
+			<li Name="NpcLingMaxValue" BAddP="4"/>
+			<!-- 灵气恢复速度 -->
+			<li Name="LingAbsorbSpeed" AddP="3"/>
+		</Properties>
+	</Modifier>
+
+	<!-- 滅天绝地 -->
+	<Modifier Name="Evil_Moifier_Esoterica_Gong_1_MieTianJueDi" Type="Normal">
+		<DisplayName>滅天绝地</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<!-- 法宝威力加成 -->
+			<li Name="NpcFight_FabaoPowerAddP" AddP="5"/>
+			<!-- 法宝灵气最大值加成 -->
+			<li Name="NpcFight_FabaoMaxLingAddP" AddP="5"/>
+			<!-- 法宝灵气恢复速度加成 -->
+			<li Name="NpcFight_FabaoLingRecoverAddP" AddP="5"/>
+			<!-- 法宝攻击间隔加成 -->
+			<li Name="NpcFight_FabaoCoolDownAddP" AddP="1"/>
+			<!-- 法宝飞行速度加成 -->
+			<li Name="NpcFight_FabaoFlySpeedAddP" AddP="1"/>
+			<!-- 法宝转向速度加成 -->
+			<li Name="NpcFight_FabaoTurnSpeedAddP" AddP="1"/>
+		</Properties>
+	</Modifier>
+
+	<!-- 轰天 -->
+	<Modifier Name="Evil_Moifier_Esoterica_Gong_1_HongTian" Type="Normal">
+		<DisplayName>轰天</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<!-- 灵气根本值 -->
+			<li Name="NpcLingMaxValue" BAddP="8"/>
+			<!-- 灵气恢复速度 -->
+			<li Name="LingAbsorbSpeed" AddP="4"/>
+		</Properties>
+	</Modifier>
+
+	<!-- 月挽星回 -->
+	<Modifier Name="Evil_Moifier_Esoterica_Gong_1_YueWanXingHui" Type="Normal">
+		<DisplayName>月挽星回</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<!-- 灵气恢复速度 -->
+			<li Name="LingAbsorbSpeed" AddP="5"/>
+		</Properties>
+	</Modifier>
+
+	<!-- 极暗魔躯 -->
+	<Modifier Name="Evil_Moifier_Esoterica_Gong_1_JiAnMoQu" Type="Normal">
+		<DisplayName>极暗魔躯</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<!-- 法宝数量 -->
+			<li Name="NpcFight_FabaoNum" AddV="1"/>
+			<!-- 修炼速度 -->
+			<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="2"/>
+			<!-- 参悟速度 -->
+			<li Name="IntelligenceSkillEXPConstant" AddP="2"/>
+		</Properties>
+	</Modifier>
+
+	<!-- 阎皇 -->
+	<Modifier Name="Evil_Moifier_Esoterica_Gong_1_YanHuang" Type="Normal">
+		<DisplayName>阎皇</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<!-- 灵气根本值 -->
+			<li Name="NpcLingMaxValue" BAddP="16"/>
+			<!-- 灵气恢复速度 -->
+			<li Name="LingAbsorbSpeed" AddP="5"/>
+		</Properties>
+	</Modifier>
+
+	<!-- 彼岸修罗 -->
+	<Modifier Name="Evil_Moifier_Esoterica_Gong_1_BiAnXiuLuo" Type="Normal">
+		<DisplayName>彼岸修罗</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<!-- 阵法规模 -->
+			<li Name="NpcFight_ZhenKeyPointNum" AddV="1"/>
+			<!-- 阵法负荷能力 -->
+			<li Name="NpcFight_ZhenEnginePower" AddV="10"/>
+		</Properties>
+	</Modifier>
+</List></ModifierDefs>

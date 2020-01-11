@@ -24,12 +24,12 @@
 			<WorkToMake>100</WorkToMake>
 			<Quality>100</Quality>
 			<CostItems>
-				<Item name = "Master_Item_LingCrystal_Jin" count = "5"/>
+				<Item name = "Item_LingStone" count = "10000"/>
 			</CostItems>
 		</BeMade>
 		<Equip>
 			<!-- 法宝威力 -->
-			<ToolModifier>Master_Modifier_Tool_10</ToolModifier>
+			<ToolModifier>Evil_Modifier_Tool_10</ToolModifier>
 		</Equip>
 	</Item>
 	</ThingDef>
@@ -59,12 +59,12 @@
 			<WorkToMake>100</WorkToMake>
 			<Quality>100</Quality>
 			<CostItems>
-				<Item name = "Master_Item_LingCrystal_Shui" count = "5"/>
+				<Item name = "Item_LingStone" count = "10000"/>
 			</CostItems>
 		</BeMade>
 		<Equip>
 			<!-- 法术威力 -->
-			<ToolModifier>Master_Modifier_Tool_20</ToolModifier>
+			<ToolModifier>Evil_Modifier_Tool_20</ToolModifier>
 		</Equip>
 	</Item>
 	</ThingDef>
@@ -94,12 +94,12 @@
 			<WorkToMake>100</WorkToMake>
 			<Quality>100</Quality>
 			<CostItems>
-				<Item name = "Master_Item_LingCrystal_Huo" count = "5"/>
+				<Item name = "Item_LingStone" count = "10000"/>
 			</CostItems>
 		</BeMade>
 		<Equip>
 			<!-- 寿元 -->
-			<ToolModifier>Master_Modifier_Tool_30</ToolModifier>
+			<ToolModifier>Evil_Modifier_Tool_30</ToolModifier>
 		</Equip>
 	</Item>
 	</ThingDef>
@@ -129,12 +129,12 @@
 			<WorkToMake>100</WorkToMake>
 			<Quality>100</Quality>
 			<CostItems>
-				<Item name = "Master_Item_LingCrystal_Tu" count = "5"/>
+				<Item name = "Item_LingStone" count = "10000"/>
 			</CostItems>
 		</BeMade>
 		<Equip>
 			<!-- 筑基速度/领悟速度/修炼速度/参悟速度 -->
-			<ToolModifier>Master_Modifier_Tool_40</ToolModifier>
+			<ToolModifier>Evil_Modifier_Tool_40</ToolModifier>
 		</Equip>
 	</Item>
 	</ThingDef>
@@ -164,12 +164,12 @@
 			<WorkToMake>100</WorkToMake>
 			<Quality>100</Quality>
 			<CostItems>
-				<Item name = "Master_Item_LingCrystal_Mu" count = "5"/>
+				<Item name = "Item_LingStone" count = "10000"/>
 			</CostItems>
 		</BeMade>
 		<Equip>
 			<!-- 感应范围/外伤恢复速度/内伤恢复速度 -->
-			<ToolModifier>Master_Modifier_Tool_50</ToolModifier>
+			<ToolModifier>Evil_Modifier_Tool_50</ToolModifier>
 		</Equip>
 	</Item>
 	</ThingDef>
@@ -199,16 +199,12 @@
 			<WorkToMake>100</WorkToMake>
 			<Quality>100</Quality>
 			<CostItems>
-				<Item name = "Master_Item_LingCrystal_Jin" count = "1"/>
-				<Item name = "Master_Item_LingCrystal_Mu" count = "1"/>
-				<Item name = "Master_Item_LingCrystal_Shui" count = "1"/>
-				<Item name = "Master_Item_LingCrystal_Huo" count = "1"/>
-				<Item name = "Master_Item_LingCrystal_Tu" count = "1"/>
+				<Item name = "Item_LingStone" count = "10000"/>
 			</CostItems>
 		</BeMade>
 		<Equip>
 			<!-- 移动速度/历练速度 -->
-			<ToolModifier>Master_Modifier_Tool_60</ToolModifier>
+			<ToolModifier>Evil_Modifier_Tool_60</ToolModifier>
 		</Equip>
 	</Item>
 	</ThingDef>
@@ -238,16 +234,12 @@
 			<WorkToMake>100</WorkToMake>
 			<Quality>100</Quality>
 			<CostItems>
-				<Item name = "Master_Item_LingCrystal_Jin" count = "1"/>
-				<Item name = "Master_Item_LingCrystal_Mu" count = "1"/>
-				<Item name = "Master_Item_LingCrystal_Shui" count = "1"/>
-				<Item name = "Master_Item_LingCrystal_Huo" count = "1"/>
-				<Item name = "Master_Item_LingCrystal_Tu" count = "1"/>
+				<Item name = "Item_LingStone" count = "10000"/>
 			</CostItems>
 		</BeMade>
 		<Equip>
 			<!-- 机缘 -->
-			<ToolModifier>Master_Modifier_Tool_70</ToolModifier>
+			<ToolModifier>Evil_Modifier_Tool_70</ToolModifier>
 		</Equip>
 	</Item>
 	</ThingDef>

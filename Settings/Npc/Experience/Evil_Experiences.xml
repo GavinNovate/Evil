@@ -1,0 +1,52 @@
+﻿<Experiences><List>
+	<Experience Name="Evil_Experience">
+		<DisplayName>邪神诀</DisplayName>
+		<Desc>邪神诀传自上古真神邪神，能让玄力违背常理地暴增，甚至逆乱法则。\n\n\n[size=10]解锁功法：[color=#D06508]《邪神诀》[/color][/size]</Desc>
+		<Point>3</Point>
+		<Hide>0</Hide>
+		<Gongs>
+			<li>Evil_Gong_1</li>
+		</Gongs>
+	</Experience>
+
+	<Experience Name="Evil_Experience_01">
+		<DisplayName>轮回镜</DisplayName>
+		<Desc>玄天至宝轮回镜，在万年前因不明原因现于蓝极星，为妖皇一族所得，后落于云澈之身，在他身上莫名发动了两次轮回之力，目前处于沉寂之中。\n\n\n[size=10]获得玄天至宝：[color=#D06508]轮回镜[/color][/size]</Desc>
+		<Point>1</Point>
+		<Hide>1</Hide>
+		<Equips>
+			<li Name= "Evil_Item_Treasure_7" Quality="1"/>
+		</Equips>
+	</Experience>
+
+	<Experience Name="Evil_Experience_02">
+		<DisplayName>天毒珠</DisplayName>
+		<Desc>玄天至宝天毒珠，诸神时代之初为魔族劫天魔帝所得，后劫天魔帝为神族所灭，天毒珠为邪婴万劫轮所劫，释放出灭世之毒万劫无生毒杀万灵，后毒力耗尽，难以恢复，为邪神封印于沧云大陆。封印自解后为云谷所得，传予云澈。\n\n\n[size=10]获得玄天至宝：[color=#D06508]天毒珠[/color][/size]</Desc>
+		<Point>1</Point>
+		<Hide>1</Hide>
+		<Equips>
+			<li Name= "Evil_Item_Treasure_5" Quality="1"/>
+		</Equips>
+	</Experience>
+
+	<Experience Name="Evil_Experience_03">
+		<DisplayName>邪神诀</DisplayName>
+		<Desc>邪神诀传自上古真神邪神，能让玄力违背常理地暴增，甚至逆乱法则。\n\n\n[size=10]解锁功法：[color=#D06508]《邪神诀》[/color][/size]</Desc>
+		<Point>3</Point>
+		<Hide>1</Hide>
+		<Gongs>
+			<li>Evil_Gong_1</li>
+		</Gongs>
+		<Items>
+			<li Name= "Item_Dan_NoHunger" Count="100"/>
+			<li Name= "Item_Dan_NoHunger1" Count="100"/>
+		</Items>
+		<Equips>
+			<li Name= "Evil_Sword_1" Quality="1"/>
+		</Equips>
+		<NpcSlot>6</NpcSlot>
+		<ModifierDef>
+			<BaseFive>1,1,1,1,1</BaseFive>
+		</ModifierDef>
+	</Experience>
+</List></Experiences>

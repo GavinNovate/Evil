@@ -1,16 +1,1 @@
-{"Name":"Evil",
-"DisplayName":"逆天邪神",
-"GameVersion":0.953,
-"Version":1.04,
-"Desc":"[作者]\r\n    GavinNovate\r\n[简介]\r\n《逆天邪神》同名小说之了不起的修仙模拟器模组。\n\n内容：\n1、九位轮回者：云澈(男)，茉莉(女)，彩脂(女)，夏倾月(女)，凤雪児(女)，水媚音(女)，水映月(女)，风寒雪(女)，风寒月(女)。\n2、四本功法：《逆世天书》，《天狼狱神典》，《凤凰颂世典》，《冰凰封神典》。\n3、七大玄天至宝。\n4、灵宝阁。\n5、四种土地改造。\n\n-------------------------------\n交流反馈QQ群：283831361",
-"Author":"GavinNovate",
-"UIPackage":null,
-"ID":"1820076330",
-"Flag":2172340,
-"Tags":["Reincarnation",
-"Gong",
-"Elixir",
-"Equipment",
-"Integrated"],
-"IncreasedDesc":"v1.04\n1.修改玄天至宝配图。\n2.添加解锁功法事件。",
-"IsInsideCreat":false}
+{"Name":"Evil","DisplayName":"逆天邪神","GameVersion":0.9718,"Version":2.0,"Desc":"[作者]\r\n    GavinNovate\r\n[简介]\r\n《逆天邪神》同名小说之了不起的修仙模拟器模组。\n\n内容：\n1、轮回者：云澈，茉莉，彩脂，夏倾月，凤雪児，水媚音，水映月，风寒雪，风寒月\n2、功法：《邪神诀》\n3、七大玄天至宝\n4、灵宝阁\n5、四种土地改造\n\n-------------------------------\n交流反馈 QQ 群：283831361","Author":"GavinNovate","UIPackage":null,"ID":"1820076330","Flag":2172340,"Tags":["Reincarnation","Gong","Elixir","Equipment","Integrated","ExcludeRealmsHeaven"],"IncreasedDesc":"v2.00\n1. 兼容性大概，取消修改游戏本体数据，降低兼容风险\n2. 暂时移除《逆世天书》等四本功法，添加更有特色的《邪神诀》功法\n3. 添加 邪神诀 经历，选择后可获得《邪神诀》，暂无无其他获取途径\n4. 非兼容性更新，不兼容以前版本，请仅在新开存档时升级到改版本","IsInsideCreat":false,"Previews":[],"ParentModInfo":null}
