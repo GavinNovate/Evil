@@ -43,7 +43,7 @@
 			<!-- 食物消耗速度加成 -->
 			<li Name="NutritionConsumeConstant" AddP="1"/>
 			<!-- 饮气速度 -->
-			<li Name="NutritionWaterAutoRecover" AddV="1"/>
+			<li Name="NutritionWaterAutoRecover" AddV="0.4"/>
 			<!-- 饮水消耗速度加成 -->
 			<li Name="WaterConsumeConstant" AddV="-0.1"/>
 			<!-- 精力消耗速度加成 -->
@@ -102,7 +102,7 @@
 			<!-- 食物消耗速度加成 -->
 			<li Name="NutritionConsumeConstant" AddP="2"/>
 			<!-- 饮气速度 -->
-			<li Name="NutritionWaterAutoRecover" AddV="1"/>
+			<li Name="NutritionWaterAutoRecover" AddV="0.8"/>
 			<!-- 饮水消耗速度加成 -->
 			<li Name="WaterConsumeConstant" AddV="-0.1"/>
 			<!-- 精力消耗速度加成 -->
@@ -161,7 +161,7 @@
 			<!-- 食物消耗速度加成 -->
 			<li Name="NutritionConsumeConstant" AddP="3"/>
 			<!-- 饮气速度 -->
-			<li Name="NutritionWaterAutoRecover" AddV="2"/>
+			<li Name="NutritionWaterAutoRecover" AddV="1.2"/>
 			<!-- 饮水消耗速度加成 -->
 			<li Name="WaterConsumeConstant" AddV="-0.1"/>
 			<!-- 精力消耗速度加成 -->
@@ -220,7 +220,7 @@
 			<!-- 食物消耗速度加成 -->
 			<li Name="NutritionConsumeConstant" AddP="4"/>
 			<!-- 饮气速度 -->
-			<li Name="NutritionWaterAutoRecover" AddV="2"/>
+			<li Name="NutritionWaterAutoRecover" AddV="1.6"/>
 			<!-- 饮水消耗速度加成 -->
 			<li Name="WaterConsumeConstant" AddV="-0.1"/>
 			<!-- 精力消耗速度加成 -->
@@ -279,7 +279,7 @@
 			<!-- 食物消耗速度加成 -->
 			<li Name="NutritionConsumeConstant" AddP="5"/>
 			<!-- 饮气速度 -->
-			<li Name="NutritionWaterAutoRecover" AddV="3"/>
+			<li Name="NutritionWaterAutoRecover" AddV="2.0"/>
 			<!-- 饮水消耗速度加成 -->
 			<li Name="WaterConsumeConstant" AddV="-0.1"/>
 			<!-- 精力消耗速度加成 -->
@@ -338,7 +338,7 @@
 			<!-- 食物消耗速度加成 -->
 			<li Name="NutritionConsumeConstant" AddP="6"/>
 			<!-- 饮气速度 -->
-			<li Name="NutritionWaterAutoRecover" AddV="3"/>
+			<li Name="NutritionWaterAutoRecover" AddV="2.4"/>
 			<!-- 饮水消耗速度加成 -->
 			<li Name="WaterConsumeConstant" AddV="-0.1"/>
 			<!-- 精力消耗速度加成 -->
@@ -397,7 +397,7 @@
 			<!-- 食物消耗速度加成 -->
 			<li Name="NutritionConsumeConstant" AddP="7"/>
 			<!-- 饮气速度 -->
-			<li Name="NutritionWaterAutoRecover" AddV="4"/>
+			<li Name="NutritionWaterAutoRecover" AddV="2.8"/>
 			<!-- 饮水消耗速度加成 -->
 			<li Name="WaterConsumeConstant" AddV="-0.1"/>
 			<!-- 精力消耗速度加成 -->
@@ -456,7 +456,7 @@
 			<!-- 食物消耗速度加成 -->
 			<li Name="NutritionConsumeConstant" AddP="8"/>
 			<!-- 饮气速度 -->
-			<li Name="NutritionWaterAutoRecover" AddV="4"/>
+			<li Name="NutritionWaterAutoRecover" AddV="3.2"/>
 			<!-- 饮水消耗速度加成 -->
 			<li Name="WaterConsumeConstant" AddV="-0.1"/>
 			<!-- 精力消耗速度加成 -->
@@ -515,7 +515,7 @@
 			<!-- 食物消耗速度加成 -->
 			<li Name="NutritionConsumeConstant" AddP="9"/>
 			<!-- 饮气速度 -->
-			<li Name="NutritionWaterAutoRecover" AddV="5"/>
+			<li Name="NutritionWaterAutoRecover" AddV="3.6"/>
 			<!-- 饮水消耗速度加成 -->
 			<li Name="WaterConsumeConstant" AddV="-0.1"/>
 			<!-- 精力消耗速度加成 -->

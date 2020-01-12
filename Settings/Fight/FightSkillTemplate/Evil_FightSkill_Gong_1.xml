@@ -7,7 +7,7 @@
 		<ShowInUI>1</ShowInUI>
 		<SingTime>1.5</SingTime>
 		<CD>15</CD>
-		<LingCost>500</LingCost>
+		<LingCost>100</LingCost>
 		<SingAni>assemble</SingAni>
 		<CastAni>LJjineng4</CastAni>
 		<Value>500</Value><!-- 灵气伤害 -->
@@ -33,7 +33,7 @@
 		<ShowInUI>1</ShowInUI>
 		<SingTime>3</SingTime>
 		<CD>120</CD>
-		<LingCost>500</LingCost>
+		<LingCost>100</LingCost>
 		<SingAni>assemble</SingAni>
 		<CastAni>LJjineng10</CastAni>
 		<Value>5</Value><!-- 护体增强 -->
@@ -53,7 +53,7 @@
 		<ShowInUI>1</ShowInUI>
 		<SingTime>3</SingTime><!-- 吟唱时间 -->
 		<CD>120</CD><!-- 施法间隔 -->
-		<LingCost>500</LingCost><!-- 灵气消耗 -->
+		<LingCost>100</LingCost><!-- 灵气消耗 -->
 		<SingAni>assemble</SingAni>
 		<CastAni>LJjineng8</CastAni>
 		<Value>5</Value><!-- 法宝威力 -->
@@ -73,10 +73,10 @@
 		<ShowInUI>1</ShowInUI>
 		<SingTime>1.5</SingTime>
 		<CD>30</CD>
-		<LingCost>500</LingCost>
+		<LingCost>100</LingCost>
 		<SingAni>assemble</SingAni>
 		<CastAni>LJjineng7</CastAni>
-		<Value>1000</Value><!-- 回复灵气 -->
+		<Value>500</Value><!-- 回复灵气 -->
 		<TargetCamp>Friendly</TargetCamp>
 
 		<Shape>Single</Shape>
@@ -92,7 +92,7 @@
 		<ShowInUI>1</ShowInUI>
 		<SingTime>3</SingTime>
 		<CD>120</CD>
-		<LingCost>500</LingCost>
+		<LingCost>100</LingCost>
 		<SingAni>assemble</SingAni>
 		<CastAni>LJjineng9</CastAni>
 		<Value>5</Value><!-- 法术增强 -->
