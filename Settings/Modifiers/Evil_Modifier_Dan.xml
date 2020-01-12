@@ -17,7 +17,7 @@
 			<!-- 灵气根本值 -->
 			<li Name="NpcLingMaxValue" BAddP="1"/>
 			<!-- 灵气恢复速度 -->
-			<li Name="LingAbsorbSpeed" AddP="2"/>
+			<li Name="LingAbsorbSpeed" BAddP="1"/>
 		</Properties>
 	</Modifier>
 	<Modifier Name="Evil_Modifier_Dan_1" Type="Normal">
@@ -57,7 +57,12 @@
 			<li Name="Qi" Level="1"/>
 			<li Name="DouFa" Level="1"/>
 			<li Name="DanQi" Level="1"/>
+			<li Name="Zhen" Level="1"/>
 		</Skills>
+		<Properties>
+			<!-- 道行 -->
+			<li Name="AbilityLvAddV" AddV="-10"/>
+		</Properties>
 	</Modifier>
 
 	<!-- 测试用 -->

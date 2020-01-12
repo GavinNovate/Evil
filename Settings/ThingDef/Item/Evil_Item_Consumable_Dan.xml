@@ -61,7 +61,7 @@
 	<ThingDef Type="Item" Name="Evil_Item_Dan_3" Parent="DanBase">
 		<ThingName>通玄丹</ThingName>
 		<TexPath>res\Sprs\object\object_XIAOdanyao02</TexPath>
-		<Desc>大幅提高弟子战斗、气感、斗法、丹器能力。</Desc>
+		<Desc>大幅提高弟子战斗、气感、斗法、丹器、阵法能力并降低道行。</Desc>
 		<Rate>9</Rate>
 		<Beauty>10</Beauty>
 		<ElementKind>None</ElementKind>
@@ -77,7 +77,7 @@
 			<BeMade>
 				<WorkToMake>100</WorkToMake>
 				<CostItems>
-					<Item name = "Item_LingStone" count = "1000"/>
+					<Item name = "Item_LingStone" count = "5000"/>
 				</CostItems>
 			</BeMade>
 		</Item>
