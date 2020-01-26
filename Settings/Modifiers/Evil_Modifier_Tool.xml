@@ -5,9 +5,16 @@
 		<MaxStack>1</MaxStack>
 		<Duration>-1</Duration>
 		<Display>0</Display>
-		<GlobleModifiers>
+		<!-- 取消全局效果 -->
+		<!-- <GlobleModifiers>
 			<li>Evil_Modifier_Tool_01</li>
-		</GlobleModifiers>
+		</GlobleModifiers> -->
+		<Properties>
+			<!-- 战斗命中 -->
+			<li Name="NpcFight_BaseHitChance" AddV="0.5"/>
+			<!-- 战斗闪避 -->
+			<li Name="NpcFight_BaseDodgeChance" AddV="0.5"/>
+		</Properties>
 	</Modifier>
 
 	<Modifier Name="Evil_Modifier_Tool_01" Type="Normal">
@@ -26,7 +33,7 @@
 
 	<Modifier Name="Evil_Modifier_Tool_10" Type="Normal">
 		<DisplayName>诛天始祖剑</DisplayName>
-		<Desc>由混沌世界至纯至圣之力所孕育的神剑，为混沌世界的第一把剑，世间万器之始祖，有着强大到忤逆秩序的力量。</Desc>
+		<Desc>由混沌世界至纯至圣之力所孕育的神剑，为混沌世界的第一把剑，世间万器之始祖，有着强大到忤逆秩序的力量，其气息可大幅提升门下弟子法宝威力。</Desc>
 		<MaxStack>1</MaxStack>
 		<Duration>-1</Duration>
 		<Display>0</Display>
@@ -36,11 +43,11 @@
 	</Modifier>
 
 	<Modifier Name="Evil_Modifier_Tool_11" Type="Normal">
-		<DisplayName>诛天始祖剑</DisplayName>
-		<Desc>由混沌世界至纯至圣之力所孕育的神剑，为混沌世界的第一把剑，世间万器之始祖，有着强大到忤逆秩序的力量。</Desc>
+		<DisplayName>剑</DisplayName>
+		<Desc>受玄天至宝诛天始祖剑气息的影响，法宝威力大幅提升。</Desc>
 		<MaxStack>1</MaxStack>
 		<Duration>-1</Duration>
-		<Display>0</Display>
+		<Display>1</Display>
 		<Properties>
 			<!-- 法宝威力 -->
 			<li Name="NpcFight_FabaoPowerAddP" BAddP="1"/>
@@ -49,7 +56,7 @@
 
 	<Modifier Name="Evil_Modifier_Tool_20" Type="Normal">
 		<DisplayName>邪婴万劫轮</DisplayName>
-		<Desc>由混沌空间至阴至恶之力所生，拥有世间最极致的毁灭之力，其毁灭之力释放之时，会伴随如婴儿啼哭般的声音。</Desc>
+		<Desc>由混沌空间至阴至恶之力所生，拥有世间最极致的毁灭之力，其毁灭之力释放之时，会伴随如婴儿啼哭般的声音，其气息可大幅提升门下弟子法术威力。</Desc>
 		<MaxStack>1</MaxStack>
 		<Duration>-1</Duration>
 		<Display>0</Display>
@@ -59,11 +66,11 @@
 	</Modifier>
 
 	<Modifier Name="Evil_Modifier_Tool_21" Type="Normal">
-		<DisplayName>邪婴万劫轮</DisplayName>
-		<Desc>由混沌空间至阴至恶之力所生，拥有世间最极致的毁灭之力，其毁灭之力释放之时，会伴随如婴儿啼哭般的声音。</Desc>
+		<DisplayName>轮</DisplayName>
+		<Desc>受玄天至宝邪婴万劫轮气息的影响，法术威力大幅提升。</Desc>
 		<MaxStack>1</MaxStack>
 		<Duration>-1</Duration>
-		<Display>0</Display>
+		<Display>1</Display>
 		<Properties>
 			<!-- 法术威力 -->
 			<li Name="NpcFight_SpellPowerAddP" BAddP="1"/>
@@ -72,7 +79,7 @@
 
 	<Modifier Name="Evil_Modifier_Tool_30" Type="Normal">
 		<DisplayName>鸿蒙生死印</DisplayName>
-		<Desc>孕生于鸿蒙宇宙的中心，气机与鸿蒙宇宙相连，只要鸿蒙宇宙不死，它就永恒不灭，是整个鸿蒙空间中唯一的永生之器，为万灵所觊觎。</Desc>
+		<Desc>孕生于鸿蒙宇宙的中心，气机与鸿蒙宇宙相连，只要鸿蒙宇宙不死，它就永恒不灭，是整个鸿蒙空间中唯一的永生之器，为万灵所觊觎，其气息可大幅降低门下弟子寿元流逝速度。</Desc>
 		<MaxStack>1</MaxStack>
 		<Duration>-1</Duration>
 		<Display>0</Display>
@@ -82,20 +89,20 @@
 	</Modifier>
 
 	<Modifier Name="Evil_Modifier_Tool_31" Type="Normal">
-		<DisplayName>鸿蒙生死印</DisplayName>
-		<Desc>孕生于鸿蒙宇宙的中心，气机与鸿蒙宇宙相连，只要鸿蒙宇宙不死，它就永恒不灭，是整个鸿蒙空间中唯一的永生之器，为万灵所觊觎。</Desc>
+		<DisplayName>印</DisplayName>
+		<Desc>受玄天至宝鸿蒙生死印气息的影响，寿元流逝速度大幅降低。</Desc>
 		<MaxStack>1</MaxStack>
 		<Duration>-1</Duration>
-		<Display>0</Display>
+		<Display>1</Display>
 		<Properties>
 			<!-- 寿元流逝速度 -->
-			<li Name="AgeCostSpeed" AddV="-0.5"/>
+			<li Name="AgeCostSpeed" AddV="-0.75"/>
 		</Properties>
 	</Modifier>
 
 	<Modifier Name="Evil_Modifier_Tool_40" Type="Normal">
 		<DisplayName>宙天珠</DisplayName>
-		<Desc>内蕴无尽空间，自成一世界，并拥有独立于混沌之外的时间法则。混沌一日。宙天百年，但凡人每千年之中最多只可进入十日。传闻其拥有可以扰乱时间法则的恐怖力量。</Desc>
+		<Desc>内蕴无尽空间，自成一世界，并拥有独立于混沌之外的时间法则。混沌一日。宙天百年，但凡人每千年之中最多只可进入十日。传闻其拥有可以扰乱时间法则的恐怖力量，其气息可大幅提升门下弟子筑基速度、领悟速度、修炼速度和参悟速度。</Desc>
 		<MaxStack>1</MaxStack>
 		<Duration>-1</Duration>
 		<Display>0</Display>
@@ -105,11 +112,11 @@
 	</Modifier>
 
 	<Modifier Name="Evil_Modifier_Tool_41" Type="Normal">
-		<DisplayName>宙天珠</DisplayName>
-		<Desc>内蕴无尽空间，自成一世界，并拥有独立于混沌之外的时间法则。混沌一日。宙天百年，但凡人每千年之中最多只可进入十日。传闻其拥有可以扰乱时间法则的恐怖力量。</Desc>
+		<DisplayName>宙</DisplayName>
+		<Desc>受玄天至宝宙天珠气息的影响，筑基速度、领悟速度、修炼速度和参悟速度大幅提升。</Desc>
 		<MaxStack>1</MaxStack>
 		<Duration>-1</Duration>
-		<Display>0</Display>
+		<Display>1</Display>
 		<Properties>
 			<!-- 筑基速度 -->
 			<li Name="BasepracticeSpeedCoefficient" AddP="1"/>
@@ -124,7 +131,7 @@
 
 	<Modifier Name="Evil_Modifier_Tool_50" Type="Normal">
 		<DisplayName>天毒珠</DisplayName>
-		<Desc>内蕴无限空间，拥有至强的毒力与净化之力，可以净化之力淬炼万物，亦能对天地灵宝产生特殊的感应。</Desc>
+		<Desc>内蕴无限空间，拥有至强的毒力与净化之力，可以净化之力淬炼万物，亦能对天地灵宝产生特殊的感应，其气息可大幅提升门下弟子内外伤恢复速度。</Desc>
 		<MaxStack>1</MaxStack>
 		<Duration>-1</Duration>
 		<Display>0</Display>
@@ -134,14 +141,12 @@
 	</Modifier>
 
 	<Modifier Name="Evil_Modifier_Tool_51" Type="Normal">
-		<DisplayName>天毒珠</DisplayName>
-		<Desc>内蕴无限空间，拥有至强的毒力与净化之力，可以净化之力淬炼万物，亦能对天地灵宝产生特殊的感应。\n\n\n[size=10][color=#D06508]五维[/color]提升。\n初始[color=#D06508]弟子栏位[/color]增加9！\n\n解锁功法：[color=#D06508]《玉清仙法》[/color]\n获得神兵：[color=#D06508]劫天诛魔剑[/color]\n[/size]</Desc>
+		<DisplayName>天</DisplayName>
+		<Desc>受玄天至宝天毒珠气息的影响，内外伤恢复速度大幅提升。</Desc>
 		<MaxStack>1</MaxStack>
 		<Duration>-1</Duration>
-		<Display>0</Display>
+		<Display>1</Display>
 		<Properties>
-			<!-- 感应范围 -->
-			<li Name="VisionRadius" AddP="1"/>
 			<!-- 外伤恢复速度 -->
 			<li Name="RecoveryPower" AddP="1"/>
 			<!-- 内伤恢复速度 -->
@@ -151,7 +156,7 @@
 
 	<Modifier Name="Evil_Modifier_Tool_60" Type="Normal">
 		<DisplayName>乾坤刺</DisplayName>
-		<Desc>可穿刺空间，瞬间到达混沌空间的任意角落，传闻亦可搅乱空间法则。</Desc>
+		<Desc>可穿刺空间，瞬间到达混沌空间的任意角落，传闻亦可搅乱空间法则，其气息可大幅提升门下弟子移动速度和历练速度。</Desc>
 		<MaxStack>1</MaxStack>
 		<Duration>-1</Duration>
 		<Display>0</Display>
@@ -161,16 +166,16 @@
 	</Modifier>
 
 	<Modifier Name="Evil_Modifier_Tool_61" Type="Normal">
-		<DisplayName>乾坤刺</DisplayName>
-		<Desc>可穿刺空间，瞬间到达混沌空间的任意角落，传闻亦可搅乱空间法则。</Desc>
+		<DisplayName>刺</DisplayName>
+		<Desc>受玄天至宝乾坤刺气息的影响，移动速度和历练速度大幅提升。</Desc>
 		<MaxStack>1</MaxStack>
 		<Duration>-1</Duration>
-		<Display>0</Display>
+		<Display>1</Display>
 		<Properties>
 			<!-- 移动速度 -->
 			<li Name="MoveSpeed" AddP="1"/>
 			<!-- 历练速度 -->
-			<li Name="WorldMapFlySpeedAddP" AddP="1"/>
+			<li Name="WorldMapFlySpeed" AddP="1"/>
 		</Properties>
 	</Modifier>
 
@@ -180,19 +185,22 @@
 		<MaxStack>1</MaxStack>
 		<Duration>-1</Duration>
 		<Display>0</Display>
-		<GlobleModifiers>
+		<!-- 取消全局效果 -->
+		<!-- <GlobleModifiers>
 			<li>Evil_Modifier_Tool_71</li>
-		</GlobleModifiers>
+		</GlobleModifiers> -->
+		<!-- 机缘 -->
+		<BaseFive>0,0,0,0,2</BaseFive>
 	</Modifier>
 
 	<Modifier Name="Evil_Modifier_Tool_71" Type="Normal">
-		<DisplayName>轮回镜</DisplayName>
-		<Desc>可穿越轮回，篡改因果，发动时机和条件不明，每触发一次，力量将完全沉寂二十年。</Desc>
+		<DisplayName>镜</DisplayName>
+		<Desc>受玄天至宝轮回镜气息的影响，机缘大幅提升大幅提升。</Desc>
 		<MaxStack>1</MaxStack>
 		<Duration>-1</Duration>
 		<Display>0</Display>
 		<!-- 机缘 -->
-		<BaseFive>0,0,0,0,1</BaseFive>
+		<BaseFive>0,0,0,0,2</BaseFive>
 		<Properties>
 		</Properties>
 	</Modifier>

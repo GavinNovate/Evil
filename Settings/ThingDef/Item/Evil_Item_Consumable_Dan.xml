@@ -146,34 +146,4 @@
 			<Value>10</Value>
 		</Element>
 	</ThingDef>
-
-	<!-- 测试丹:提高修炼速度 -->
-	<ThingDef Type="Item" Name="Evil_Item_Dan_Test" Parent="DanBase">
-		<ThingName>测试丹</ThingName>
-		<TexPath>res\Sprs\object\object_XIAOdanyao02</TexPath>
-		<Desc>测试丹</Desc>
-		<Rate>9</Rate>
-		<Beauty>10</Beauty>
-		<ElementKind>None</ElementKind>
-		<Item Lable="Dan">
-			<PhysicalLables>
-				<li>Smooth1</li>
-				<li>Hard1</li>
-				<li>Light1</li>
-			</PhysicalLables>
-			<Elixir>
-				<Modifier>Evil_Modifier_Test</Modifier>
-			</Elixir>
-			<BeMade>
-				<WorkToMake>100</WorkToMake>
-				<CostItems>
-					<Item name = "Item_LingStone" count = "1"/>
-				</CostItems>
-			</BeMade>
-		</Item>
-		<Element>
-			<Kind>None</Kind>
-			<Value>10</Value>
-		</Element>
-	</ThingDef>
 </List></ThingDefs>

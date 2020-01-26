@@ -54,7 +54,7 @@
 		</BeMade>
 	</Item>
 	<Ling>
-		<AddionLing>250</AddionLing>
+		<AddionLing>125</AddionLing>
 		<AddionRadius>5</AddionRadius>
 		<AddionFailing>0.8</AddionFailing>
 		<AddionFailRadius>2</AddionFailRadius>
@@ -65,7 +65,7 @@
 	</Ling>
 	<Element>
 		<Kind>Jin</Kind>
-		<Value>25</Value>
+		<Value>15</Value>
 		<Radius>5</Radius>
 		<Failing>0.8</Failing>
 		<FailRadius>2</FailRadius>
@@ -127,7 +127,7 @@
 		</BeMade>
 	</Item>
 	<Ling>
-		<AddionLing>250</AddionLing>
+		<AddionLing>125</AddionLing>
 		<AddionRadius>5</AddionRadius>
 		<AddionFailing>0.8</AddionFailing>
 		<AddionFailRadius>2</AddionFailRadius>
@@ -138,7 +138,7 @@
 	</Ling>
 	<Element>
 		<Kind>Mu</Kind>
-		<Value>25</Value>
+		<Value>15</Value>
 		<Radius>5</Radius>
 		<Failing>0.8</Failing>
 		<FailRadius>2</FailRadius>
@@ -200,7 +200,7 @@
 		</BeMade>
 	</Item>
 	<Ling>
-		<AddionLing>250</AddionLing>
+		<AddionLing>125</AddionLing>
 		<AddionRadius>5</AddionRadius>
 		<AddionFailing>0.8</AddionFailing>
 		<AddionFailRadius>2</AddionFailRadius>
@@ -211,7 +211,7 @@
 	</Ling>
 	<Element>
 		<Kind>Shui</Kind>
-		<Value>25</Value>
+		<Value>15</Value>
 		<Radius>5</Radius>
 		<Failing>0.8</Failing>
 		<FailRadius>2</FailRadius>
@@ -273,7 +273,7 @@
 		</BeMade>
 	</Item>
 	<Ling>
-		<AddionLing>250</AddionLing>
+		<AddionLing>125</AddionLing>
 		<AddionRadius>5</AddionRadius>
 		<AddionFailing>0.8</AddionFailing>
 		<AddionFailRadius>2</AddionFailRadius>
@@ -284,7 +284,7 @@
 	</Ling>
 	<Element>
 		<Kind>Huo</Kind>
-		<Value>25</Value>
+		<Value>15</Value>
 		<Radius>5</Radius>
 		<Failing>0.8</Failing>
 		<FailRadius>2</FailRadius>
@@ -346,7 +346,7 @@
 		</BeMade>
 	</Item>
 	<Ling>
-		<AddionLing>250</AddionLing>
+		<AddionLing>125</AddionLing>
 		<AddionRadius>5</AddionRadius>
 		<AddionFailing>0.8</AddionFailing>
 		<AddionFailRadius>2</AddionFailRadius>
@@ -357,7 +357,7 @@
 	</Ling>
 	<Element>
 		<Kind>Tu</Kind>
-		<Value>25</Value>
+		<Value>15</Value>
 		<Radius>5</Radius>
 		<Failing>0.8</Failing>
 		<FailRadius>2</FailRadius>

@@ -64,25 +64,4 @@
 			<li Name="AbilityLvAddV" AddV="-10"/>
 		</Properties>
 	</Modifier>
-
-	<!-- 测试用 -->
-	<Modifier Name="Evil_Modifier_Test" Type="Normal">
-		<DisplayName>测试丹</DisplayName>
-		<Desc>测试丹</Desc>
-		<MaxStack>0</MaxStack>
-		<Duration>-1</Duration>
-		<Display>0</Display>
-		<Properties>
-			<!-- 筑基速度 -->
-			<li Name="BasepracticeSpeedCoefficient" AddP="10000"/>
-			<!-- 领悟速度 -->
-			<li Name="InspirationCoefficient" AddP="10000"/>
-			<!-- 修炼速度 -->
-			<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="10000"/>
-			<!-- 参悟速度 -->
-			<li Name="IntelligenceSkillEXPConstant" AddP="10000"/>
-			<!-- 灵气恢复速度 -->
-			<li Name="LingAbsorbSpeed" AddP="10000"/>
-		</Properties>
-	</Modifier>
 </List></ModifierDefs>

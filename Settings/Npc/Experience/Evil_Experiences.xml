@@ -44,7 +44,6 @@
 		<Equips>
 			<li Name= "Evil_Sword_1" Quality="1"/>
 		</Equips>
-		<NpcSlot>6</NpcSlot>
 		<ModifierDef>
 			<BaseFive>1,1,1,1,1</BaseFive>
 		</ModifierDef>

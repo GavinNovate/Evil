@@ -1,0 +1,420 @@
+<Stories><List>
+
+	<!-- 天玄大陆 -->
+	<Story Name="Evil_Secrets_LiuYunCheng"  Parent="BaseFillingStory">
+		<DisplayName>流云城</DisplayName>
+		<Desc>[NAME]御剑飞行来到了流云城。</Desc>
+		<Selections>
+			<li>
+				<Display>打探行踪</Display>
+				<OKResult><![CDATA[
+					EvilNpc:ShowInquireReincarnatesBox(me,world,{68061501,68061504});
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>寻觅功法</Display>
+				<OKResult><![CDATA[
+					if world:IsGongUnLocked("Evil_Gong_1") then
+						me:AddMsg(XT("一无所获"));
+					else
+						me:AddMsg(XT("[NAME]在流云城萧门的一间别院中寻得一本功法。"));
+						me:UnLockGong("Evil_Gong_1");
+					end
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>离开此地</Display>
+				<OKResult><![CDATA[
+					me:AddMsg(XT("[NAME]不愿意冒险，离开了此地。"));
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+
+	<Story Name="Evil_Secrets_CangFengCheng"  Parent="BaseFillingStory">
+		<DisplayName>苍风城</DisplayName>
+		<Desc>[NAME]御剑飞行来到了苍风城。</Desc>
+		<Selections>
+			<li>
+				<Display>打探行踪</Display>
+				<OKResult><![CDATA[
+					me:AddMsg(XT("一无所获"));
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>离开此地</Display>
+				<OKResult><![CDATA[
+					me:AddMsg(XT("[NAME]不愿意冒险，离开了此地。"));
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+
+	<Story Name="Evil_Secrets_ShengHuangCheng"  Parent="BaseFillingStory">
+		<DisplayName>神凰城</DisplayName>
+		<Desc>[NAME]御剑飞行来到了神凰城。</Desc>
+		<Selections>
+			<li>
+				<Display>打探行踪</Display>
+				<OKResult><![CDATA[
+					EvilNpc:ShowInquireReincarnatesBox(me,world,{68061505});
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>离开此地</Display>
+				<OKResult><![CDATA[
+					me:AddMsg(XT("[NAME]不愿意冒险，离开了此地。"));
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+
+	<Story Name="Evil_Secrets_CangFengXuanFu"  Parent="BaseFillingStory">
+		<DisplayName>苍风玄府</DisplayName>
+		<Desc>[NAME]御剑飞行来到了苍风玄府。</Desc>
+		<Selections>
+			<li>
+				<Display>招揽弟子</Display>
+				<OKResult><![CDATA[
+					me:AddMsg(XT("一无所获"));
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>离开此地</Display>
+				<OKResult><![CDATA[
+					me:AddMsg(XT("[NAME]不愿意冒险，离开了此地。"));
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+
+	<Story Name="Evil_Secrets_TianJianShanZhuang"  Parent="BaseFillingStory">
+		<DisplayName>天剑山庄</DisplayName>
+		<Desc>[NAME]御剑飞行来到了天剑山庄。</Desc>
+		<Selections>
+			<li>
+				<Display>打探行踪</Display>
+				<OKResult><![CDATA[
+					me:AddMsg(XT("一无所获"));
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>离开此地</Display>
+				<OKResult><![CDATA[
+					me:AddMsg(XT("[NAME]不愿意冒险，离开了此地。"));
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+
+	<Story Name="Evil_Secrets_BingYunXianGong"  Parent="BaseFillingStory">
+		<DisplayName>冰云仙宫</DisplayName>
+		<Desc>[NAME]御剑飞行来到了冰云仙宫。</Desc>
+		<Selections>
+			<li>
+				<Display>打探行踪</Display>
+				<OKResult><![CDATA[
+					EvilNpc:ShowInquireReincarnatesBox(me,world,{68061508,68061509});
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>离开此地</Display>
+				<OKResult><![CDATA[
+					me:AddMsg(XT("[NAME]不愿意冒险，离开了此地。"));
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+
+	<Story Name="Evil_Secrets_FengHuangShenZong"  Parent="BaseFillingStory">
+		<DisplayName>凤凰神宗</DisplayName>
+		<Desc>[NAME]御剑飞行来到了凤凰神宗。</Desc>
+		<Selections>
+			<li>
+				<Display>打探行踪</Display>
+				<OKResult><![CDATA[
+					me:AddMsg(XT("一无所获"));
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>离开此地</Display>
+				<OKResult><![CDATA[
+					me:AddMsg(XT("[NAME]不愿意冒险，离开了此地。"));
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+
+
+	<!-- 幻妖界 -->
+	<Story Name="Evil_Secrets_YaoHuangCheng"  Parent="BaseFillingStory">
+		<DisplayName>妖皇城</DisplayName>
+		<Desc>[NAME]御剑飞行来到了妖皇城。</Desc>
+		<Selections>
+			<li>
+				<Display>打探行踪</Display>
+				<OKResult><![CDATA[
+					me:AddMsg(XT("一无所获"));
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>离开此地</Display>
+				<OKResult><![CDATA[
+					me:AddMsg(XT("[NAME]不愿意冒险，离开了此地。"));
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+
+
+	<!-- 沧云大陆 -->
+	<Story Name="Evil_Secrets_LangHuanShan"  Parent="BaseFillingStory">
+		<DisplayName>琅缳山</DisplayName>
+		<Desc>[NAME]御剑飞行来到了琅缳山。</Desc>
+		<Selections>
+			<li>
+				<Display>打探行踪</Display>
+				<OKResult><![CDATA[
+					me:AddMsg(XT("一无所获"));
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>离开此地</Display>
+				<OKResult><![CDATA[
+					me:AddMsg(XT("[NAME]不愿意冒险，离开了此地。"));
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+
+	<Story Name="Evil_Secrets_JueYunYa"  Parent="BaseFillingStory">
+		<DisplayName>绝云崖</DisplayName>
+		<Desc>[NAME]御剑飞行来到了绝云崖。</Desc>
+		<Selections>
+			<li>
+				<Display>打探行踪</Display>
+				<OKResult><![CDATA[
+					me:AddMsg(XT("一无所获"));
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>离开此地</Display>
+				<OKResult><![CDATA[
+					me:AddMsg(XT("[NAME]不愿意冒险，离开了此地。"));
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+
+	<Story Name="Evil_Secrets_TaiSuMeng"  Parent="BaseFillingStory">
+		<DisplayName>太苏门</DisplayName>
+		<Desc>[NAME]御剑飞行来到了太苏门。</Desc>
+		<Selections>
+			<li>
+				<Display>打探行踪</Display>
+				<OKResult><![CDATA[
+					me:AddMsg(XT("一无所获"));
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>离开此地</Display>
+				<OKResult><![CDATA[
+					me:AddMsg(XT("[NAME]不愿意冒险，离开了此地。"));
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+
+
+	<!-- 众神之界 -->
+	<Story Name="Evil_Secrets_YinXueJie"  Parent="BaseFillingStory">
+		<DisplayName>吟雪界</DisplayName>
+		<Desc>[NAME]御剑飞行来到了吟雪界。</Desc>
+		<Selections>
+			<li>
+				<Display>打探行踪</Display>
+				<OKResult><![CDATA[
+					me:AddMsg(XT("一无所获"));
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>离开此地</Display>
+				<OKResult><![CDATA[
+					me:AddMsg(XT("[NAME]不愿意冒险，离开了此地。"));
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+
+	<Story Name="Evil_Secrets_LiuGuangJie"  Parent="BaseFillingStory">
+		<DisplayName>琉光界</DisplayName>
+		<Desc>[NAME]御剑飞行来到了琉光界。</Desc>
+		<Selections>
+			<li>
+				<Display>打探行踪</Display>
+				<OKResult><![CDATA[
+					EvilNpc:ShowInquireReincarnatesBox(me,world,{68061506,68061507});
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>离开此地</Display>
+				<OKResult><![CDATA[
+					me:AddMsg(XT("[NAME]不愿意冒险，离开了此地。"));
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+
+	<Story Name="Evil_Secrets_XingShenJie"  Parent="BaseFillingStory">
+		<DisplayName>星神界</DisplayName>
+		<Desc>[NAME]御剑飞行来到了星神界。</Desc>
+		<Selections>
+			<li>
+				<Display>打探行踪</Display>
+				<OKResult><![CDATA[
+					EvilNpc:ShowInquireReincarnatesBox(me,world,{68061502,68061503});
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>离开此地</Display>
+				<OKResult><![CDATA[
+					me:AddMsg(XT("[NAME]不愿意冒险，离开了此地。"));
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+
+	<Story Name="Evil_Secrets_YueShengJie"  Parent="BaseFillingStory">
+		<DisplayName>月神界</DisplayName>
+		<Desc>[NAME]御剑飞行来到了月神界。</Desc>
+		<Selections>
+			<li>
+				<Display>打探行踪</Display>
+				<OKResult><![CDATA[
+					me:AddMsg(XT("一无所获"));
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>离开此地</Display>
+				<OKResult><![CDATA[
+					me:AddMsg(XT("[NAME]不愿意冒险，离开了此地。"));
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+
+	<Story Name="Evil_Secrets_ZhouTianJie"  Parent="BaseFillingStory">
+		<DisplayName>宙天界</DisplayName>
+		<Desc>[NAME]御剑飞行来到了宙天界。</Desc>
+		<Selections>
+			<li>
+				<Display>打探行踪</Display>
+				<OKResult><![CDATA[
+					me:AddMsg(XT("一无所获"));
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>离开此地</Display>
+				<OKResult><![CDATA[
+					me:AddMsg(XT("[NAME]不愿意冒险，离开了此地。"));
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+
+	<Story Name="Evil_Secrets_FanDiJie"  Parent="BaseFillingStory">
+		<DisplayName>梵帝界</DisplayName>
+		<Desc>[NAME]御剑飞行来到了梵帝界。</Desc>
+		<Selections>
+			<li>
+				<Display>打探行踪</Display>
+				<OKResult><![CDATA[
+					me:AddMsg(XT("一无所获"));
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>离开此地</Display>
+				<OKResult><![CDATA[
+					me:AddMsg(XT("[NAME]不愿意冒险，离开了此地。"));
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+
+	<Story Name="Evil_Secrets_LongShenJie"  Parent="BaseFillingStory">
+		<DisplayName>龙神界</DisplayName>
+		<Desc>[NAME]御剑飞行来到了龙神界。</Desc>
+		<Selections>
+			<li>
+				<Display>打探行踪</Display>
+				<OKResult><![CDATA[
+					me:AddMsg(XT("一无所获"));
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>离开此地</Display>
+				<OKResult><![CDATA[
+					me:AddMsg(XT("[NAME]不愿意冒险，离开了此地。"));
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+
+	<Story Name="Evil_Secrets_BeiShenYu"  Parent="BaseFillingStory">
+		<DisplayName>北神域</DisplayName>
+		<Desc>[NAME]御剑飞行来到了北神域。</Desc>
+		<Selections>
+			<li>
+				<Display>打探行踪</Display>
+				<OKResult><![CDATA[
+					me:AddMsg(XT("一无所获"));
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>离开此地</Display>
+				<OKResult><![CDATA[
+					me:AddMsg(XT("[NAME]不愿意冒险，离开了此地。"));
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+</List></Stories>

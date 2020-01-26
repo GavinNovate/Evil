@@ -3,7 +3,7 @@
 	<ThingName>劫天诛魔剑</ThingName>
 	<TexPath>res\Sprs\object\object_weaponjian01</TexPath>
 	<MaxStack>1</MaxStack>
-	<Desc>拥有如红水晶一般晶莹长发的绝美小萝莉，眸若朱丹，性格单纯活泼。可化身朱红重剑：劫天诛魔剑，同时具备劫天魔神剑和诛魔剑的特质且更为强大。\n\n[size=10]大幅提升[color=#D06508]战斗命中[/color]！\n大幅提升[color=#D06508]战斗闪避[/color]！[/size]</Desc>
+	<Desc>拥有如红水晶一般晶莹长发的绝美小萝莉，眸若朱丹，性格单纯活泼。可化身劫天诛魔剑，同时具备劫天魔神剑和诛魔剑的特质且更为强大。</Desc>
 	<Rate>12</Rate>
 	<Beauty>12</Beauty>
 	<Item Lable="Weapon">
