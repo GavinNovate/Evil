@@ -8,7 +8,7 @@
 			<li>
 				<Display>打探行踪</Display>
 				<OKResult><![CDATA[
-					EvilNpc:ShowInquireReincarnatesBox(me,world,{68061501,68061504});
+					EvilNpc:ShowInquireReincarnatesBox(me,world,{68061501,68061510,68061504,68061553});
 				]]>
 				</OKResult>
 			</li>
@@ -16,11 +16,32 @@
 				<Display>寻觅功法</Display>
 				<OKResult><![CDATA[
 					if world:IsGongUnLocked("Evil_Gong_1") then
-						me:AddMsg(XT("一无所获"));
+						me:AddMsg(XT("[NAME]在此一无所获，离开了此地。"));
 					else
 						me:AddMsg(XT("[NAME]在流云城萧门的一间别院中寻得一本功法。"));
 						me:UnLockGong("Evil_Gong_1");
 					end
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>离开此地</Display>
+				<OKResult><![CDATA[
+					me:AddMsg(XT("[NAME]不愿意冒险，离开了此地。"));
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+
+	<Story Name="Evil_Secrets_WanShouShanMai"  Parent="BaseFillingStory">
+		<DisplayName>万兽山脉</DisplayName>
+		<Desc>[NAME]御剑飞行来到了万兽山脉。</Desc>
+		<Selections>
+			<li>
+				<Display>打探行踪</Display>
+				<OKResult><![CDATA[
+					EvilNpc:ShowInquireReincarnatesBox(me,world,{68061517,68061563});
 				]]>
 				</OKResult>
 			</li>
@@ -41,7 +62,7 @@
 			<li>
 				<Display>打探行踪</Display>
 				<OKResult><![CDATA[
-					me:AddMsg(XT("一无所获"));
+					EvilNpc:ShowInquireReincarnatesBox(me,world,{68061554,68061555,68061511});
 				]]>
 				</OKResult>
 			</li>
@@ -62,7 +83,7 @@
 			<li>
 				<Display>打探行踪</Display>
 				<OKResult><![CDATA[
-					EvilNpc:ShowInquireReincarnatesBox(me,world,{68061505});
+					EvilNpc:ShowInquireReincarnatesBox(me,world,{68061564,68061505,68061565,68061566});
 				]]>
 				</OKResult>
 			</li>
@@ -81,9 +102,16 @@
 		<Desc>[NAME]御剑飞行来到了苍风玄府。</Desc>
 		<Selections>
 			<li>
+				<Display>打探行踪</Display>
+				<OKResult><![CDATA[
+					EvilNpc:ShowInquireReincarnatesBox(me,world,{68061556,68061557,68061558,68061559,68061560});
+				]]>
+				</OKResult>
+			</li>
+			<li>
 				<Display>招揽弟子</Display>
 				<OKResult><![CDATA[
-					me:AddMsg(XT("一无所获"));
+					EvilNpc:AddRandomReincarnate(me,world,680601001,680601200);
 				]]>
 				</OKResult>
 			</li>
@@ -104,7 +132,14 @@
 			<li>
 				<Display>打探行踪</Display>
 				<OKResult><![CDATA[
-					me:AddMsg(XT("一无所获"));
+					EvilNpc:ShowInquireReincarnatesBox(me,world,{68061561,68061562});
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>招揽弟子</Display>
+				<OKResult><![CDATA[
+					EvilNpc:AddRandomReincarnate(me,world,680602001,680602200);
 				]]>
 				</OKResult>
 			</li>
@@ -125,7 +160,14 @@
 			<li>
 				<Display>打探行踪</Display>
 				<OKResult><![CDATA[
-					EvilNpc:ShowInquireReincarnatesBox(me,world,{68061508,68061509});
+					EvilNpc:ShowInquireReincarnatesBox(me,world,{68061512,68061513,68061514,68061515,68061508,68061509,68061516});
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>招揽弟子</Display>
+				<OKResult><![CDATA[
+					EvilNpc:AddRandomReincarnate(me,world,680603001,680603200);
 				]]>
 				</OKResult>
 			</li>
@@ -144,9 +186,9 @@
 		<Desc>[NAME]御剑飞行来到了凤凰神宗。</Desc>
 		<Selections>
 			<li>
-				<Display>打探行踪</Display>
+				<Display>招揽弟子</Display>
 				<OKResult><![CDATA[
-					me:AddMsg(XT("一无所获"));
+					EvilNpc:AddRandomReincarnate(me,world,680604001,680604200);
 				]]>
 				</OKResult>
 			</li>
@@ -169,7 +211,7 @@
 			<li>
 				<Display>打探行踪</Display>
 				<OKResult><![CDATA[
-					me:AddMsg(XT("一无所获"));
+					EvilNpc:ShowInquireReincarnatesBox(me,world,{68061569,68061567,68061568,68061519});
 				]]>
 				</OKResult>
 			</li>
@@ -192,7 +234,7 @@
 			<li>
 				<Display>打探行踪</Display>
 				<OKResult><![CDATA[
-					me:AddMsg(XT("一无所获"));
+					EvilNpc:ShowInquireReincarnatesBox(me,world,{68061551});
 				]]>
 				</OKResult>
 			</li>
@@ -213,7 +255,7 @@
 			<li>
 				<Display>打探行踪</Display>
 				<OKResult><![CDATA[
-					me:AddMsg(XT("一无所获"));
+					me:AddMsg(XT("[NAME]在此一无所获，离开了此地。"));
 				]]>
 				</OKResult>
 			</li>
@@ -234,7 +276,7 @@
 			<li>
 				<Display>打探行踪</Display>
 				<OKResult><![CDATA[
-					me:AddMsg(XT("一无所获"));
+					EvilNpc:ShowInquireReincarnatesBox(me,world,{68061518});
 				]]>
 				</OKResult>
 			</li>
@@ -257,7 +299,7 @@
 			<li>
 				<Display>打探行踪</Display>
 				<OKResult><![CDATA[
-					me:AddMsg(XT("一无所获"));
+					EvilNpc:ShowInquireReincarnatesBox(me,world,{68061520,68061521,68061522,68061523});
 				]]>
 				</OKResult>
 			</li>
@@ -278,7 +320,7 @@
 			<li>
 				<Display>打探行踪</Display>
 				<OKResult><![CDATA[
-					EvilNpc:ShowInquireReincarnatesBox(me,world,{68061506,68061507});
+					EvilNpc:ShowInquireReincarnatesBox(me,world,{68061506,68061507,68061570});
 				]]>
 				</OKResult>
 			</li>
@@ -320,7 +362,7 @@
 			<li>
 				<Display>打探行踪</Display>
 				<OKResult><![CDATA[
-					me:AddMsg(XT("一无所获"));
+					EvilNpc:ShowInquireReincarnatesBox(me,world,{68061524,68061525,68061526});
 				]]>
 				</OKResult>
 			</li>
@@ -341,7 +383,7 @@
 			<li>
 				<Display>打探行踪</Display>
 				<OKResult><![CDATA[
-					me:AddMsg(XT("一无所获"));
+					me:AddMsg(XT("[NAME]在此一无所获，离开了此地。"));
 				]]>
 				</OKResult>
 			</li>
@@ -362,7 +404,7 @@
 			<li>
 				<Display>打探行踪</Display>
 				<OKResult><![CDATA[
-					me:AddMsg(XT("一无所获"));
+					EvilNpc:ShowInquireReincarnatesBox(me,world,{68061527});
 				]]>
 				</OKResult>
 			</li>
@@ -383,7 +425,7 @@
 			<li>
 				<Display>打探行踪</Display>
 				<OKResult><![CDATA[
-					me:AddMsg(XT("一无所获"));
+					EvilNpc:ShowInquireReincarnatesBox(me,world,{68061528,68061529});
 				]]>
 				</OKResult>
 			</li>
@@ -404,7 +446,7 @@
 			<li>
 				<Display>打探行踪</Display>
 				<OKResult><![CDATA[
-					me:AddMsg(XT("一无所获"));
+					EvilNpc:ShowInquireReincarnatesBox(me,world,{68061530});
 				]]>
 				</OKResult>
 			</li>

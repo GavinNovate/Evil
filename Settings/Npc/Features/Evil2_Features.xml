@@ -1,0 +1,229 @@
+﻿<FeatureDefs><List>
+	<Feature Name="EvilFeatureXieShenXuanMai" Type="Backstory">
+		<DisplayName>邪神玄脉</DisplayName>
+		<Desc>完美驾驭元素之力，并可极大程度引发玄力的暴走。</Desc>
+		<ModifierDef>
+			<BaseFive>1,1,1,1,1</BaseFive>
+			<Skills>
+				<li Name="Fight" Level="1"/>
+				<li Name="Qi" Level="1"/>
+				<li Name="DouFa" Level="1"/>
+				<li Name="Fabao" LevelOver="5"/>
+				<li Name="FightSkill" LevelOver="5"/>
+			</Skills>
+			<Properties>
+				<!-- 法宝威力 -->
+				<li Name="NpcFight_FabaoPowerAddP" BAddP="0.5"/>
+				<!-- 法术威力 -->
+				<li Name="NpcFight_SpellPowerAddP" BAddP="0.5"/>
+			</Properties>
+		</ModifierDef>
+	</Feature>
+
+	<Feature Name="EvilFeatureHuangShenZhiQu" Type="Backstory">
+		<DisplayName>荒神之躯</DisplayName>
+		<Desc>强横躯体的力量和体质，自发吸收天地灵气来恢复自身元气与玄气。</Desc>
+		<ModifierDef>
+			<BaseFive>1,1,1,0,0</BaseFive>
+			<Skills>
+				<li Name="Qi" Level="3"/>
+				<li Name="Barrier" LevelOver="5"/>
+			</Skills>
+			<Properties>
+				<!-- 精元转化 -->
+				<li Name="NutritionToJingYuanK" AddP="1"/>
+			</Properties>
+		</ModifierDef>
+	</Feature>
+
+	<Feature Name="EvilFeatureLongShenZhiSui" Type="Backstory">
+		<DisplayName>龙神之髓</DisplayName>
+		<Desc>骨若精钢，髓若金汤，损失的力量，将以更快的速度再生，生生不息，源源不绝</Desc>
+		<ModifierDef>
+			<BaseFive>0,2,0,0,0</BaseFive>
+			<Skills>
+				<li Name="Fight" Level="3"/>
+			</Skills>
+			<Properties>
+				<!-- 灵气恢复速度 -->
+				<li Name="LingAbsorbSpeed" BAddP="1"/>
+			</Properties>
+		</ModifierDef>
+	</Feature>
+
+	<Feature Name="EvilFeatureLongShenZhiHun" Type="Backstory">
+		<DisplayName>龙神之魂</DisplayName>
+		<Desc>淬炼灵境与灵魂，拥有远超凡人的强大精神力</Desc>
+		<ModifierDef>
+			<BaseFive>2,0,0,0,0</BaseFive>
+			<Skills>
+				<li Name="DouFa" Level="3"/>
+			</Skills>
+			<Properties>
+				<!-- 灵气根本值 -->
+				<li Name="NpcLingMaxValue" BAddP="1"/>
+			</Properties>
+		</ModifierDef>
+	</Feature>
+
+	<Feature Name="EvilFeatureFengHuangXueMai" Type="Backstory">
+		<DisplayName>凤凰血脉</DisplayName>
+		<Desc>凤凰炎为远古三神炎之一，有着强大的焚灭和净化之力。</Desc>
+		<ModifierDef>
+			<BaseFive>2,0,1,1,1</BaseFive>
+			<Skills>
+				<li Name="Qi" Level="1"/>
+				<li Name="DouFa" Level="2"/>
+			</Skills>
+			<Properties>
+				<!-- 术法伤害加成 -->
+				<li Name="NpcFight_SpellPowerAddP" BAddP="0.25"/>
+				<!-- 舒适高温 -->
+				<li Name="ComfyTMax" AddV="8" AddP="0"/>
+				<!-- 极限高温 -->
+				<li Name="ToleranceTMax" AddV="16" AddP="0"/>
+			</Properties>
+		</ModifierDef>
+	</Feature>
+
+	<Feature Name="EvilFeatureBingHuangXueMai" Type="Backstory">
+		<DisplayName>冰凰血脉</DisplayName>
+		<Desc>冰凰为远古三大水系至尊之一，并有着最强的冥寒之力，万物皆可永恒封结。</Desc>
+		<ModifierDef>
+			<BaseFive>2,0,1,1,1</BaseFive>
+			<Skills>
+				<li Name="Qi" Level="1"/>
+				<li Name="DouFa" Level="2"/>
+			</Skills>
+			<Properties>
+				<!-- 术法伤害加成 -->
+				<li Name="NpcFight_SpellPowerAddP" BAddP="0.25"/>
+				<!-- 舒适低温 -->
+				<li Name="ComfyTMin" AddV="-8" AddP="0"/>
+				<!-- 极限低温 -->
+				<li Name="ToleranceTMin" AddV="-16" AddP="0"/>
+			</Properties>
+		</ModifierDef>
+	</Feature>
+
+	<Feature Name="EvilFeatureJinWuXueMai" Type="Backstory">
+		<DisplayName>金乌血脉</DisplayName>
+		<Desc>金乌炎为远古三神炎之一，有着强大的毁灭之力。</Desc>
+		<ModifierDef>
+			<BaseFive>2,0,1,1,1</BaseFive>
+			<Skills>
+				<li Name="Qi" Level="1"/>
+				<li Name="DouFa" Level="2"/>
+			</Skills>
+			<Properties>
+				<!-- 术法伤害加成 -->
+				<li Name="NpcFight_SpellPowerAddP" BAddP="0.25"/>
+				<!-- 舒适高温 -->
+				<li Name="ComfyTMax" AddV="8" AddP="0"/>
+				<!-- 极限高温 -->
+				<li Name="ToleranceTMax" AddV="16" AddP="0"/>
+			</Properties>
+		</ModifierDef>
+	</Feature>
+
+	<Feature Name="EvilFeatureBaHuangShenMai" Type="Backstory">
+		<DisplayName>霸皇神脉</DisplayName>
+		<Desc>远古战神玄脉，若有执着追求力量的信念，未来必雄霸一方,否则便要付出常人数倍的努力。</Desc>
+		<ModifierDef>
+			<BaseFive>0,2,1,1,1</BaseFive>
+			<ModScale>0.2</ModScale>
+			<Skills>
+				<li Name="Fight" Level="2"/>
+				<li Name="Qi" Level="1"/>
+			</Skills>
+			<Properties>
+				<!-- 筑基速度 -->
+				<li Name="BasepracticeSpeedCoefficient" AddP="-0.80"/>
+				<!-- 修炼速度 -->
+				<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="4"/>
+			</Properties>
+		</ModifierDef>
+	</Feature>
+
+	<Feature Name="EvilFeatureTianLingShenMai" Type="Backstory">
+		<DisplayName>天灵神脉</DisplayName>
+		<Desc>五十四玄关全开，修玄速度远超常人。</Desc>
+		<ModifierDef>
+			<BaseFive>1,0,1,1,0</BaseFive>
+			<Skills>
+				<li Name="Qi" Level="3"/>
+			</Skills>
+		</ModifierDef>
+		<Properties>
+			<!-- 修炼速度 -->
+			<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="1"/>
+		</Properties>
+	</Feature>
+
+	<Feature Name="EvilFeatureBingXueLiuLiXinxin" Type="Backstory">
+		<DisplayName>冰雪琉璃心</DisplayName>
+		<Desc>性情至纯至净，悟性和记忆力极高，随着能力提升，可以感知善恶、危机，窥破诸多玄机，甚至窥视万灵内心。</Desc>
+		<ModifierDef>
+			<BaseFive>1,0,0,1,0</BaseFive>
+			<Skills>
+				<li Name="SocialContact" Level="1"/>
+				<li Name="Qi" Level="2"/>
+			</Skills>
+			<Properties>
+				<!-- 天谴值 -->
+				<li Name="GodPenaltyAddV" AddV="-99"/>
+			</Properties>
+		</ModifierDef>
+	</Feature>
+
+	<Feature Name="EvilFeatureJiuXuanLingLongTi" Type="Backstory">
+		<DisplayName>九玄玲珑体</DisplayName>
+		<Desc>丹田存在玲珑世界，可以储纳肉身无法承受的力量，修炼玄功不受玄力等级和身体承受能力的限制。</Desc>
+		<ModifierDef>
+			<BaseFive>0,1,1,0,0</BaseFive>
+			<Skills>
+				<li Name="Art" Level="1"/>
+				<li Name="DouFa" Level="2"/>
+			</Skills>
+			<Properties>
+				<!-- 灵气根本值 -->
+				<li Name="NpcLingMaxValue" BAddP="1"/>
+				<!-- 突破瓶颈的概率 -->
+				<li Name="PracticeRateAddPFromDan" AddP="1"/>
+			</Properties>
+		</ModifierDef>
+	</Feature>
+
+	<Feature Name="EvilFeatureWWuGouShenHun" Type="Backstory">
+		<DisplayName>无垢神魂</DisplayName>
+		<Desc>因沾染原始鸿蒙之力所生，混沌之中最纯净最纯净的灵魂，会被所有非邪恶的灵魂所亲和。</Desc>
+		<ModifierDef>
+			<BaseFive>2,0,1,1,1</BaseFive>
+			<Skills>
+				<li Name="Qi" Level="2"/>
+				<li Name="DouFa" Level="1"/>
+			</Skills>
+			<Properties>
+				<!-- 天谴值 -->
+				<li Name="GodPenaltyAddV" AddV="-99"/>
+			</Properties>
+		</ModifierDef>
+	</Feature>
+
+	<Feature Name="EvilFeatureWuGouShenTi" Type="Backstory">
+		<DisplayName>无垢神体</DisplayName>
+		<Desc>因沾染原始鸿蒙之力所生，混沌之中最纯净最纯净的灵体，会被所有非邪恶的灵魂所亲和。</Desc>
+		<ModifierDef>
+			<BaseFive>0,2,1,1,1</BaseFive>
+			<Skills>
+				<li Name="Fight" Level="1"/>
+				<li Name="Qi" Level="2"/>
+			</Skills>
+			<Properties>
+				<!-- 天谴值 -->
+				<li Name="GodPenaltyAddV" AddV="-99"/>
+			</Properties>
+		</ModifierDef>
+	</Feature>
+
+</List></FeatureDefs>

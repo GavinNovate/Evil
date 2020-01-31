@@ -23,7 +23,6 @@ end
 -- 添加指定轮回者
 function EvilNpc:AddReincarnate(id)
     local npc = CS.XiaWorld.NpcRandomMechine.MakeReincarnateNpc(id)
-    npc:AddSpecialFlag(CS.XiaWorld.g_emNpcSpecailFlag.FLAG_ISVISTOR, 1)
     npc:AddSpecialFlag(CS.XiaWorld.g_emNpcSpecailFlag.WaitHelping, 1)
     npc:AddModifier("SysVistorModifier",1,false,1,600)
     npc.PropertyMgr.RelationData:RemoveAllRelationShip()
@@ -75,7 +74,7 @@ end
 -- 随机招揽弟子
 function EvilNpc:AddRandomReincarnate(me,world,idStart,idEnd)
   local i = me.npcObj.Name
-  local id = math.random(idStart,idEnd)
+  local id = world:RandomInt(idStart,idEnd + 1)
   local name = EvilNpc:GetReincarnateName(id)
   if EvilNpc:HasNpc(name) then
     world:ShowStoryBox(""..i.."听说"..name.."根骨奇佳，是一个修仙的奇才，然得知其在很久之前就没了消息，据说是加入了某个修仙门派。","招揽弟子")

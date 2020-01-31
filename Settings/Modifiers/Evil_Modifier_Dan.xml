@@ -61,7 +61,7 @@
 		</Skills>
 		<Properties>
 			<!-- 道行 -->
-			<li Name="AbilityLvAddV" AddV="-10"/>
+			<li Name="AbilityLvAddV" AddV="-25"/>
 		</Properties>
 	</Modifier>
 </List></ModifierDefs>

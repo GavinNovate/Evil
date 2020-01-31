@@ -1,12 +1,53 @@
 ID	IsHide	LastName	FristName	Desc	Sex	Age	BodyType	Hair	Beard	ClothesStuff	BodyColor	BackStory1	BackStory2	BackStory3	Feature1	Feature2	Feature3	Experience1	Experience2	Experience3	Experience4	Relation1	Relation2	Relation3	Seed	Eyebrows	REye	LEye	Nose	Mouth	Ear	Yinji	Bahen	Shipin	IsCreat
-ID	"是否隐藏1 不参与随机但参与创建
-2 不参与随机也不参与创建"	姓	名	轮回者来源	性别(1男2女)	年龄	身体类型(1正常2壮3胖)	头发ID	胡须ID	衣服主材料	肤色(正常0白1黑2黄3)	背景故事1	背景故事2	背景故事3	附加特性1	附加特性2	附加腾特性3	经历1	经历2	经历3	经历4	关系1(ID|NAME)	关系2(ID|NAME)	关系3(ID|NAME)		眉毛ID	右眼ID	左眼ID	鼻子ID	嘴巴ID	耳朵ID	印记ID	疤痕ID	饰品ID	创建方式
-68061501	1	云	澈	悟性极高、天赋超凡、性情坚毅、恩怨必还，一路坎坷但百折不挠，总是在生死危机中不断前进	1	16	1	1	-1	Item_DeepBlueCloth	1	680615011	680615012	680615013				Evil_Experience_01	Evil_Experience_02	Evil_Experience_03
-68061502	1	茉	莉	星神界长公主，封号茉莉，外貌十三四岁的小萝莉，红发红眸，妖异之美、勾魂夺魄	2	18	1	3		Item_DeepBlueCloth	1	680615021	680615016	680615033				Evil_Experience				68061501|Lover
-68061503	1	彩	脂	星神界小公主，十二星神之天狼星神，封号彩脂，本名“星舞”	2	16	1	3		Item_DeepBlueCloth	1	680615022	680615017	680615033				Evil_Experience				68061501|Spouse	68061502|Brother			1	7	7	5	4	1	0	0	2	2
-68061504	1	夏	倾月	性格清冷孤傲，内心却有温柔娇弱的一面	2	18	1	3		Item_DeepBlueCloth	1	680615041	680615042	680615032				Evil_Experience				68061501|Spouse
-68061505	1	凤	雪児	心灵纯净如雪，拥有梦幻之美，公认的天玄大陆第一美女	2	16	1	3		Item_DeepBlueCloth	1	680615023	680615014	680615046				Evil_Experience				68061501|Spouse
-68061506	1	水	媚音	琉光界小公主，黑发黑裙，如暗夜中走出的娇小精灵，释放着与年龄全然不符的魅惑	2	16	1	3		Item_DeepBlueCloth	1	680615024	680615043	680615031				Evil_Experience				68061501|Spouse
-68061507	1	水	映月	琉光界长公主，与水媚音并称“琉光双姝”	2	18	1	3		Item_DeepBlueCloth	1	680615025	680615044	680615031				Evil_Experience				68061501|Spouse	68061506|Brother
-68061508	1	风	寒雪	冰云仙宫“冰云七仙”，排行第七，不染凡尘，由冰雪孕育的精灵	2	16	1	3		Item_DeepBlueCloth	1	680615045	680615015	680615032				Evil_Experience				68061501|Lover
-68061509	1	风	寒月	冰云仙宫“冰云七仙”，排行第六，不染凡尘，由冰雪孕育的精灵	2	18	1	3		Item_DeepBlueCloth	1	680615045	680615015	680615032				Evil_Experience				68061501|Lover	68061508|PracticeOtherBrother
+ID	"是否隐藏 1 不参与随机但参与创建
+ 2 不参与随机也不参与创建"	姓	名	轮回者来源	性别(1男2女)	年龄	身体类型(1正常2壮3胖)	头发ID	胡须ID	衣服主材料	肤色(正常0白1黑2黄3)	背景故事1	背景故事2	背景故事3	附加特性1	附加特性2	附加特性3	经历1	经历2	经历3	经历4	关系1(ID|NAME)	关系2(ID|NAME)	关系3(ID|NAME)		眉毛ID	右眼ID	左眼ID	鼻子ID	嘴巴ID	耳朵ID	印记ID	疤痕ID	饰品ID	创建方式
+68061501	1	云	澈	悟性极高、天赋超凡、性情坚毅、恩怨必还，一路坎坷但百折不挠，总是在生死危机中不断前进	1	18	1	1	-1	Item_WhiteCloth	1	680602010	680602101	680602201	EvilFeatureHuangShenZhiQu	EvilFeatureLongShenZhiSui	EvilFeatureLongShenZhiHun	Evil_Experience_01	Evil_Experience_02	Evil_Experience_03						2	2	2	2	2	1	0	0	2
+68061502	1	茉	莉	星神界长公主，封号茉莉，外貌十三四岁的小萝莉，红发红眸，妖异之美、勾魂夺魄	2	17	1	3		Item_WhiteCloth	1	680602023	680602102	680602202	EvilFeatureTianLingShenMai			Evil_Experience				68061501|Lover				3	6	6	5	5	1	0	0	4
+68061503	1	彩	脂	星神界小公主，十二星神之天狼星神，封号彩脂，本名“星舞”	2	16	1	3		Item_WhiteCloth	1	680602023	680602103	680602203	EvilFeatureTianLingShenMai			Evil_Experience				68061501|Spouse	68061502|Brother			1	6	6	5	4	1	0	0	4
+68061504	1	夏	倾月	性格清冷孤傲，内心却有温柔娇弱的一面	2	18	1	3		Item_WhiteCloth	1	680602006	680602109	680602204	EvilFeatureTianLingShenMai	EvilFeatureBingXueLiuLiXinxin	EvilFeatureJiuXuanLingLongTi	Evil_Experience				68061501|Spouse				5	6	6	5	5	1	0	0	4
+68061505	1	凤	雪児	心灵纯净如雪，拥有梦幻之美，公认的天玄大陆第一美女	2	16	1	3		Item_WhiteCloth	1	680602022	680602104	680602205	EvilFeatureTianLingShenMai			Evil_Experience				68061501|Spouse				1	6	6	5	4	1	0	0	4
+68061506	1	水	媚音	琉光界小公主，黑发黑裙，如暗夜中走出的娇小精灵，释放着与年龄全然不符的魅惑	2	16	1	3		Item_WhiteCloth	1	680602023	680602110	680602208	EvilFeatureTianLingShenMai	EvilFeatureWWuGouShenHun		Evil_Experience				68061501|Spouse				1	6	6	5	4	1	0	0	4
+68061507	1	水	映月	琉光界长公主，与水媚音并称“琉光双姝”	2	17	1	3		Item_WhiteCloth	1	680602023	680602110	680602208	EvilFeatureTianLingShenMai			Evil_Experience				68061501|Spouse	68061506|Brother			1	6	6	5	5	1	0	0	4
+68061508	1	风	寒雪	冰云仙宫“冰云七仙”，排行第七，不染凡尘，由冰雪孕育的精灵	2	16	1	3		Item_WhiteCloth	1	680602003	680602105	680602209	EvilFeatureTianLingShenMai			Evil_Experience				68061501|Lover				1	6	6	5	4	1	0	0	2
+68061509	1	风	寒月	冰云仙宫“冰云七仙”，排行第六，不染凡尘，由冰雪孕育的精灵	2	17	1	3		Item_WhiteCloth	1	680602003	680602105	680602209	EvilFeatureTianLingShenMai			Evil_Experience				68061501|Lover	68061508|PracticeOtherBrother			1	6	6	5	5	1	0	0	2
+68061510	1	萧	泠汐	萧泠汐	2	17	1	5		Item_WhiteCloth	1	680602005	680602123	680602235	EvilFeatureTianLingShenMai			Evil_Experience								1	6	6	5	4	1	0	0	0
+68061511	1	苍	月	苍月	2	19	1	3		Item_WhiteCloth	1	680602022	680602117	680602212	EvilFeatureTianLingShenMai			Evil_Experience								3	6	6	5	5	1	0	0	1
+68061512	1	楚	月蝉	楚月蝉	2	20	1	3		Item_WhiteCloth	1	680602003	680602105	680602209	EvilFeatureTianLingShenMai			Evil_Experience								3	6	6	5	5	1	0	0	2
+68061513	1	楚	月璃	楚月璃	2	19	1	3		Item_WhiteCloth	1	680602003	680602105	680602209	EvilFeatureTianLingShenMai			Evil_Experience								3	6	6	5	5	1	0	0	2
+68061514	1	君	怜妾	君怜妾	2	18	1	3		Item_WhiteCloth	1	680602003	680602105	680602209	EvilFeatureTianLingShenMai			Evil_Experience								3	6	6	5	5	1	0	0	2
+68061515	1	木	蓝依	木蓝依	2	18	1	3		Item_WhiteCloth	1	680602003	680602105	680602209	EvilFeatureTianLingShenMai			Evil_Experience								3	6	6	5	5	1	0	0	2
+68061516	1	慕容	千雪	慕容千雪	2	18	1	3		Item_WhiteCloth	1	680602003	680602105	680602209	EvilFeatureTianLingShenMai			Evil_Experience								3	6	6	5	5	1	0	0	2
+68061517	1	凤	仙儿	凤仙儿	2	16	1	3		Item_WhiteCloth	1	680602019	680602104	680602219	EvilFeatureTianLingShenMai			Evil_Experience								1	6	6	5	4	1	0	0	3
+68061518	1	苏	苓儿	苏苓儿	2	16	1	3		Item_WhiteCloth	1	680602013	680602115	680602223	EvilFeatureTianLingShenMai			Evil_Experience								1	6	6	5	5	1	0	0	0
+68061519	1	幻	彩衣	幻彩衣	2	16	1	3		Item_WhiteCloth	1	680602009	680602106	680602214	EvilFeatureTianLingShenMai			Evil_Experience								5	6	6	5	5	1	0	0	1
+68061520	1	沐	玄音	沐玄音	2	20	1	3		Item_WhiteCloth	1	680602017	680602105	680602216	EvilFeatureTianLingShenMai			Evil_Experience								3	6	6	5	5	1	0	0	4
+68061521	1	沐	冰云	沐冰云	2	19	1	3		Item_WhiteCloth	1	680602017	680602105	680602230	EvilFeatureTianLingShenMai			Evil_Experience								3	6	6	5	5	1	0	0	4
+68061522	1	沐	妃雪	沐妃雪	2	16	1	3		Item_WhiteCloth	1	680602017	680602105	680602236	EvilFeatureTianLingShenMai			Evil_Experience								1	6	6	5	5	1	0	0	4
+68061523	1	沐	小蓝	沐小蓝	2	16	1	3		Item_WhiteCloth	1	680602017	680602105	680602236	EvilFeatureTianLingShenMai			Evil_Experience								1	6	6	5	4	1	0	0	4
+68061524	1	瑾	月	瑾月	2	18	1	3		Item_WhiteCloth	1	680602015	680602109	680602210				Evil_Experience								1	6	6	5	5	1	0	0	4
+68061525	1	瑶	月	瑶月	2	18	1	3		Item_WhiteCloth	1	680602015	680602109	680602210				Evil_Experience								1	6	6	5	5	1	0	0	4
+68061526	1	怜	月	怜月	2	18	1	3		Item_WhiteCloth	1	680602015	680602109	680602210				Evil_Experience								1	6	6	5	5	1	0	0	4
+68061527	1	千叶	影儿	千叶影儿	2	18	1	3		Item_WhiteCloth	1	680602023	680602111	680602206	EvilFeatureTianLingShenMai			Evil_Experience								5	6	6	5	5	1	0	0	3
+68061528	1	神	曦	神曦	2	22	1	3		Item_WhiteCloth	1	680602014	680602116	680602207	EvilFeatureTianLingShenMai			Evil_Experience								5	6	6	5	5	1	0	0	4
+68061529	1	禾	菱	禾菱	2	16	1	3		Item_WhiteCloth	1	680602021	680602116	680602234	EvilFeatureTianLingShenMai			Evil_Experience								1	6	6	5	5	1	0	0	0
+68061530	1	池	妩仸	池妩仸	2	22	1	3		Item_WhiteCloth	1	680602018	680602112	680602218				Evil_Experience								5	6	6	5	5	1	0	0	3
+68061551	0	云	谷	云谷	1	72	1	1	3	Item_WhiteCloth	1	680602012	680602115	680602222				Evil_Experience								1	2	2	2	5	1	0	0	0
+68061552	0	萧	烈	萧烈	1	68	1	1	4	Item_WhiteCloth	1	680602005	680602123	680602226				Evil_Experience								2	2	2	1	2	1	0	0	0
+68061553	0	夏	元霸	夏元霸	1	16	2	1		Item_WhiteCloth	1	680602006	680602113	680602231				Evil_Experience								3	6	6	1	5	1	0	0	0
+68061554	0	苍	万壑	苍万壑	1	62	1	1	4	Item_WhiteCloth	1	680602007	680602118	680602211				Evil_Experience								2	2	2	2	1	1	0	0	0
+68061555	0	东方	休	东方休	1	66	1	1	3	Item_WhiteCloth	1	680602008	680602122	680602227				Evil_Experience								1	1	1	2	5	1	0	0	0
+68061556	0	秦	无伤	秦无伤	1	60	1	1	4	Item_WhiteCloth	1	680602001	680602120	680602227				Evil_Experience								2	1	1	1	5	1	0	0	0
+68061557	0	秦	无忧	秦无忧	1	58	1	1	1	Item_WhiteCloth	1	680602001	680602120	680602228				Evil_Experience								2	1	1	1	2	1	0	0	0
+68061558	0	司空	寒	司空寒	1	48	1	1	3	Item_WhiteCloth	1	680602001	680602120	680602228				Evil_Experience								2	1	1	1	2	1	0	0	0
+68061559	0	司空	渡	司空渡	1	22	1	1		Item_WhiteCloth	1	680602001	680602120	680602237				Evil_Experience								2	2	2	1	2	1	0	0	0
+68061560	0	焚	绝尘	焚绝尘	1	20	1	1		Item_WhiteCloth	1	680602025	680602107	680602220				Evil_Experience								2	2	2	2	2	1	0	0	0
+68061561	0	凌	云	凌云	1	18	1	1		Item_WhiteCloth	1	680602002	680602108	680602229				Evil_Experience								2	2	2	2	2	1	0	0	0
+68061562	0	凌	杰	凌杰	1	16	1	1		Item_WhiteCloth	1	680602002	680602108	680602221				Evil_Experience								2	2	2	2	5	1	0	0	0
+68061563	0	凤	祖儿	凤祖儿	1	16	1	1		Item_WhiteCloth	1	680602019	680602104	680602219				Evil_Experience								2	2	2	2	5	1	0	0	0
+68061564	0	凤	横空	凤横空	1	64	1	1	4	Item_WhiteCloth	1	680602004	680602104	680602213				Evil_Experience								2	2	2	2	2	1	0	0	0
+68061565	0	花	洺海	花洺海	1	28	1	1		Item_WhiteCloth	1	680602020	680602121	680602224				Evil_Experience								2	2	2	2	5	1	0	0	0
+68061566	0	如	小雅	如小雅	2	24	1	5		Item_WhiteCloth	1	680602024	680602119	680602225				Evil_Experience								3	3	3	2	1	1	0	0	0
+68061567	0	云	轻鸿	云轻鸿	1	48	1	1	1	Item_WhiteCloth	1	680602010	680602114	680602232				Evil_Experience								2	2	2	2	2	1	0	0	0
+68061568	0	慕	雨柔	慕雨柔	2	46	1	3		Item_WhiteCloth	1	680602011	680602119	680602233				Evil_Experience								3	1	1	1	1	1	0	0	0
+68061569	0	萧	云	萧云	1	18	1	1		Item_WhiteCloth	1	680602005	680602124	680602215				Evil_Experience								2	2	2	2	2	1	0	0	0
+68061570	0	水	千珩	水千珩	1	58	1	1	4	Item_WhiteCloth	1	680602016	680602110	680602217				Evil_Experience								2	2	2	2	2	1	0	0	0

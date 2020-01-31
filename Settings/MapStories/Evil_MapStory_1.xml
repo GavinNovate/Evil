@@ -74,6 +74,13 @@
 				</OKResult>
 			</li>
 			<li>
+				<Display>前往万兽山脉</Display>
+				<OKResult><![CDATA[
+					me:TriggerStory("Evil_Secrets_WanShouShanMai");
+				]]>
+				</OKResult>
+			</li>
+			<li>
 				<Display>前往苍风城</Display>
 				<OKResult><![CDATA[
 					me:TriggerStory("Evil_Secrets_CangFengCheng");
