@@ -8,7 +8,7 @@
 			<li>
 				<Display>打探行踪</Display>
 				<OKResult><![CDATA[
-					EvilNpc:ShowInquireReincarnatesBox(me,world,{68061501,68061510,68061504,68061553});
+					EvilNpc:ShowInquireReincarnatesBox(me,world,{68061501,68061552,68061510,68061504,68061553});
 				]]>
 				</OKResult>
 			</li>
@@ -62,7 +62,7 @@
 			<li>
 				<Display>打探行踪</Display>
 				<OKResult><![CDATA[
-					EvilNpc:ShowInquireReincarnatesBox(me,world,{68061554,68061555,68061511});
+					EvilNpc:ShowInquireReincarnatesBox(me,world,{68061511,68061554,68061555});
 				]]>
 				</OKResult>
 			</li>
