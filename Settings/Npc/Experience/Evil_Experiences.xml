@@ -37,10 +37,6 @@
 		<Gongs>
 			<li>Evil_Gong_1</li>
 		</Gongs>
-		<Items>
-			<li Name= "Item_Dan_NoHunger" Count="100"/>
-			<li Name= "Item_Dan_NoHunger1" Count="100"/>
-		</Items>
 		<Equips>
 			<li Name= "Evil_Sword_1" Quality="1"/>
 		</Equips>

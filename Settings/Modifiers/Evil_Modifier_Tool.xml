@@ -119,13 +119,13 @@
 		<Display>1</Display>
 		<Properties>
 			<!-- 筑基速度 -->
-			<li Name="BasepracticeSpeedCoefficient" AddP="1"/>
+			<li Name="BasepracticeSpeedCoefficient" BAddP="1"/>
 			<!-- 领悟速度 -->
-			<li Name="InspirationCoefficient" AddP="1"/>
+			<li Name="InspirationCoefficient" BAddP="1"/>
 			<!-- 修炼速度 -->
-			<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="1"/>
+			<li Name="DeepPracticeSpeedSpecialCoefficient" BAddP="1"/>
 			<!-- 参悟速度 -->
-			<li Name="IntelligenceSkillEXPConstant" AddP="1"/>
+			<li Name="IntelligenceSkillEXPConstant" BAddP="1"/>
 		</Properties>
 	</Modifier>
 

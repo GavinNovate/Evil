@@ -36,9 +36,9 @@
 			<li Name="DanMake_SuccessRateAddV" AddV="0.1"/>
 
 			<!-- 修炼速度 -->
-			<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="0.1"/>
+			<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="1"/>
 			<!-- 参悟速度 -->
-			<li Name="IntelligenceSkillEXPConstant" AddP="0.1"/>
+			<li Name="IntelligenceSkillEXPConstant" AddP="1"/>
 
 			<!-- 食物消耗速度加成 -->
 			<li Name="NutritionConsumeConstant" AddP="1"/>
@@ -95,9 +95,9 @@
 			<li Name="DanMake_SuccessRateAddV" AddV="0.1"/>
 
 			<!-- 修炼速度 -->
-			<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="0.1"/>
+			<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="1"/>
 			<!-- 参悟速度 -->
-			<li Name="IntelligenceSkillEXPConstant" AddP="0.1"/>
+			<li Name="IntelligenceSkillEXPConstant" AddP="1"/>
 
 			<!-- 食物消耗速度加成 -->
 			<li Name="NutritionConsumeConstant" AddP="2"/>
@@ -154,9 +154,9 @@
 			<li Name="DanMake_SuccessRateAddV" AddV="0.1"/>
 
 			<!-- 修炼速度 -->
-			<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="0.2"/>
+			<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="2"/>
 			<!-- 参悟速度 -->
-			<li Name="IntelligenceSkillEXPConstant" AddP="0.2"/>
+			<li Name="IntelligenceSkillEXPConstant" AddP="2"/>
 
 			<!-- 食物消耗速度加成 -->
 			<li Name="NutritionConsumeConstant" AddP="3"/>
@@ -213,9 +213,9 @@
 			<li Name="DanMake_SuccessRateAddV" AddV="0.2"/>
 
 			<!-- 修炼速度 -->
-			<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="0.2"/>
+			<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="2"/>
 			<!-- 参悟速度 -->
-			<li Name="IntelligenceSkillEXPConstant" AddP="0.2"/>
+			<li Name="IntelligenceSkillEXPConstant" AddP="2"/>
 
 			<!-- 食物消耗速度加成 -->
 			<li Name="NutritionConsumeConstant" AddP="4"/>
@@ -272,9 +272,9 @@
 			<li Name="DanMake_SuccessRateAddV" AddV="0.2"/>
 
 			<!-- 修炼速度 -->
-			<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="0.3"/>
+			<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="3"/>
 			<!-- 参悟速度 -->
-			<li Name="IntelligenceSkillEXPConstant" AddP="0.3"/>
+			<li Name="IntelligenceSkillEXPConstant" AddP="3"/>
 
 			<!-- 食物消耗速度加成 -->
 			<li Name="NutritionConsumeConstant" AddP="5"/>
@@ -331,9 +331,9 @@
 			<li Name="DanMake_SuccessRateAddV" AddV="0.2"/>
 
 			<!-- 修炼速度 -->
-			<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="0.3"/>
+			<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="3"/>
 			<!-- 参悟速度 -->
-			<li Name="IntelligenceSkillEXPConstant" AddP="0.3"/>
+			<li Name="IntelligenceSkillEXPConstant" AddP="3"/>
 
 			<!-- 食物消耗速度加成 -->
 			<li Name="NutritionConsumeConstant" AddP="6"/>
@@ -390,9 +390,9 @@
 			<li Name="DanMake_SuccessRateAddV" AddV="0.3"/>
 
 			<!-- 修炼速度 -->
-			<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="0.4"/>
+			<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="4"/>
 			<!-- 参悟速度 -->
-			<li Name="IntelligenceSkillEXPConstant" AddP="0.4"/>
+			<li Name="IntelligenceSkillEXPConstant" AddP="4"/>
 
 			<!-- 食物消耗速度加成 -->
 			<li Name="NutritionConsumeConstant" AddP="7"/>
@@ -449,9 +449,9 @@
 			<li Name="DanMake_SuccessRateAddV" AddV="0.3"/>
 
 			<!-- 修炼速度 -->
-			<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="0.4"/>
+			<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="4"/>
 			<!-- 参悟速度 -->
-			<li Name="IntelligenceSkillEXPConstant" AddP="0.4"/>
+			<li Name="IntelligenceSkillEXPConstant" AddP="4"/>
 
 			<!-- 食物消耗速度加成 -->
 			<li Name="NutritionConsumeConstant" AddP="8"/>
@@ -508,9 +508,9 @@
 			<li Name="DanMake_SuccessRateAddV" AddV="0.3"/>
 
 			<!-- 修炼速度 -->
-			<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="0.5"/>
+			<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="5"/>
 			<!-- 参悟速度 -->
-			<li Name="IntelligenceSkillEXPConstant" AddP="0.5"/>
+			<li Name="IntelligenceSkillEXPConstant" AddP="5"/>
 
 			<!-- 食物消耗速度加成 -->
 			<li Name="NutritionConsumeConstant" AddP="9"/>
