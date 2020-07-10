@@ -37,6 +37,10 @@
 		<MaxStack>1</MaxStack>
 		<Duration>-1</Duration>
 		<Display>0</Display>
+		<Properties>
+			<!-- 法宝威力 -->
+			<li Name="NpcFight_FabaoPowerAddP" BAddP="1"/>
+		</Properties>
 		<GlobleModifiers>
 			<li>Evil_Modifier_Tool_11</li>
 		</GlobleModifiers>
@@ -60,6 +64,10 @@
 		<MaxStack>1</MaxStack>
 		<Duration>-1</Duration>
 		<Display>0</Display>
+		<Properties>
+			<!-- 法术威力 -->
+			<li Name="NpcFight_SpellPowerAddP" BAddP="1"/>
+		</Properties>
 		<GlobleModifiers>
 			<li>Evil_Modifier_Tool_21</li>
 		</GlobleModifiers>
@@ -79,10 +87,14 @@
 
 	<Modifier Name="Evil_Modifier_Tool_30" Type="Normal">
 		<DisplayName>鸿蒙生死印</DisplayName>
-		<Desc>孕生于鸿蒙宇宙的中心，气机与鸿蒙宇宙相连，只要鸿蒙宇宙不死，它就永恒不灭，是整个鸿蒙空间中唯一的永生之器，为万灵所觊觎，其气息可大幅降低门下弟子寿元流逝速度。</Desc>
+		<Desc>孕生于鸿蒙宇宙的中心，气机与鸿蒙宇宙相连，只要鸿蒙宇宙不死，它就永恒不灭，是整个鸿蒙空间中唯一的永生之器，为万灵所觊觎，其气息可大幅降低门下弟子寿元流逝速度并提升精元吸纳效率。</Desc>
 		<MaxStack>1</MaxStack>
 		<Duration>-1</Duration>
 		<Display>0</Display>
+		<Properties>
+			<!-- 精元转化率 -->
+			<li Name="NutritionToJingYuanK" AddP="1"/>
+		</Properties>
 		<GlobleModifiers>
 			<li>Evil_Modifier_Tool_31</li>
 		</GlobleModifiers>
@@ -90,11 +102,13 @@
 
 	<Modifier Name="Evil_Modifier_Tool_31" Type="Normal">
 		<DisplayName>印</DisplayName>
-		<Desc>受玄天至宝鸿蒙生死印气息的影响，寿元流逝速度大幅降低。</Desc>
+		<Desc>受玄天至宝鸿蒙生死印气息的影响，寿元流逝速度大幅降低，精元吸纳效率大幅提升。</Desc>
 		<MaxStack>1</MaxStack>
 		<Duration>-1</Duration>
 		<Display>1</Display>
 		<Properties>
+			<!-- 精元转化率 -->
+			<li Name="NutritionToJingYuanK" AddP="1"/>
 			<!-- 寿元流逝速度 -->
 			<li Name="AgeCostSpeed" AddV="-0.75"/>
 		</Properties>
@@ -106,6 +120,16 @@
 		<MaxStack>1</MaxStack>
 		<Duration>-1</Duration>
 		<Display>0</Display>
+		<Properties>
+			<!-- 筑基速度 -->
+			<li Name="BasepracticeSpeedCoefficient" BAddP="1"/>
+			<!-- 领悟速度 -->
+			<li Name="InspirationCoefficient" BAddP="1"/>
+			<!-- 修炼速度 -->
+			<li Name="DeepPracticeSpeedSpecialCoefficient" BAddP="1"/>
+			<!-- 参悟速度 -->
+			<li Name="IntelligenceSkillEXPConstant" BAddP="1"/>
+		</Properties>
 		<GlobleModifiers>
 			<li>Evil_Modifier_Tool_41</li>
 		</GlobleModifiers>
@@ -135,6 +159,12 @@
 		<MaxStack>1</MaxStack>
 		<Duration>-1</Duration>
 		<Display>0</Display>
+		<Properties>
+			<!-- 外伤恢复速度 -->
+			<li Name="RecoveryPower" AddP="1"/>
+			<!-- 内伤恢复速度 -->
+			<li Name="MagicDamageRecoveryPowerAddV" AddV="1"/>
+		</Properties>
 		<GlobleModifiers>
 			<li>Evil_Modifier_Tool_51</li>
 		</GlobleModifiers>
@@ -160,6 +190,12 @@
 		<MaxStack>1</MaxStack>
 		<Duration>-1</Duration>
 		<Display>0</Display>
+		<Properties>
+			<!-- 移动速度 -->
+			<li Name="MoveSpeed" AddP="1"/>
+			<!-- 历练速度 -->
+			<li Name="WorldMapFlySpeed" AddP="1"/>
+		</Properties>
 		<GlobleModifiers>
 			<li>Evil_Modifier_Tool_61</li>
 		</GlobleModifiers>

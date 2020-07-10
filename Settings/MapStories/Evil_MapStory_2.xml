@@ -165,6 +165,20 @@
 				</OKResult>
 			</li>
 			<li>
+				<Display>探访医仙</Display>
+				<OKResult><![CDATA[
+					EvilNpc:ShowInquireReincarnatesBox(me,world,{680603801,680603802,680603803,680603804,680603805,680603806,680603807,680603808,680603809,680603810,680603811,680603812});
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>探访月仙</Display>
+				<OKResult><![CDATA[
+					EvilNpc:ShowInquireReincarnatesBox(me,world,{680603813,680603814,680603815,680603816,680603817,680603818,680603819,680603820,680603821,680603822,680603823,680603824});
+				]]>
+				</OKResult>
+			</li>
+			<li>
 				<Display>招揽弟子</Display>
 				<OKResult><![CDATA[
 					EvilNpc:AddRandomReincarnate(me,world,680603001,680603200);

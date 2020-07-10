@@ -1,5 +1,5 @@
 <ThingDefs><List>
-	<ThingDef Type="Item" Name="Evil_Item_Treasure_1" Parent="ToolBase">
+	<ThingDef Type="Item" Name="Evil_Item_Treasure_1" Parent="MaterialBase">
 	<Tags>
 	</Tags>
 	<ThingName>诛天始祖剑</ThingName>
@@ -14,7 +14,7 @@
 		<FlameSpawnThingDef></FlameSpawnThingDef>
 		<FlameSpawnChance>0</FlameSpawnChance>
 	</Flammability>
-	<Item Kind="Equipment">
+	<Item Lable="Treasure">
 		<NotRandom>1</NotRandom>
 		<FabaoSuffix>剑</FabaoSuffix>
 		<PhysicalLables>
@@ -34,7 +34,7 @@
 	</Item>
 	</ThingDef>
 
-	<ThingDef Type="Item" Name="Evil_Item_Treasure_2" Parent="ToolBase">
+	<ThingDef Type="Item" Name="Evil_Item_Treasure_2" Parent="MaterialBase">
 	<Tags>
 	</Tags>
 	<ThingName>邪婴万劫轮</ThingName>
@@ -49,7 +49,7 @@
 		<FlameSpawnThingDef></FlameSpawnThingDef>
 		<FlameSpawnChance>0</FlameSpawnChance>
 	</Flammability>
-	<Item Kind="Equipment">
+	<Item Lable="Treasure">
 		<NotRandom>1</NotRandom>
 		<FabaoSuffix>轮</FabaoSuffix>
 		<PhysicalLables>
@@ -69,7 +69,7 @@
 	</Item>
 	</ThingDef>
 
-	<ThingDef Type="Item" Name="Evil_Item_Treasure_3" Parent="ToolBase">
+	<ThingDef Type="Item" Name="Evil_Item_Treasure_3" Parent="MaterialBase">
 	<Tags>
 	</Tags>
 	<ThingName>鸿蒙生死印</ThingName>
@@ -78,13 +78,13 @@
 	<Beauty>12</Beauty>
 	<Quality>100</Quality>
 	<TexPath>Spr\Object\treasure03.png</TexPath>
-	<Desc>孕生于鸿蒙宇宙的中心，气机与鸿蒙宇宙相连，只要鸿蒙宇宙不死，它就永恒不灭，是整个鸿蒙空间中唯一的永生之器，为万灵所觊觎，其气息可大幅降低门下弟子寿元流逝速度。</Desc>
+	<Desc>孕生于鸿蒙宇宙的中心，气机与鸿蒙宇宙相连，只要鸿蒙宇宙不死，它就永恒不灭，是整个鸿蒙空间中唯一的永生之器，为万灵所觊觎，其气息可大幅降低门下弟子寿元流逝速度并提升精元吸纳效率。</Desc>
 	<Flammability>
 		<Flammability>-1</Flammability>
 		<FlameSpawnThingDef></FlameSpawnThingDef>
 		<FlameSpawnChance>0</FlameSpawnChance>
 	</Flammability>
-	<Item Kind="Equipment">
+	<Item Lable="Treasure">
 		<NotRandom>1</NotRandom>
 		<FabaoSuffix>印</FabaoSuffix>
 		<PhysicalLables>
@@ -104,7 +104,7 @@
 	</Item>
 	</ThingDef>
 
-	<ThingDef Type="Item" Name="Evil_Item_Treasure_4" Parent="ToolBase">
+	<ThingDef Type="Item" Name="Evil_Item_Treasure_4" Parent="MaterialBase">
 	<Tags>
 	</Tags>
 	<ThingName>宙天珠</ThingName>
@@ -119,7 +119,7 @@
 		<FlameSpawnThingDef></FlameSpawnThingDef>
 		<FlameSpawnChance>0</FlameSpawnChance>
 	</Flammability>
-	<Item Kind="Equipment">
+	<Item Lable="Treasure">
 		<NotRandom>1</NotRandom>
 		<FabaoSuffix>珠</FabaoSuffix>
 		<PhysicalLables>
@@ -139,7 +139,7 @@
 	</Item>
 	</ThingDef>
 
-	<ThingDef Type="Item" Name="Evil_Item_Treasure_5" Parent="ToolBase">
+	<ThingDef Type="Item" Name="Evil_Item_Treasure_5" Parent="MaterialBase">
 	<Tags>
 	</Tags>
 	<ThingName>天毒珠</ThingName>
@@ -154,7 +154,7 @@
 		<FlameSpawnThingDef></FlameSpawnThingDef>
 		<FlameSpawnChance>0</FlameSpawnChance>
 	</Flammability>
-	<Item Kind="Equipment">
+	<Item Lable="Treasure">
 		<NotRandom>1</NotRandom>
 		<FabaoSuffix>珠</FabaoSuffix>
 		<PhysicalLables>
@@ -174,7 +174,7 @@
 	</Item>
 	</ThingDef>
 
-	<ThingDef Type="Item" Name="Evil_Item_Treasure_6" Parent="ToolBase">
+	<ThingDef Type="Item" Name="Evil_Item_Treasure_6" Parent="MaterialBase">
 	<Tags>
 	</Tags>
 	<ThingName>乾坤刺</ThingName>
@@ -189,7 +189,7 @@
 		<FlameSpawnThingDef></FlameSpawnThingDef>
 		<FlameSpawnChance>0</FlameSpawnChance>
 	</Flammability>
-	<Item Kind="Equipment">
+	<Item Lable="Treasure">
 		<NotRandom>1</NotRandom>
 		<FabaoSuffix>刺</FabaoSuffix>
 		<PhysicalLables>
@@ -209,7 +209,7 @@
 	</Item>
 	</ThingDef>
 
-	<ThingDef Type="Item" Name="Evil_Item_Treasure_7" Parent="ToolBase">
+	<ThingDef Type="Item" Name="Evil_Item_Treasure_7" Parent="MaterialBase">
 	<Tags>
 	</Tags>
 	<ThingName>轮回镜</ThingName>
@@ -224,7 +224,7 @@
 		<FlameSpawnThingDef></FlameSpawnThingDef>
 		<FlameSpawnChance>0</FlameSpawnChance>
 	</Flammability>
-	<Item Kind="Equipment">
+	<Item Lable="Treasure">
 		<NotRandom>1</NotRandom>
 		<FabaoSuffix>镜</FabaoSuffix>
 		<PhysicalLables>
