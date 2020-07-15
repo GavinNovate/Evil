@@ -188,6 +188,7 @@
 
 	</TerrainDef>
 	<!-- TerrainType 改为 ShallowWater 可以铺地板 -->
+	<!-- PathCost 改为 25 降低路径消耗 -->
 	<TerrainDef Name="DepthDepthWater" Parent="TerrainBase">
 		<DisplayName>深水</DisplayName>
 		<Tags>
@@ -198,7 +199,7 @@
 		<OutFix>Mud</OutFix>
 		<TerrainType>ShallowWater</TerrainType>
 		<RenderLayer>22</RenderLayer>
-		<PathCost>100</PathCost>
+		<PathCost>25</PathCost>
 		<Fertility>0.6</Fertility>
 		<Beauty>1</Beauty>
 		<MiniColor>4F798CFF</MiniColor>
@@ -217,7 +218,7 @@
 		<TerrainType>ShallowWater</TerrainType>
 		<OutFix>Mud</OutFix>
 		<RenderLayer>22</RenderLayer>
-		<PathCost>100</PathCost>
+		<PathCost>25</PathCost>
 		<Fertility>0.6</Fertility>
 		<IsSnowed>0</IsSnowed>
 		<MiniColor>4F798CFF</MiniColor>
