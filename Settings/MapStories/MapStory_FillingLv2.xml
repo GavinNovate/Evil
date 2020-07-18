@@ -1,0 +1,438 @@
+<Stories><List>
+	<Story Name="HighFind_Jin"  Parent="BaseFillingStory">
+		<DisplayName>寻觅宝物</DisplayName>
+		<RuleKind>FindHighProduce</RuleKind>
+		<Desc>[NAME]听说此地颇有灵异，怀疑此处有通灵的宝物藏匿。</Desc>
+		<Kind>HighFind_Jin</Kind>
+		<Selections>
+			<li>
+				<Display>寻觅宝物</Display>
+				<RuleType>Good</RuleType>
+				<Tip>机缘</Tip>
+				<Condition><![CDATA[
+				me:GetLuck() >= me:RandomInt(1, 5)
+				]]>
+				</Condition>
+				<DisplayCondition><![CDATA[
+				me:GetGElementKind() == 5
+				]]>
+				</DisplayCondition>
+				<OKResult>me:AddMsg(XT("[NAME]果然察觉到此处有宝物的气息，也许是机缘所致，他轻易的找到了宝贝。"));me:DropAwardItemFromCache(story.PlaceHighProduce, 1, 1);</OKResult>
+				<NOResult>me:AddMsg(XT("[NAME]果然察觉到此处有宝物的气息，但是几经搜索都找不到头绪，只能无奈放弃。"));</NOResult>
+			</li>
+			<li>
+				<Display>寻觅宝物</Display>
+				<RuleType>Good</RuleType>
+				<Tip>机缘</Tip>
+				<Condition><![CDATA[
+				me:GetLuck() >= me:RandomInt(1, 10)
+				]]>
+				</Condition>
+				<DisplayCondition><![CDATA[
+				me:GetGElementKind() == 1
+				]]>
+				</DisplayCondition>
+				<OKResult>me:AddMsg(XT("[NAME]果然察觉到此处有宝物的气息，也许是机缘所致，他轻易的找到了宝贝。"));me:DropAwardItemFromCache(story.PlaceHighProduce, 1, 1);</OKResult>
+				<NOResult>me:AddMsg(XT("[NAME]果然察觉到此处有宝物的气息，但是几经搜索都找不到头绪，只能无奈放弃。"));</NOResult>
+			</li>
+			<li>
+				<Display>寻觅宝物</Display>
+				<RuleType>Good</RuleType>
+				<DisplayCondition><![CDATA[
+				me:GetGElementKind() == 2
+				]]>
+				</DisplayCondition>
+				<OKResult>me:AddMsg(XT("[NAME]根本感受不到宝物的气息，反而觉得此处五行异常克制自己。[NAME]不敢多待，只得匆匆离去。"));</OKResult>
+
+			</li>
+			<li>
+				<Display>寻觅宝物</Display>
+				<RuleType>Good</RuleType>
+				<DisplayCondition><![CDATA[
+				me:GetGElementKind() == 3
+				]]>
+				</DisplayCondition>
+				<OKResult>me:AddMsg(XT("[NAME]根本感受不到宝物的气息，但是却觉得此处五行之气与自己十分契合，有一种舒适感。[NAME]寻觅良久未果，只好遗憾离去。"));</OKResult>
+
+			</li>
+			<li>
+				<Display>寻觅宝物</Display>
+				<RuleType>Good</RuleType>
+				<DisplayCondition><![CDATA[
+				me:GetGElementKind() == 4
+				]]>
+				</DisplayCondition>
+				<OKResult>me:AddMsg(XT("[NAME]丝毫无法感受宝物的痕迹，反而觉得此处五行与自己并不契合，让自己气息紊乱，[NAME]只得匆匆离去。"));</OKResult>
+			</li>
+			<li>
+				<Display>寻觅宝物</Display>
+				<RuleType>Good</RuleType>
+				<Tip>机缘</Tip>
+				<Condition><![CDATA[
+				me:GetLuck() >= me:RandomInt(1, 15)
+				]]>
+				</Condition>
+				<DisplayCondition><![CDATA[
+				me:GetGElementKind() == 0
+				]]>
+				</DisplayCondition>
+				<OKResult>me:AddMsg(XT("[NAME]果然察觉到此处有宝物的气息，也许是机缘所致，他轻易的找到了宝贝。"));me:DropAwardItemFromCache(story.PlaceHighProduce, 1, 1);</OKResult>
+				<NOResult>me:AddMsg(XT("[NAME]果然察觉到此处有宝物的气息，但是几经搜索都找不到头绪，只能无奈放弃。"));</NOResult>
+			</li>
+			<li>
+				<Display>离开</Display>
+				<RuleType>Bye</RuleType>
+				<OKResult>me:AddMsg(XT("[NAME]不想在此浪费时间，转头离去。"));</OKResult>
+			</li>
+
+		</Selections>
+	</Story>
+	<Story Name="HighFind_Mu"  Parent="BaseFillingStory">
+		<DisplayName>寻觅宝物</DisplayName>
+		<RuleKind>FindHighProduce</RuleKind>
+		<Desc>[NAME]听说此地颇有灵异，怀疑此处有通灵的宝物藏匿。</Desc>
+		<Kind>HighFind_Mu</Kind>
+		<Selections>
+			<li>
+				<Display>寻觅宝物</Display>
+				<RuleType>Good</RuleType>
+				<Tip>机缘</Tip>
+				<Condition><![CDATA[
+				me:GetLuck() >= me:RandomInt(1, 5)
+				]]>
+				</Condition>
+				<DisplayCondition><![CDATA[
+				me:GetGElementKind() == 3
+				]]>
+				</DisplayCondition>
+				<OKResult>me:AddMsg(XT("[NAME]果然察觉到此处有宝物的气息，也许是机缘所致，他轻易的找到了宝贝。"));me:DropAwardItemFromCache(story.PlaceHighProduce, 1, 1);</OKResult>
+				<NOResult>me:AddMsg(XT("[NAME]果然察觉到此处有宝物的气息，但是几经搜索都找不到头绪，只能无奈放弃。"));</NOResult>
+			</li>
+			<li>
+				<Display>寻觅宝物</Display>
+				<RuleType>Good</RuleType>
+				<Tip>机缘</Tip>
+				<Condition><![CDATA[
+				me:GetLuck() >= me:RandomInt(1, 10)
+				]]>
+				</Condition>
+				<DisplayCondition><![CDATA[
+				me:GetGElementKind() == 2
+				]]>
+				</DisplayCondition>
+				<OKResult>me:AddMsg(XT("[NAME]果然察觉到此处有宝物的气息，也许是机缘所致，他轻易的找到了宝贝。"));me:DropAwardItemFromCache(story.PlaceHighProduce, 1, 1);</OKResult>
+				<NOResult>me:AddMsg(XT("[NAME]果然察觉到此处有宝物的气息，但是几经搜索都找不到头绪，只能无奈放弃。"));</NOResult>
+			</li>
+			<li>
+				<Display>寻觅宝物</Display>
+				<RuleType>Good</RuleType>
+				<DisplayCondition><![CDATA[
+				me:GetGElementKind() == 5
+				]]>
+				</DisplayCondition>
+				<OKResult>me:AddMsg(XT("[NAME]根本感受不到宝物的气息，反而觉得此处五行异常克制自己。[NAME]不敢多待，只得匆匆离去。"));</OKResult>
+
+			</li>
+			<li>
+				<Display>寻觅宝物</Display>
+				<RuleType>Good</RuleType>
+				<DisplayCondition><![CDATA[
+				me:GetGElementKind() == 4
+				]]>
+				</DisplayCondition>
+				<OKResult>me:AddMsg(XT("[NAME]根本感受不到宝物的气息，但是却觉得此处五行之气与自己十分契合，有一种舒适感。[NAME]寻觅良久未果，只好遗憾离去。"));</OKResult>
+
+			</li>
+			<li>
+				<Display>寻觅宝物</Display>
+				<RuleType>Good</RuleType>
+				<DisplayCondition><![CDATA[
+				me:GetGElementKind() == 1
+				]]>
+				</DisplayCondition>
+				<OKResult>me:AddMsg(XT("[NAME]丝毫无法感受宝物的痕迹，反而觉得此处五行与自己并不契合，让自己气息紊乱，[NAME]只得匆匆离去。"));</OKResult>
+			</li>
+			<li>
+				<Display>寻觅宝物</Display>
+				<RuleType>Good</RuleType>
+				<Tip>机缘</Tip>
+				<Condition><![CDATA[
+				me:GetLuck() >= me:RandomInt(1, 15)
+				]]>
+				</Condition>
+				<DisplayCondition><![CDATA[
+				me:GetGElementKind() == 0
+				]]>
+				</DisplayCondition>
+				<OKResult>me:AddMsg(XT("[NAME]果然察觉到此处有宝物的气息，也许是机缘所致，他轻易的找到了宝贝。"));me:DropAwardItemFromCache(story.PlaceHighProduce, 1, 1);</OKResult>
+				<NOResult>me:AddMsg(XT("[NAME]果然察觉到此处有宝物的气息，但是几经搜索都找不到头绪，只能无奈放弃。"));</NOResult>
+			</li>
+			<li>
+				<Display>离开</Display>
+				<RuleType>Bye</RuleType>
+				<OKResult>me:AddMsg(XT("[NAME]不想在此浪费时间，转头离去。"));</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	<Story Name="HighFind_Shui"  Parent="BaseFillingStory">
+		<DisplayName>寻觅宝物</DisplayName>
+		<RuleKind>FindHighProduce</RuleKind>
+		<Desc>[NAME]听说此地颇有灵异，怀疑此处有通灵的宝物藏匿。</Desc>
+		<Kind>HighFind_Shui</Kind>
+		<Selections>
+			<li>
+				<Display>寻觅宝物</Display>
+				<RuleType>Good</RuleType>
+				<Tip>机缘</Tip>
+				<Condition><![CDATA[
+				me:GetLuck() >= me:RandomInt(1, 5)
+				]]>
+				</Condition>
+				<DisplayCondition><![CDATA[
+				me:GetGElementKind() == 1
+				]]>
+				</DisplayCondition>
+				<OKResult>me:AddMsg(XT("[NAME]果然察觉到此处有宝物的气息，也许是机缘所致，他轻易的找到了宝贝。"));me:DropAwardItemFromCache(story.PlaceHighProduce, 1, 1);</OKResult>
+				<NOResult>me:AddMsg(XT("[NAME]果然察觉到此处有宝物的气息，但是几经搜索都找不到头绪，只能无奈放弃。"));</NOResult>
+			</li>
+			<li>
+				<Display>寻觅宝物</Display>
+				<RuleType>Good</RuleType>
+				<Tip>机缘</Tip>
+				<Condition><![CDATA[
+				me:GetLuck() >= me:RandomInt(1, 10)
+				]]>
+				</Condition>
+				<DisplayCondition><![CDATA[
+				me:GetGElementKind() == 3
+				]]>
+				</DisplayCondition>
+				<OKResult>me:AddMsg(XT("[NAME]果然察觉到此处有宝物的气息，也许是机缘所致，他轻易的找到了宝贝。"));me:DropAwardItemFromCache(story.PlaceHighProduce, 1, 1);</OKResult>
+				<NOResult>me:AddMsg(XT("[NAME]果然察觉到此处有宝物的气息，但是几经搜索都找不到头绪，只能无奈放弃。"));</NOResult>
+			</li>
+			<li>
+				<Display>寻觅宝物</Display>
+				<RuleType>Good</RuleType>
+				<DisplayCondition><![CDATA[
+				me:GetGElementKind() == 4
+				]]>
+				</DisplayCondition>
+				<OKResult>me:AddMsg(XT("[NAME]根本感受不到宝物的气息，反而觉得此处五行异常克制自己。[NAME]不敢多待，只得匆匆离去。"));</OKResult>
+
+			</li>
+			<li>
+				<Display>寻觅宝物</Display>
+				<RuleType>Good</RuleType>
+				<DisplayCondition><![CDATA[
+				me:GetGElementKind() == 2
+				]]>
+				</DisplayCondition>
+				<OKResult>me:AddMsg(XT("[NAME]根本感受不到宝物的气息，但是却觉得此处五行之气与自己十分契合，有一种舒适感。[NAME]寻觅良久未果，只好遗憾离去。"));</OKResult>
+
+			</li>
+			<li>
+				<Display>寻觅宝物</Display>
+				<RuleType>Good</RuleType>
+				<DisplayCondition><![CDATA[
+				me:GetGElementKind() == 5
+				]]>
+				</DisplayCondition>
+				<OKResult>me:AddMsg(XT("[NAME]丝毫无法感受宝物的痕迹，反而觉得此处五行与自己并不契合，让自己气息紊乱，[NAME]只得匆匆离去。"));</OKResult>
+			</li>
+			<li>
+				<Display>寻觅宝物</Display>
+				<RuleType>Good</RuleType>
+				<Tip>机缘</Tip>
+				<Condition><![CDATA[
+				me:GetLuck() >= me:RandomInt(1, 15)
+				]]>
+				</Condition>
+				<DisplayCondition><![CDATA[
+				me:GetGElementKind() == 0
+				]]>
+				</DisplayCondition>
+				<OKResult>me:AddMsg(XT("[NAME]果然察觉到此处有宝物的气息，也许是机缘所致，他轻易的找到了宝贝。"));me:DropAwardItemFromCache(story.PlaceHighProduce, 1, 1);</OKResult>
+				<NOResult>me:AddMsg(XT("[NAME]果然察觉到此处有宝物的气息，但是几经搜索都找不到头绪，只能无奈放弃。"));</NOResult>
+			</li>
+			<li>
+				<Display>离开</Display>
+				<RuleType>Bye</RuleType>
+				<OKResult>me:AddMsg(XT("[NAME]不想在此浪费时间，转头离去。"));</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	<Story Name="HighFind_Huo"  Parent="BaseFillingStory">
+		<DisplayName>寻觅宝物</DisplayName>
+		<RuleKind>FindHighProduce</RuleKind>
+		<Desc>[NAME]听说此地颇有灵异，怀疑此处有通灵的宝物藏匿。</Desc>
+		<Kind>HighFind_Huo</Kind>
+		<Selections>
+			<li>
+				<Display>寻觅宝物</Display>
+				<RuleType>Good</RuleType>
+				<Tip>机缘</Tip>
+				<Condition><![CDATA[
+				me:GetLuck() >= me:RandomInt(1, 5)
+				]]>
+				</Condition>
+				<DisplayCondition><![CDATA[
+				me:GetGElementKind() == 2
+				]]>
+				</DisplayCondition>
+				<OKResult>me:AddMsg(XT("[NAME]果然察觉到此处有宝物的气息，也许是机缘所致，他轻易的找到了宝贝。"));me:DropAwardItemFromCache(story.PlaceHighProduce, 1, 1);</OKResult>
+				<NOResult>me:AddMsg(XT("[NAME]果然察觉到此处有宝物的气息，但是几经搜索都找不到头绪，只能无奈放弃。"));</NOResult>
+			</li>
+			<li>
+				<Display>寻觅宝物</Display>
+				<RuleType>Good</RuleType>
+				<Tip>机缘</Tip>
+				<Condition><![CDATA[
+				me:GetLuck() >= me:RandomInt(1, 10)
+				]]>
+				</Condition>
+				<DisplayCondition><![CDATA[
+				me:GetGElementKind() == 4
+				]]>
+				</DisplayCondition>
+				<OKResult>me:AddMsg(XT("[NAME]果然察觉到此处有宝物的气息，也许是机缘所致，他轻易的找到了宝贝。"));me:DropAwardItemFromCache(story.PlaceHighProduce, 1, 1);</OKResult>
+				<NOResult>me:AddMsg(XT("[NAME]果然察觉到此处有宝物的气息，但是几经搜索都找不到头绪，只能无奈放弃。"));</NOResult>
+			</li>
+			<li>
+				<Display>寻觅宝物</Display>
+				<RuleType>Good</RuleType>
+				<DisplayCondition><![CDATA[
+				me:GetGElementKind() == 1
+				]]>
+				</DisplayCondition>
+				<OKResult>me:AddMsg(XT("[NAME]根本感受不到宝物的气息，反而觉得此处五行异常克制自己。[NAME]不敢多待，只得匆匆离去。"));</OKResult>
+
+			</li>
+			<li>
+				<Display>寻觅宝物</Display>
+				<RuleType>Good</RuleType>
+				<DisplayCondition><![CDATA[
+				me:GetGElementKind() == 5
+				]]>
+				</DisplayCondition>
+				<OKResult>me:AddMsg(XT("[NAME]根本感受不到宝物的气息，但是却觉得此处五行之气与自己十分契合，有一种舒适感。[NAME]寻觅良久未果，只好遗憾离去。"));</OKResult>
+
+			</li>
+			<li>
+				<Display>寻觅宝物</Display>
+				<RuleType>Good</RuleType>
+				<DisplayCondition><![CDATA[
+				me:GetGElementKind() == 3
+				]]>
+				</DisplayCondition>
+				<OKResult>me:AddMsg(XT("[NAME]丝毫无法感受宝物的痕迹，反而觉得此处五行与自己并不契合，让自己气息紊乱，[NAME]只得匆匆离去。"));</OKResult>
+			</li>
+			<li>
+				<Display>寻觅宝物</Display>
+				<RuleType>Good</RuleType>
+				<Tip>机缘</Tip>
+				<Condition><![CDATA[
+				me:GetLuck() >= me:RandomInt(1, 15)
+				]]>
+				</Condition>
+				<DisplayCondition><![CDATA[
+				me:GetGElementKind() == 0
+				]]>
+				</DisplayCondition>
+				<OKResult>me:AddMsg(XT("[NAME]果然察觉到此处有宝物的气息，也许是机缘所致，他轻易的找到了宝贝。"));me:DropAwardItemFromCache(story.PlaceHighProduce, 1, 1);</OKResult>
+				<NOResult>me:AddMsg(XT("[NAME]果然察觉到此处有宝物的气息，但是几经搜索都找不到头绪，只能无奈放弃。"));</NOResult>
+			</li>
+			<li>
+				<Display>离开</Display>
+				<RuleType>Bye</RuleType>
+				<OKResult>me:AddMsg(XT("[NAME]不想在此浪费时间，转头离去。"));</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	<Story Name="HighFind_Tu"  Parent="BaseFillingStory">
+		<DisplayName>寻觅宝物</DisplayName>
+		<RuleKind>FindHighProduce</RuleKind>
+		<Desc>[NAME]听说此地颇有灵异，怀疑此处有通灵的宝物藏匿。</Desc>
+		<Kind>HighFind_Tu</Kind>
+		<Selections>
+			<li>
+				<Display>寻觅宝物</Display>
+				<RuleType>Good</RuleType>
+				<Tip>机缘</Tip>
+				<Condition><![CDATA[
+				me:GetLuck() >= me:RandomInt(1, 5)
+				]]>
+				</Condition>
+				<DisplayCondition><![CDATA[
+				me:GetGElementKind() == 4
+				]]>
+				</DisplayCondition>
+				<OKResult>me:AddMsg(XT("[NAME]果然察觉到此处有宝物的气息，也许是机缘所致，他轻易的找到了宝贝。"));me:DropAwardItemFromCache(story.PlaceHighProduce, 1, 1);</OKResult>
+				<NOResult>me:AddMsg(XT("[NAME]果然察觉到此处有宝物的气息，但是几经搜索都找不到头绪，只能无奈放弃。"));</NOResult>
+			</li>
+			<li>
+				<Display>寻觅宝物</Display>
+				<RuleType>Good</RuleType>
+				<Tip>机缘</Tip>
+				<Condition><![CDATA[
+				me:GetLuck() >= me:RandomInt(1, 10)
+				]]>
+				</Condition>
+				<DisplayCondition><![CDATA[
+				me:GetGElementKind() == 5
+				]]>
+				</DisplayCondition>
+				<OKResult>me:AddMsg(XT("[NAME]果然察觉到此处有宝物的气息，也许是机缘所致，他轻易的找到了宝贝。"));me:DropAwardItemFromCache(story.PlaceHighProduce, 1, 1);</OKResult>
+				<NOResult>me:AddMsg(XT("[NAME]果然察觉到此处有宝物的气息，但是几经搜索都找不到头绪，只能无奈放弃。"));</NOResult>
+			</li>
+			<li>
+				<Display>寻觅宝物</Display>
+				<RuleType>Good</RuleType>
+				<DisplayCondition><![CDATA[
+				me:GetGElementKind() == 3
+				]]>
+				</DisplayCondition>
+				<OKResult>me:AddMsg(XT("[NAME]根本感受不到宝物的气息，反而觉得此处五行异常克制自己。[NAME]不敢多待，只得匆匆离去。"));</OKResult>
+
+			</li>
+			<li>
+				<Display>寻觅宝物</Display>
+				<RuleType>Good</RuleType>
+				<DisplayCondition><![CDATA[
+				me:GetGElementKind() == 1
+				]]>
+				</DisplayCondition>
+				<OKResult>me:AddMsg(XT("[NAME]根本感受不到宝物的气息，但是却觉得此处五行之气与自己十分契合，有一种舒适感。[NAME]寻觅良久未果，只好遗憾离去。"));</OKResult>
+
+			</li>
+			<li>
+				<Display>寻觅宝物</Display>
+				<RuleType>Good</RuleType>
+				<DisplayCondition><![CDATA[
+				me:GetGElementKind() == 2
+				]]>
+				</DisplayCondition>
+				<OKResult>me:AddMsg(XT("[NAME]丝毫无法感受宝物的痕迹，反而觉得此处五行与自己并不契合，让自己气息紊乱，[NAME]只得匆匆离去。"));</OKResult>
+			</li>
+			<li>
+				<Display>寻觅宝物</Display>
+				<RuleType>Good</RuleType>
+				<Tip>机缘</Tip>
+				<Condition><![CDATA[
+				me:GetLuck() >= me:RandomInt(1, 15)
+				]]>
+				</Condition>
+				<DisplayCondition><![CDATA[
+				me:GetGElementKind() == 0
+				]]>
+				</DisplayCondition>
+				<OKResult>me:AddMsg(XT("[NAME]果然察觉到此处有宝物的气息，也许是机缘所致，他轻易的找到了宝贝。"));me:DropAwardItemFromCache(story.PlaceHighProduce, 1, 1);</OKResult>
+				<NOResult>me:AddMsg(XT("[NAME]果然察觉到此处有宝物的气息，但是几经搜索都找不到头绪，只能无奈放弃。"));</NOResult>
+			</li>
+			<li>
+				<Display>离开</Display>
+				<RuleType>Bye</RuleType>
+				<OKResult>me:AddMsg(XT("[NAME]不想在此浪费时间，转头离去。"));</OKResult>
+			</li>
+		</Selections>
+	</Story>
+</List></Stories>

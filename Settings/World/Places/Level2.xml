@@ -1,0 +1,90 @@
+<Places><List>
+	<Place Name="Place_KunLun2" Parent="Place_Level2Base">    <!--剧情线-龙脉危机-->
+		<Location X="303" Y="326"/>
+		<Scale>0.35</Scale>
+		<Icon>res/Sprs/map/map_shandong06</Icon>
+		<DisplayName>龙脉洞窟</DisplayName>
+		<Desc>昆仑山深处一座深不见底的洞窟，千沟万壑复杂非常。传说此洞穴直通大地龙脉，受龙脉之气滋养，昆仑宫在此地种植天地灵根赭黄精。</Desc>
+		<FightMap>
+			<Name>Place_KunLun2_Cave_LongMai</Name>
+			<Class></Class>
+			<Biome></Biome>
+			<Snow>0</Snow>
+			<Weather>DimCave</Weather>
+			<PowerLevel>19</PowerLevel>
+		</FightMap>
+		<ExploreNum>20</ExploreNum>
+		<Events>
+			<li Name="Story_LingZhiBeg" Rate="1"/>
+		</Events>
+		<Children>
+			<li>Place_KunLun2_1</li>
+		</Children>
+		<Produce>
+			<li>
+				<ThingDef>Item_Jade</ThingDef>
+				<Count>10</Count>
+				<Rate>1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_JadeEssence</ThingDef>
+				<Count>2</Count>
+				<Rate>0.5</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_SkyStone</ThingDef>
+				<Count>1</Count>
+				<Rate>0.2</Rate>
+			</li>
+		</Produce>
+		<HighProduce>
+			<li>
+				<ThingDef>Item_TuEssence</ThingDef>
+				<Count>1</Count>
+				<Rate>1</Rate>
+			</li>
+		</HighProduce>
+	</Place>
+
+	<Place Name="Place_LongHu2" Parent="Place_Level2Base">
+		<Location X="831" Y="502"/>
+		<Icon>res/Sprs/map/map_yiji01</Icon>
+		<DisplayName>神木林</DisplayName>
+		<Desc>龙虎山山脚的一片茂密的树林，其中生长有许多百年老树，甚至有传言其中有梧桐神木存在。因其木气充沛，龙虎山将天地灵根种植于此。</Desc>
+		<FightMap>
+			<Name>Place_LongHu2_Forest_ShenMu</Name>
+			<Class></Class>
+			<Biome></Biome>
+			<Snow>0</Snow>
+			<Weather></Weather>
+			<PowerLevel>12</PowerLevel>
+		</FightMap>
+		<Events>
+			<li Name="Story_LingZhiBeg" Rate="1"/>
+		</Events>
+		<Produce>
+			<li>
+				<ThingDef>Item_Wood</ThingDef>
+				<Count>40</Count>
+				<Rate>1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_HardWood</ThingDef>
+				<Count>10</Count>
+				<Rate>0.5</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_ParasolWood</ThingDef>
+				<Count>1</Count>
+				<Rate>0.2</Rate>
+			</li>
+		</Produce>
+		<HighProduce>
+			<li>
+				<ThingDef>Item_MuEssence</ThingDef>
+				<Count>1</Count>
+				<Rate>1</Rate>
+			</li>
+		</HighProduce>
+	</Place>
+</List></Places>
