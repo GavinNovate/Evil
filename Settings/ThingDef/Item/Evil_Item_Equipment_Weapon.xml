@@ -352,7 +352,7 @@
 	<ThingName>诛魔剑·金</ThingName>
 	<TexPath>res\Sprs\object\object_weaponjian01</TexPath>
 	<MaxStack>1</MaxStack>
-	<Desc>诛魔剑为远剑灵神族所化之剑。</Desc>
+	<Desc>诛魔剑为远古剑灵神族所化之剑。</Desc>
 	<Rate>12</Rate>
 	<Beauty>12</Beauty>
 	<NoElementKind>0</NoElementKind>
@@ -409,7 +409,7 @@
 	<ThingName>诛魔剑·木</ThingName>
 	<TexPath>res\Sprs\object\object_weaponjian01</TexPath>
 	<MaxStack>1</MaxStack>
-	<Desc>诛魔剑为远剑灵神族所化之剑。</Desc>
+	<Desc>诛魔剑为远古剑灵神族所化之剑。</Desc>
 	<Rate>12</Rate>
 	<Beauty>12</Beauty>
 	<NoElementKind>0</NoElementKind>
@@ -466,7 +466,7 @@
 	<ThingName>诛魔剑·水</ThingName>
 	<TexPath>res\Sprs\object\object_weaponjian01</TexPath>
 	<MaxStack>1</MaxStack>
-	<Desc>诛魔剑为远剑灵神族所化之剑。</Desc>
+	<Desc>诛魔剑为远古剑灵神族所化之剑。</Desc>
 	<Rate>12</Rate>
 	<Beauty>12</Beauty>
 	<NoElementKind>0</NoElementKind>
@@ -523,7 +523,7 @@
 	<ThingName>诛魔剑·火</ThingName>
 	<TexPath>res\Sprs\object\object_weaponjian01</TexPath>
 	<MaxStack>1</MaxStack>
-	<Desc>诛魔剑为远剑灵神族所化之剑。</Desc>
+	<Desc>诛魔剑为远古剑灵神族所化之剑。</Desc>
 	<Rate>12</Rate>
 	<Beauty>12</Beauty>
 	<NoElementKind>0</NoElementKind>
@@ -580,7 +580,7 @@
 	<ThingName>诛魔剑·土</ThingName>
 	<TexPath>res\Sprs\object\object_weaponjian01</TexPath>
 	<MaxStack>1</MaxStack>
-	<Desc>诛魔剑为远剑灵神族所化之剑。</Desc>
+	<Desc>诛魔剑为远古剑灵神族所化之剑。</Desc>
 	<Rate>12</Rate>
 	<Beauty>12</Beauty>
 	<NoElementKind>0</NoElementKind>
