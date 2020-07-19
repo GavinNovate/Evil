@@ -5,10 +5,6 @@
 		<MaxStack>1</MaxStack>
 		<Duration>-1</Duration>
 		<Display>0</Display>
-		<!-- 取消全局效果 -->
-		<!-- <GlobleModifiers>
-			<li>Evil_Modifier_Tool_01</li>
-		</GlobleModifiers> -->
 		<Properties>
 			<!-- 战斗命中 -->
 			<li Name="NpcFight_BaseHitChance" AddV="0.5"/>
@@ -18,14 +14,24 @@
 	</Modifier>
 
 	<Modifier Name="Evil_Modifier_Tool_01" Type="Normal">
-		<DisplayName>劫天诛魔剑</DisplayName>
-		<Desc>拥有如红水晶一般晶莹长发的绝美小萝莉，眸若朱丹，性格单纯活泼。可化身劫天诛魔剑，同时具备劫天魔神剑和诛魔剑的特质且更为强大。</Desc>
+		<DisplayName>劫天剑</DisplayName>
+		<Desc>劫天剑为远古劫天魔族所化之剑。</Desc>
 		<MaxStack>1</MaxStack>
 		<Duration>-1</Duration>
 		<Display>0</Display>
 		<Properties>
 			<!-- 战斗命中 -->
 			<li Name="NpcFight_BaseHitChance" AddV="0.5"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Evil_Modifier_Tool_02" Type="Normal">
+		<DisplayName>诛魔剑</DisplayName>
+		<Desc>诛魔剑为远剑灵神族所化之剑。</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
 			<!-- 战斗闪避 -->
 			<li Name="NpcFight_BaseDodgeChance" AddV="0.5"/>
 		</Properties>

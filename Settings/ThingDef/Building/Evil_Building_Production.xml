@@ -75,11 +75,6 @@
 				<Count>1</Count>
 			</Produce>
 			<Produce>
-				<ThingDef>Evil_Sword_1</ThingDef>
-				<Display>劫天诛魔剑</Display>
-				<Count>1</Count>
-			</Produce>
-			<Produce>
 				<ThingDef>Evil_Item_Treasure_1</ThingDef>
 				<Display>诛天始祖剑</Display>
 				<Count>1</Count>
@@ -112,6 +107,61 @@
 			<Produce>
 				<ThingDef>Evil_Item_Treasure_7</ThingDef>
 				<Display>轮回镜</Display>
+				<Count>1</Count>
+			</Produce>
+			<Produce>
+				<ThingDef>Evil_Sword_1</ThingDef>
+				<Display>劫天诛魔剑</Display>
+				<Count>1</Count>
+			</Produce>
+			<Produce>
+				<ThingDef>Evil_Sword_01</ThingDef>
+				<Display>劫天剑·金</Display>
+				<Count>1</Count>
+			</Produce>
+			<Produce>
+				<ThingDef>Evil_Sword_02</ThingDef>
+				<Display>劫天剑·木</Display>
+				<Count>1</Count>
+			</Produce>
+			<Produce>
+				<ThingDef>Evil_Sword_03</ThingDef>
+				<Display>劫天剑·水</Display>
+				<Count>1</Count>
+			</Produce>
+			<Produce>
+				<ThingDef>Evil_Sword_04</ThingDef>
+				<Display>劫天剑·火</Display>
+				<Count>1</Count>
+			</Produce>
+			<Produce>
+				<ThingDef>Evil_Sword_05</ThingDef>
+				<Display>劫天剑·土</Display>
+				<Count>1</Count>
+			</Produce>
+			<Produce>
+				<ThingDef>Evil_Sword_11</ThingDef>
+				<Display>诛魔剑·金</Display>
+				<Count>1</Count>
+			</Produce>
+			<Produce>
+				<ThingDef>Evil_Sword_12</ThingDef>
+				<Display>诛魔剑·木</Display>
+				<Count>1</Count>
+			</Produce>
+			<Produce>
+				<ThingDef>Evil_Sword_13</ThingDef>
+				<Display>诛魔剑·水</Display>
+				<Count>1</Count>
+			</Produce>
+			<Produce>
+				<ThingDef>Evil_Sword_14</ThingDef>
+				<Display>诛魔剑·火</Display>
+				<Count>1</Count>
+			</Produce>
+			<Produce>
+				<ThingDef>Evil_Sword_15</ThingDef>
+				<Display>诛魔剑·土</Display>
 				<Count>1</Count>
 			</Produce>
 			<Produce>

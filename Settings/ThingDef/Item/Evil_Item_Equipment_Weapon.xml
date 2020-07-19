@@ -3,21 +3,42 @@
 	<ThingName>劫天诛魔剑</ThingName>
 	<TexPath>res\Sprs\object\object_weaponjian01</TexPath>
 	<MaxStack>1</MaxStack>
-	<Desc>拥有如红水晶一般晶莹长发的绝美小萝莉，眸若朱丹，性格单纯活泼。可化身劫天诛魔剑，同时具备劫天魔神剑和诛魔剑的特质且更为强大。</Desc>
+	<Desc>拥有如红水晶一般晶莹长发的绝美小萝莉，眸若朱丹，性格单纯活泼。可化身劫天诛魔剑，同时具备劫天剑和诛魔剑的特质且更为强大。</Desc>
 	<Rate>12</Rate>
 	<Beauty>12</Beauty>
 	<Item Lable="Weapon">
-		<FabaoSuffix></FabaoSuffix>
+		<FabaoSuffix>劫天诛魔剑</FabaoSuffix>
 		<PhysicalLables>
 			<li>Sharp</li>
+
+			<li>Hard2</li>
+			<li>Heavy2</li>
+			<li>Smooth2</li>
+
+			<li>PhysicalLables_Jin</li>
+			<li>PhysicalLables_Mu</li>
+			<li>PhysicalLables_Shui</li>
+			<li>PhysicalLables_Huo</li>
+			<li>PhysicalLables_Tu</li>
+
+			<li>GreatThing_Attack</li>
+			<li>GreatThing_Ling</li>
+			<li>GreatThing_Knock</li>
+			<li>GreatThing_Rot</li>
+			<li>GreatThing_Fly</li>
 		</PhysicalLables>
 
 		<NotRandom>1</NotRandom>
 		<BeMade>
-			<WorkToMake>600</WorkToMake>
+			<WorkToMake>1000</WorkToMake>
 			<Quality>100</Quality>
 			<CostItems>
-				<Item name = "Item_LingStone" count = "10000"/>
+				<Item name = "Evil_Item_LingCrystal_Jin" count = "1"/>
+				<Item name = "Evil_Item_LingCrystal_Mu" count = "1"/>
+				<Item name = "Evil_Item_LingCrystal_Shui" count = "1"/>
+				<Item name = "Evil_Item_LingCrystal_Huo" count = "1"/>
+				<Item name = "Evil_Item_LingCrystal_Tu" count = "1"/>
+				<Item name = "Item_LingStone" count = "5000"/>
 			</CostItems>
 		</BeMade>
 		<Equip>
@@ -38,6 +59,576 @@
 			</AtkAnis>
 			<WeaponKind>Sword</WeaponKind>
 			<ModPath>Mod/Prop/Weapon/weapon_jian10</ModPath>
+		</Equip>
+	</Item>
+	</ThingDef>
+
+	<ThingDef Type="Item"  Name="Evil_Sword_01" Parent="WeaponBase">
+	<ThingName>劫天剑·金</ThingName>
+	<TexPath>res\Sprs\object\object_weaponjian01</TexPath>
+	<MaxStack>1</MaxStack>
+	<Desc>劫天剑为远古劫天魔族所化之剑。</Desc>
+	<Rate>12</Rate>
+	<Beauty>12</Beauty>
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Jin</ElementKind>
+	<Item Lable="Weapon">
+		<FabaoSuffix>劫天剑·金</FabaoSuffix>
+		<PhysicalLables>
+			<li>Sharp</li>
+
+			<li>Hard2</li>
+			<li>Smooth2</li>
+
+			<li>PhysicalLables_Jin</li>
+
+			<li>GreatThing_Attack</li>
+			<li>GreatThing_Ling</li>
+			<li>GreatThing_Knock</li>
+			<li>GreatThing_Rot</li>
+			<li>GreatThing_Fly</li>
+		</PhysicalLables>
+
+		<NotRandom>1</NotRandom>
+		<BeMade>
+			<WorkToMake>600</WorkToMake>
+			<Quality>100</Quality>
+			<CostItems>
+				<Item name = "Evil_Item_LingCrystal_Jin" count = "1"/>
+				<Item name = "Item_LingStone" count = "5000"/>
+			</CostItems>
+		</BeMade>
+		<Equip>
+			<ToolModifier>Evil_Modifier_Tool_01</ToolModifier>
+			<Damage>15</Damage>
+			<AttackSpeed>2.0</AttackSpeed>
+			<AttackRange>1.5</AttackRange>
+			<AtkDamage>
+				<li PartKind="Flesh" Name="Cut1" Rate="0.5"/>
+				<li PartKind="Flesh" Name="Cut2" Rate="0.5"/>
+				<li PartKind="Organ" Name="VisceralCut" Rate="0.5"/>
+			</AtkDamage>
+			<AtkAnis>
+				<li Name="LJpugong1" HitPoint="20"/>
+				<li Name="LJpugong2" HitPoint="18"/>
+				<li Name="LJpugong3" HitPoint="25"/>
+				<li Name="LJpugong4" HitPoint="18"/>
+			</AtkAnis>
+			<WeaponKind>Sword</WeaponKind>
+			<ModPath>Mod/Prop/Weapon/weapon_jian6</ModPath>
+		</Equip>
+	</Item>
+	</ThingDef>
+
+	<ThingDef Type="Item"  Name="Evil_Sword_02" Parent="WeaponBase">
+	<ThingName>劫天剑·木</ThingName>
+	<TexPath>res\Sprs\object\object_weaponjian01</TexPath>
+	<MaxStack>1</MaxStack>
+	<Desc>劫天剑为远古劫天魔族所化之剑。</Desc>
+	<Rate>12</Rate>
+	<Beauty>12</Beauty>
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Mu</ElementKind>
+	<Item Lable="Weapon">
+		<FabaoSuffix>劫天剑·木</FabaoSuffix>
+		<PhysicalLables>
+			<li>Sharp</li>
+
+			<li>Hard2</li>
+			<li>Smooth2</li>
+
+			<li>PhysicalLables_Mu</li>
+
+			<li>GreatThing_Attack</li>
+			<li>GreatThing_Ling</li>
+			<li>GreatThing_Knock</li>
+			<li>GreatThing_Rot</li>
+			<li>GreatThing_Fly</li>
+		</PhysicalLables>
+
+		<NotRandom>1</NotRandom>
+		<BeMade>
+			<WorkToMake>600</WorkToMake>
+			<Quality>100</Quality>
+			<CostItems>
+				<Item name = "Evil_Item_LingCrystal_Mu" count = "1"/>
+				<Item name = "Item_LingStone" count = "5000"/>
+			</CostItems>
+		</BeMade>
+		<Equip>
+			<ToolModifier>Evil_Modifier_Tool_01</ToolModifier>
+			<Damage>15</Damage>
+			<AttackSpeed>2.0</AttackSpeed>
+			<AttackRange>1.5</AttackRange>
+			<AtkDamage>
+				<li PartKind="Flesh" Name="Cut1" Rate="0.5"/>
+				<li PartKind="Flesh" Name="Cut2" Rate="0.5"/>
+				<li PartKind="Organ" Name="VisceralCut" Rate="0.5"/>
+			</AtkDamage>
+			<AtkAnis>
+				<li Name="LJpugong1" HitPoint="20"/>
+				<li Name="LJpugong2" HitPoint="18"/>
+				<li Name="LJpugong3" HitPoint="25"/>
+				<li Name="LJpugong4" HitPoint="18"/>
+			</AtkAnis>
+			<WeaponKind>Sword</WeaponKind>
+			<ModPath>Mod/Prop/Weapon/weapon_jian6</ModPath>
+		</Equip>
+	</Item>
+	</ThingDef>
+
+	<ThingDef Type="Item"  Name="Evil_Sword_03" Parent="WeaponBase">
+	<ThingName>劫天剑·水</ThingName>
+	<TexPath>res\Sprs\object\object_weaponjian01</TexPath>
+	<MaxStack>1</MaxStack>
+	<Desc>劫天剑为远古劫天魔族所化之剑。</Desc>
+	<Rate>12</Rate>
+	<Beauty>12</Beauty>
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Shui</ElementKind>
+	<Item Lable="Weapon">
+		<FabaoSuffix>劫天剑·水</FabaoSuffix>
+		<PhysicalLables>
+			<li>Sharp</li>
+
+			<li>Hard2</li>
+			<li>Smooth2</li>
+
+			<li>PhysicalLables_Shui</li>
+
+			<li>GreatThing_Attack</li>
+			<li>GreatThing_Ling</li>
+			<li>GreatThing_Knock</li>
+			<li>GreatThing_Rot</li>
+			<li>GreatThing_Fly</li>
+		</PhysicalLables>
+
+		<NotRandom>1</NotRandom>
+		<BeMade>
+			<WorkToMake>600</WorkToMake>
+			<Quality>100</Quality>
+			<CostItems>
+				<Item name = "Evil_Item_LingCrystal_Shui" count = "1"/>
+				<Item name = "Item_LingStone" count = "5000"/>
+			</CostItems>
+		</BeMade>
+		<Equip>
+			<ToolModifier>Evil_Modifier_Tool_01</ToolModifier>
+			<Damage>15</Damage>
+			<AttackSpeed>2.0</AttackSpeed>
+			<AttackRange>1.5</AttackRange>
+			<AtkDamage>
+				<li PartKind="Flesh" Name="Cut1" Rate="0.5"/>
+				<li PartKind="Flesh" Name="Cut2" Rate="0.5"/>
+				<li PartKind="Organ" Name="VisceralCut" Rate="0.5"/>
+			</AtkDamage>
+			<AtkAnis>
+				<li Name="LJpugong1" HitPoint="20"/>
+				<li Name="LJpugong2" HitPoint="18"/>
+				<li Name="LJpugong3" HitPoint="25"/>
+				<li Name="LJpugong4" HitPoint="18"/>
+			</AtkAnis>
+			<WeaponKind>Sword</WeaponKind>
+			<ModPath>Mod/Prop/Weapon/weapon_jian6</ModPath>
+		</Equip>
+	</Item>
+	</ThingDef>
+
+	<ThingDef Type="Item"  Name="Evil_Sword_04" Parent="WeaponBase">
+	<ThingName>劫天剑·火</ThingName>
+	<TexPath>res\Sprs\object\object_weaponjian01</TexPath>
+	<MaxStack>1</MaxStack>
+	<Desc>劫天剑为远古劫天魔族所化之剑。</Desc>
+	<Rate>12</Rate>
+	<Beauty>12</Beauty>
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Huo</ElementKind>
+	<Item Lable="Weapon">
+		<FabaoSuffix>劫天剑·火</FabaoSuffix>
+		<PhysicalLables>
+			<li>Sharp</li>
+
+			<li>Hard2</li>
+			<li>Smooth2</li>
+
+			<li>PhysicalLables_Huo</li>
+
+			<li>GreatThing_Attack</li>
+			<li>GreatThing_Ling</li>
+			<li>GreatThing_Knock</li>
+			<li>GreatThing_Rot</li>
+			<li>GreatThing_Fly</li>
+		</PhysicalLables>
+
+		<NotRandom>1</NotRandom>
+		<BeMade>
+			<WorkToMake>600</WorkToMake>
+			<Quality>100</Quality>
+			<CostItems>
+				<Item name = "Evil_Item_LingCrystal_Huo" count = "1"/>
+				<Item name = "Item_LingStone" count = "5000"/>
+			</CostItems>
+		</BeMade>
+		<Equip>
+			<ToolModifier>Evil_Modifier_Tool_01</ToolModifier>
+			<Damage>15</Damage>
+			<AttackSpeed>2.0</AttackSpeed>
+			<AttackRange>1.5</AttackRange>
+			<AtkDamage>
+				<li PartKind="Flesh" Name="Cut1" Rate="0.5"/>
+				<li PartKind="Flesh" Name="Cut2" Rate="0.5"/>
+				<li PartKind="Organ" Name="VisceralCut" Rate="0.5"/>
+			</AtkDamage>
+			<AtkAnis>
+				<li Name="LJpugong1" HitPoint="20"/>
+				<li Name="LJpugong2" HitPoint="18"/>
+				<li Name="LJpugong3" HitPoint="25"/>
+				<li Name="LJpugong4" HitPoint="18"/>
+			</AtkAnis>
+			<WeaponKind>Sword</WeaponKind>
+			<ModPath>Mod/Prop/Weapon/weapon_jian6</ModPath>
+		</Equip>
+	</Item>
+	</ThingDef>
+
+	<ThingDef Type="Item"  Name="Evil_Sword_05" Parent="WeaponBase">
+	<ThingName>劫天剑·土</ThingName>
+	<TexPath>res\Sprs\object\object_weaponjian01</TexPath>
+	<MaxStack>1</MaxStack>
+	<Desc>劫天剑为远古劫天魔族所化之剑。</Desc>
+	<Rate>12</Rate>
+	<Beauty>12</Beauty>
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Tu</ElementKind>
+	<Item Lable="Weapon">
+		<FabaoSuffix>劫天剑·土</FabaoSuffix>
+		<PhysicalLables>
+			<li>Sharp</li>
+
+			<li>Hard2</li>
+			<li>Smooth2</li>
+
+			<li>PhysicalLables_Tu</li>
+
+			<li>GreatThing_Attack</li>
+			<li>GreatThing_Ling</li>
+			<li>GreatThing_Knock</li>
+			<li>GreatThing_Rot</li>
+			<li>GreatThing_Fly</li>
+		</PhysicalLables>
+
+		<NotRandom>1</NotRandom>
+		<BeMade>
+			<WorkToMake>600</WorkToMake>
+			<Quality>100</Quality>
+			<CostItems>
+				<Item name = "Evil_Item_LingCrystal_Tu" count = "1"/>
+				<Item name = "Item_LingStone" count = "5000"/>
+			</CostItems>
+		</BeMade>
+		<Equip>
+			<ToolModifier>Evil_Modifier_Tool_01</ToolModifier>
+			<Damage>15</Damage>
+			<AttackSpeed>2.0</AttackSpeed>
+			<AttackRange>1.5</AttackRange>
+			<AtkDamage>
+				<li PartKind="Flesh" Name="Cut1" Rate="0.5"/>
+				<li PartKind="Flesh" Name="Cut2" Rate="0.5"/>
+				<li PartKind="Organ" Name="VisceralCut" Rate="0.5"/>
+			</AtkDamage>
+			<AtkAnis>
+				<li Name="LJpugong1" HitPoint="20"/>
+				<li Name="LJpugong2" HitPoint="18"/>
+				<li Name="LJpugong3" HitPoint="25"/>
+				<li Name="LJpugong4" HitPoint="18"/>
+			</AtkAnis>
+			<WeaponKind>Sword</WeaponKind>
+			<ModPath>Mod/Prop/Weapon/weapon_jian6</ModPath>
+		</Equip>
+	</Item>
+	</ThingDef>
+
+	<ThingDef Type="Item"  Name="Evil_Sword_11" Parent="WeaponBase">
+	<ThingName>诛魔剑·金</ThingName>
+	<TexPath>res\Sprs\object\object_weaponjian01</TexPath>
+	<MaxStack>1</MaxStack>
+	<Desc>诛魔剑为远剑灵神族所化之剑。</Desc>
+	<Rate>12</Rate>
+	<Beauty>12</Beauty>
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Jin</ElementKind>
+	<Item Lable="Weapon">
+		<FabaoSuffix>诛魔剑·金</FabaoSuffix>
+		<PhysicalLables>
+			<li>Sharp</li>
+
+			<li>Hard2</li>
+			<li>Smooth2</li>
+
+			<li>PhysicalLables_Jin</li>
+
+			<li>GreatThing_Attack</li>
+			<li>GreatThing_Ling</li>
+			<li>GreatThing_Knock</li>
+			<li>GreatThing_Rot</li>
+			<li>GreatThing_Fly</li>
+		</PhysicalLables>
+
+		<NotRandom>1</NotRandom>
+		<BeMade>
+			<WorkToMake>600</WorkToMake>
+			<Quality>100</Quality>
+			<CostItems>
+				<Item name = "Evil_Item_LingCrystal_Jin" count = "1"/>
+				<Item name = "Item_LingStone" count = "5000"/>
+			</CostItems>
+		</BeMade>
+		<Equip>
+			<ToolModifier>Evil_Modifier_Tool_02</ToolModifier>
+			<Damage>15</Damage>
+			<AttackSpeed>1.5</AttackSpeed>
+			<AttackRange>2.0</AttackRange>
+			<AtkDamage>
+				<li PartKind="Flesh" Name="Cut1" Rate="0.5"/>
+				<li PartKind="Flesh" Name="Cut2" Rate="0.5"/>
+				<li PartKind="Organ" Name="VisceralCut" Rate="0.5"/>
+			</AtkDamage>
+			<AtkAnis>
+				<li Name="LJpugong1" HitPoint="20"/>
+				<li Name="LJpugong2" HitPoint="18"/>
+				<li Name="LJpugong3" HitPoint="25"/>
+				<li Name="LJpugong4" HitPoint="18"/>
+			</AtkAnis>
+			<WeaponKind>Sword</WeaponKind>
+			<ModPath>Mod/Prop/Weapon/weapon_jian7</ModPath>
+		</Equip>
+	</Item>
+	</ThingDef>
+
+	<ThingDef Type="Item"  Name="Evil_Sword_12" Parent="WeaponBase">
+	<ThingName>诛魔剑·木</ThingName>
+	<TexPath>res\Sprs\object\object_weaponjian01</TexPath>
+	<MaxStack>1</MaxStack>
+	<Desc>诛魔剑为远剑灵神族所化之剑。</Desc>
+	<Rate>12</Rate>
+	<Beauty>12</Beauty>
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Mu</ElementKind>
+	<Item Lable="Weapon">
+		<FabaoSuffix>诛魔剑·木</FabaoSuffix>
+		<PhysicalLables>
+			<li>Sharp</li>
+
+			<li>Hard2</li>
+			<li>Smooth2</li>
+
+			<li>PhysicalLables_Mu</li>
+
+			<li>GreatThing_Attack</li>
+			<li>GreatThing_Ling</li>
+			<li>GreatThing_Knock</li>
+			<li>GreatThing_Rot</li>
+			<li>GreatThing_Fly</li>
+		</PhysicalLables>
+
+		<NotRandom>1</NotRandom>
+		<BeMade>
+			<WorkToMake>600</WorkToMake>
+			<Quality>100</Quality>
+			<CostItems>
+				<Item name = "Evil_Item_LingCrystal_Mu" count = "1"/>
+				<Item name = "Item_LingStone" count = "5000"/>
+			</CostItems>
+		</BeMade>
+		<Equip>
+			<ToolModifier>Evil_Modifier_Tool_02</ToolModifier>
+			<Damage>15</Damage>
+			<AttackSpeed>1.5</AttackSpeed>
+			<AttackRange>2.0</AttackRange>
+			<AtkDamage>
+				<li PartKind="Flesh" Name="Cut1" Rate="0.5"/>
+				<li PartKind="Flesh" Name="Cut2" Rate="0.5"/>
+				<li PartKind="Organ" Name="VisceralCut" Rate="0.5"/>
+			</AtkDamage>
+			<AtkAnis>
+				<li Name="LJpugong1" HitPoint="20"/>
+				<li Name="LJpugong2" HitPoint="18"/>
+				<li Name="LJpugong3" HitPoint="25"/>
+				<li Name="LJpugong4" HitPoint="18"/>
+			</AtkAnis>
+			<WeaponKind>Sword</WeaponKind>
+			<ModPath>Mod/Prop/Weapon/weapon_jian7</ModPath>
+		</Equip>
+	</Item>
+	</ThingDef>
+
+	<ThingDef Type="Item"  Name="Evil_Sword_13" Parent="WeaponBase">
+	<ThingName>诛魔剑·水</ThingName>
+	<TexPath>res\Sprs\object\object_weaponjian01</TexPath>
+	<MaxStack>1</MaxStack>
+	<Desc>诛魔剑为远剑灵神族所化之剑。</Desc>
+	<Rate>12</Rate>
+	<Beauty>12</Beauty>
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Shui</ElementKind>
+	<Item Lable="Weapon">
+		<FabaoSuffix>诛魔剑·水</FabaoSuffix>
+		<PhysicalLables>
+			<li>Sharp</li>
+
+			<li>Hard2</li>
+			<li>Smooth2</li>
+
+			<li>PhysicalLables_Shui</li>
+
+			<li>GreatThing_Attack</li>
+			<li>GreatThing_Ling</li>
+			<li>GreatThing_Knock</li>
+			<li>GreatThing_Rot</li>
+			<li>GreatThing_Fly</li>
+		</PhysicalLables>
+
+		<NotRandom>1</NotRandom>
+		<BeMade>
+			<WorkToMake>600</WorkToMake>
+			<Quality>100</Quality>
+			<CostItems>
+				<Item name = "Evil_Item_LingCrystal_Shui" count = "1"/>
+				<Item name = "Item_LingStone" count = "5000"/>
+			</CostItems>
+		</BeMade>
+		<Equip>
+			<ToolModifier>Evil_Modifier_Tool_02</ToolModifier>
+			<Damage>15</Damage>
+			<AttackSpeed>1.5</AttackSpeed>
+			<AttackRange>2.0</AttackRange>
+			<AtkDamage>
+				<li PartKind="Flesh" Name="Cut1" Rate="0.5"/>
+				<li PartKind="Flesh" Name="Cut2" Rate="0.5"/>
+				<li PartKind="Organ" Name="VisceralCut" Rate="0.5"/>
+			</AtkDamage>
+			<AtkAnis>
+				<li Name="LJpugong1" HitPoint="20"/>
+				<li Name="LJpugong2" HitPoint="18"/>
+				<li Name="LJpugong3" HitPoint="25"/>
+				<li Name="LJpugong4" HitPoint="18"/>
+			</AtkAnis>
+			<WeaponKind>Sword</WeaponKind>
+			<ModPath>Mod/Prop/Weapon/weapon_jian7</ModPath>
+		</Equip>
+	</Item>
+	</ThingDef>
+
+	<ThingDef Type="Item"  Name="Evil_Sword_14" Parent="WeaponBase">
+	<ThingName>诛魔剑·火</ThingName>
+	<TexPath>res\Sprs\object\object_weaponjian01</TexPath>
+	<MaxStack>1</MaxStack>
+	<Desc>诛魔剑为远剑灵神族所化之剑。</Desc>
+	<Rate>12</Rate>
+	<Beauty>12</Beauty>
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Huo</ElementKind>
+	<Item Lable="Weapon">
+		<FabaoSuffix>诛魔剑·火</FabaoSuffix>
+		<PhysicalLables>
+			<li>Sharp</li>
+
+			<li>Hard2</li>
+			<li>Smooth2</li>
+
+			<li>PhysicalLables_Huo</li>
+
+			<li>GreatThing_Attack</li>
+			<li>GreatThing_Ling</li>
+			<li>GreatThing_Knock</li>
+			<li>GreatThing_Rot</li>
+			<li>GreatThing_Fly</li>
+		</PhysicalLables>
+
+		<NotRandom>1</NotRandom>
+		<BeMade>
+			<WorkToMake>600</WorkToMake>
+			<Quality>100</Quality>
+			<CostItems>
+				<Item name = "Evil_Item_LingCrystal_Huo" count = "1"/>
+				<Item name = "Item_LingStone" count = "5000"/>
+			</CostItems>
+		</BeMade>
+		<Equip>
+			<ToolModifier>Evil_Modifier_Tool_02</ToolModifier>
+			<Damage>15</Damage>
+			<AttackSpeed>1.5</AttackSpeed>
+			<AttackRange>2.0</AttackRange>
+			<AtkDamage>
+				<li PartKind="Flesh" Name="Cut1" Rate="0.5"/>
+				<li PartKind="Flesh" Name="Cut2" Rate="0.5"/>
+				<li PartKind="Organ" Name="VisceralCut" Rate="0.5"/>
+			</AtkDamage>
+			<AtkAnis>
+				<li Name="LJpugong1" HitPoint="20"/>
+				<li Name="LJpugong2" HitPoint="18"/>
+				<li Name="LJpugong3" HitPoint="25"/>
+				<li Name="LJpugong4" HitPoint="18"/>
+			</AtkAnis>
+			<WeaponKind>Sword</WeaponKind>
+			<ModPath>Mod/Prop/Weapon/weapon_jian7</ModPath>
+		</Equip>
+	</Item>
+	</ThingDef>
+
+	<ThingDef Type="Item"  Name="Evil_Sword_15" Parent="WeaponBase">
+	<ThingName>诛魔剑·土</ThingName>
+	<TexPath>res\Sprs\object\object_weaponjian01</TexPath>
+	<MaxStack>1</MaxStack>
+	<Desc>诛魔剑为远剑灵神族所化之剑。</Desc>
+	<Rate>12</Rate>
+	<Beauty>12</Beauty>
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Tu</ElementKind>
+	<Item Lable="Weapon">
+		<FabaoSuffix>诛魔剑·土</FabaoSuffix>
+		<PhysicalLables>
+			<li>Sharp</li>
+
+			<li>Hard2</li>
+			<li>Smooth2</li>
+
+			<li>PhysicalLables_Tu</li>
+
+			<li>GreatThing_Attack</li>
+			<li>GreatThing_Ling</li>
+			<li>GreatThing_Knock</li>
+			<li>GreatThing_Rot</li>
+			<li>GreatThing_Fly</li>
+		</PhysicalLables>
+
+		<NotRandom>1</NotRandom>
+		<BeMade>
+			<WorkToMake>600</WorkToMake>
+			<Quality>100</Quality>
+			<CostItems>
+				<Item name = "Evil_Item_LingCrystal_Tu" count = "1"/>
+				<Item name = "Item_LingStone" count = "5000"/>
+			</CostItems>
+		</BeMade>
+		<Equip>
+			<ToolModifier>Evil_Modifier_Tool_02</ToolModifier>
+			<Damage>15</Damage>
+			<AttackSpeed>1.5</AttackSpeed>
+			<AttackRange>2.0</AttackRange>
+			<AtkDamage>
+				<li PartKind="Flesh" Name="Cut1" Rate="0.5"/>
+				<li PartKind="Flesh" Name="Cut2" Rate="0.5"/>
+				<li PartKind="Organ" Name="VisceralCut" Rate="0.5"/>
+			</AtkDamage>
+			<AtkAnis>
+				<li Name="LJpugong1" HitPoint="20"/>
+				<li Name="LJpugong2" HitPoint="18"/>
+				<li Name="LJpugong3" HitPoint="25"/>
+				<li Name="LJpugong4" HitPoint="18"/>
+			</AtkAnis>
+			<WeaponKind>Sword</WeaponKind>
+			<ModPath>Mod/Prop/Weapon/weapon_jian7</ModPath>
 		</Equip>
 	</Item>
 	</ThingDef>

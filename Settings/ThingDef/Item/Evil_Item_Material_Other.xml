@@ -10,9 +10,11 @@
 	<Item>
 		<NotRandom>1</NotRandom>
 		<PhysicalLables>
-			<li>Heavy2</li>
+			<li>Smooth2</li>
 			<li>Hard2</li>
 			<li>HighDensity2</li>
+			<li>GreatThing_Ling</li>
+			<li>PhysicalLables_Jin</li>
 		</PhysicalLables>
 		<BeMaterial>
 			<NamePrefix></NamePrefix>
@@ -83,9 +85,11 @@
 	<Item>
 		<NotRandom>1</NotRandom>
 		<PhysicalLables>
-			<li>Heavy2</li>
+			<li>Smooth2</li>
 			<li>Hard2</li>
 			<li>HighDensity2</li>
+			<li>GreatThing_Ling</li>
+			<li>PhysicalLables_Mu</li>
 		</PhysicalLables>
 		<BeMaterial>
 			<NamePrefix></NamePrefix>
@@ -156,9 +160,11 @@
 	<Item>
 		<NotRandom>1</NotRandom>
 		<PhysicalLables>
-			<li>Heavy2</li>
+			<li>Smooth2</li>
 			<li>Hard2</li>
 			<li>HighDensity2</li>
+			<li>GreatThing_Ling</li>
+			<li>PhysicalLables_Shui</li>
 		</PhysicalLables>
 		<BeMaterial>
 			<NamePrefix></NamePrefix>
@@ -229,9 +235,11 @@
 	<Item>
 		<NotRandom>1</NotRandom>
 		<PhysicalLables>
-			<li>Heavy2</li>
+			<li>Smooth2</li>
 			<li>Hard2</li>
 			<li>HighDensity2</li>
+			<li>GreatThing_Ling</li>
+			<li>PhysicalLables_Huo</li>
 		</PhysicalLables>
 		<BeMaterial>
 			<NamePrefix></NamePrefix>
@@ -302,9 +310,11 @@
 	<Item>
 		<NotRandom>1</NotRandom>
 		<PhysicalLables>
-			<li>Heavy2</li>
+			<li>Smooth2</li>
 			<li>Hard2</li>
 			<li>HighDensity2</li>
+			<li>GreatThing_Ling</li>
+			<li>PhysicalLables_Tu</li>
 		</PhysicalLables>
 		<BeMaterial>
 			<NamePrefix></NamePrefix>
