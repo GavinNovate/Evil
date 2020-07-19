@@ -7,7 +7,7 @@
 	<Rate>12</Rate>
 	<Beauty>12</Beauty>
 	<Item Lable="Weapon">
-		<FabaoSuffix>劫天诛魔剑</FabaoSuffix>
+		<FabaoSuffix>剑</FabaoSuffix>
 		<PhysicalLables>
 			<li>Sharp</li>
 
@@ -73,7 +73,7 @@
 	<NoElementKind>0</NoElementKind>
 	<ElementKind>Jin</ElementKind>
 	<Item Lable="Weapon">
-		<FabaoSuffix>劫天剑·金</FabaoSuffix>
+		<FabaoSuffix>剑</FabaoSuffix>
 		<PhysicalLables>
 			<li>Sharp</li>
 
@@ -130,7 +130,7 @@
 	<NoElementKind>0</NoElementKind>
 	<ElementKind>Mu</ElementKind>
 	<Item Lable="Weapon">
-		<FabaoSuffix>劫天剑·木</FabaoSuffix>
+		<FabaoSuffix>剑</FabaoSuffix>
 		<PhysicalLables>
 			<li>Sharp</li>
 
@@ -187,7 +187,7 @@
 	<NoElementKind>0</NoElementKind>
 	<ElementKind>Shui</ElementKind>
 	<Item Lable="Weapon">
-		<FabaoSuffix>劫天剑·水</FabaoSuffix>
+		<FabaoSuffix>剑</FabaoSuffix>
 		<PhysicalLables>
 			<li>Sharp</li>
 
@@ -244,7 +244,7 @@
 	<NoElementKind>0</NoElementKind>
 	<ElementKind>Huo</ElementKind>
 	<Item Lable="Weapon">
-		<FabaoSuffix>劫天剑·火</FabaoSuffix>
+		<FabaoSuffix>剑</FabaoSuffix>
 		<PhysicalLables>
 			<li>Sharp</li>
 
@@ -301,7 +301,7 @@
 	<NoElementKind>0</NoElementKind>
 	<ElementKind>Tu</ElementKind>
 	<Item Lable="Weapon">
-		<FabaoSuffix>劫天剑·土</FabaoSuffix>
+		<FabaoSuffix>剑</FabaoSuffix>
 		<PhysicalLables>
 			<li>Sharp</li>
 
@@ -358,7 +358,7 @@
 	<NoElementKind>0</NoElementKind>
 	<ElementKind>Jin</ElementKind>
 	<Item Lable="Weapon">
-		<FabaoSuffix>诛魔剑·金</FabaoSuffix>
+		<FabaoSuffix>剑</FabaoSuffix>
 		<PhysicalLables>
 			<li>Sharp</li>
 
@@ -415,7 +415,7 @@
 	<NoElementKind>0</NoElementKind>
 	<ElementKind>Mu</ElementKind>
 	<Item Lable="Weapon">
-		<FabaoSuffix>诛魔剑·木</FabaoSuffix>
+		<FabaoSuffix>剑</FabaoSuffix>
 		<PhysicalLables>
 			<li>Sharp</li>
 
@@ -472,7 +472,7 @@
 	<NoElementKind>0</NoElementKind>
 	<ElementKind>Shui</ElementKind>
 	<Item Lable="Weapon">
-		<FabaoSuffix>诛魔剑·水</FabaoSuffix>
+		<FabaoSuffix>剑</FabaoSuffix>
 		<PhysicalLables>
 			<li>Sharp</li>
 
@@ -529,7 +529,7 @@
 	<NoElementKind>0</NoElementKind>
 	<ElementKind>Huo</ElementKind>
 	<Item Lable="Weapon">
-		<FabaoSuffix>诛魔剑·火</FabaoSuffix>
+		<FabaoSuffix>剑</FabaoSuffix>
 		<PhysicalLables>
 			<li>Sharp</li>
 
@@ -586,7 +586,7 @@
 	<NoElementKind>0</NoElementKind>
 	<ElementKind>Tu</ElementKind>
 	<Item Lable="Weapon">
-		<FabaoSuffix>诛魔剑·土</FabaoSuffix>
+		<FabaoSuffix>剑</FabaoSuffix>
 		<PhysicalLables>
 			<li>Sharp</li>
 
