@@ -101,4 +101,21 @@
 			</BeMade>
 		</Building>
 	</ThingDef>
+
+	<ThingDef Type="Building" Name="Evil_FillLingWater" Parent="FillBase">
+		<Color>98F5FFFF</Color>
+		<ThingName>灵水改造</ThingName>
+		<Desc>将一块陆地区域改造成灵水，本工作需要消耗大量时间。</Desc>
+		<Building>
+			<FillTarrain>LingWater</FillTarrain>
+			<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+			<BeMade>
+				<WorkToMake>1200</WorkToMake>
+				<CostItems>
+					<Item name="Item_Water" count="100"/>
+					<Item name="Item_LingCrystal" count="10"/>
+				</CostItems>
+			</BeMade>
+		</Building>
+	</ThingDef>
 </List></ThingDefs>
